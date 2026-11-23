@@ -1,0 +1,434 @@
+[
+ {
+  "id": "L01-shell3",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The maximum number of electrons in the third shell (n = 3) is:",
+   "el": "Ο μέγιστος αριθμός ηλεκτρονίων στην τρίτη στιβάδα (n = 3) είναι:"
+  },
+  "o": [
+   {
+    "en": "8",
+    "el": "8"
+   },
+   {
+    "en": "18",
+    "el": "18"
+   },
+   {
+    "en": "32",
+    "el": "32"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "octet_mixup",
+   null,
+   "wrong_n"
+  ],
+  "x": {
+   "en": "Capacity = 2n² = 2 × 3² = 18.",
+   "el": "Χωρητικότητα = 2n² = 2 × 3² = 18."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-shell2",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The maximum number of electrons in the second shell is:",
+   "el": "Ο μέγιστος αριθμός ηλεκτρονίων στη δεύτερη στιβάδα είναι:"
+  },
+  "o": [
+   {
+    "en": "2",
+    "el": "2"
+   },
+   {
+    "en": "4",
+    "el": "4"
+   },
+   {
+    "en": "8",
+    "el": "8"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "wrong_n",
+   "forgot_square",
+   null
+  ],
+  "x": {
+   "en": "2n² = 2 × 2² = 8.",
+   "el": "2n² = 2 × 2² = 8."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-cation",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "An atom that has lost an electron is called:",
+   "el": "Ένα άτομο που έχασε ένα ηλεκτρόνιο λέγεται:"
+  },
+  "o": [
+   {
+    "en": "an anion",
+    "el": "ανιόν"
+   },
+   {
+    "en": "a cation",
+    "el": "κατιόν"
+   },
+   {
+    "en": "an isotope",
+    "el": "ισότοπο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "ion_sign",
+   null,
+   "isotope_mixup"
+  ],
+  "x": {
+   "en": "Losing an electron leaves more protons than electrons: a positive ion, or cation.",
+   "el": "Με την απώλεια ηλεκτρονίου μένουν περισσότερα πρωτόνια: θετικό ιόν, δηλαδή κατιόν."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-anion",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "An atom that has gained an extra electron becomes:",
+   "el": "Ένα άτομο που κέρδισε ένα επιπλέον ηλεκτρόνιο γίνεται:"
+  },
+  "o": [
+   {
+    "en": "a negative ion",
+    "el": "αρνητικό ιόν"
+   },
+   {
+    "en": "a positive ion",
+    "el": "θετικό ιόν"
+   },
+   {
+    "en": "a neutral atom",
+    "el": "ουδέτερο άτομο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "ion_sign",
+   "neutral_mixup"
+  ],
+  "x": {
+   "en": "More electrons than protons gives a net negative charge: a negative ion (anion).",
+   "el": "Περισσότερα ηλεκτρόνια από πρωτόνια σημαίνει αρνητικό φορτίο: αρνητικό ιόν (ανιόν)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-mass",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The mass of an atom is determined mainly by its:",
+   "el": "Η μάζα ενός ατόμου καθορίζεται κυρίως από:"
+  },
+  "o": [
+   {
+    "en": "electrons",
+    "el": "τα ηλεκτρόνια"
+   },
+   {
+    "en": "protons and neutrons",
+    "el": "τα πρωτόνια και τα νετρόνια"
+   },
+   {
+    "en": "valence electrons",
+    "el": "τα ηλεκτρόνια σθένους"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "electron_mass",
+   null,
+   "electron_mass"
+  ],
+  "x": {
+   "en": "A proton is about 1836 times heavier than an electron, and the neutron has about the same mass as the proton.",
+   "el": "Το πρωτόνιο είναι περίπου 1836 φορές βαρύτερο από το ηλεκτρόνιο και το νετρόνιο έχει περίπου ίδια μάζα με το πρωτόνιο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-ratio",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The mass of a proton is approximately how many times the mass of an electron?",
+   "el": "Η μάζα του πρωτονίου είναι περίπου πόσες φορές η μάζα του ηλεκτρονίου;"
+  },
+  "o": [
+   {
+    "en": "18",
+    "el": "18"
+   },
+   {
+    "en": "1836",
+    "el": "1836"
+   },
+   {
+    "en": "6.24 × 10¹⁸",
+    "el": "6,24 × 10¹⁸"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   null,
+   null,
+   "coulomb_mixup"
+  ],
+  "x": {
+   "en": "m_p / m_e ≈ 1836.",
+   "el": "m_p / m_e ≈ 1836."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-copper",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Copper is a good conductor because each atom has:",
+   "el": "Ο χαλκός είναι καλός αγωγός επειδή κάθε άτομο έχει:"
+  },
+  "o": [
+   {
+    "en": "one loosely bound valence electron",
+    "el": "ένα χαλαρά δεμένο ηλεκτρόνιο σθένους"
+   },
+   {
+    "en": "a full outer shell",
+    "el": "πλήρη εξωτερική στιβάδα"
+   },
+   {
+    "en": "more neutrons than protons",
+    "el": "περισσότερα νετρόνια από πρωτόνια"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "full_shell",
+   "neutron_mixup"
+  ],
+  "x": {
+   "en": "Copper (like silver and gold) has one electron in its outer shell, easily freed to carry current.",
+   "el": "Ο χαλκός (όπως ο άργυρος και ο χρυσός) έχει ένα ηλεκτρόνιο στην εξωτερική στιβάδα, που ελευθερώνεται εύκολα και μεταφέρει ρεύμα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-semi",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Silicon and germanium are classed as:",
+   "el": "Το πυρίτιο και το γερμάνιο κατατάσσονται στους:"
+  },
+  "o": [
+   {
+    "en": "insulators",
+    "el": "μονωτές"
+   },
+   {
+    "en": "conductors",
+    "el": "αγωγούς"
+   },
+   {
+    "en": "semiconductors",
+    "el": "ημιαγωγούς"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   null,
+   null,
+   null
+  ],
+  "x": {
+   "en": "They sit between conductors and insulators and are used to make transistors and integrated circuits.",
+   "el": "Βρίσκονται ανάμεσα σε αγωγούς και μονωτές και χρησιμοποιούνται σε τρανζίστορ και ολοκληρωμένα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-breakdown",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "When an insulator is placed in an extremely strong electric field and its outer electrons are torn loose, this is called:",
+   "el": "Όταν ένας μονωτής βρεθεί σε πολύ ισχυρό ηλεκτρικό πεδίο και αποσπαστούν τα εξωτερικά του ηλεκτρόνια, το φαινόμενο λέγεται:"
+  },
+  "o": [
+   {
+    "en": "ionization",
+    "el": "ιοντισμός"
+   },
+   {
+    "en": "breakdown",
+    "el": "διάσπαση (breakdown)"
+   },
+   {
+    "en": "saturation",
+    "el": "κόρος"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "ion_breakdown",
+   null,
+   null
+  ],
+  "x": {
+   "en": "Breakdown: the insulator starts to conduct, usually with physical damage.",
+   "el": "Διάσπαση: ο μονωτής αρχίζει να άγει, συνήθως με φυσική ζημιά."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-molecule",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The smallest particle of water that still keeps the properties of water is:",
+   "el": "Το μικρότερο σωματίδιο νερού που διατηρεί τις ιδιότητες του νερού είναι:"
+  },
+  "o": [
+   {
+    "en": "an atom",
+    "el": "το άτομο"
+   },
+   {
+    "en": "a molecule",
+    "el": "το μόριο"
+   },
+   {
+    "en": "an element",
+    "el": "το στοιχείο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "atom_molecule",
+   null,
+   "element_mixup"
+  ],
+  "x": {
+   "en": "A molecule (H₂O: two hydrogen atoms and one oxygen atom). Splitting it gives hydrogen and oxygen, no longer water.",
+   "el": "Το μόριο (H₂O: δύο άτομα υδρογόνου και ένα οξυγόνου). Αν διασπαστεί, παίρνουμε υδρογόνο και οξυγόνο, όχι νερό."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-valence",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Valence electrons are the electrons:",
+   "el": "Τα ηλεκτρόνια σθένους είναι τα ηλεκτρόνια:"
+  },
+  "o": [
+   {
+    "en": "in the outermost shell",
+    "el": "της εξωτερικής στιβάδας"
+   },
+   {
+    "en": "closest to the nucleus",
+    "el": "που είναι πιο κοντά στον πυρήνα"
+   },
+   {
+    "en": "inside the nucleus",
+    "el": "μέσα στον πυρήνα"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "inner_shell",
+   "nucleus_mixup"
+  ],
+  "x": {
+   "en": "The outer shell decides how an atom bonds and whether it conducts.",
+   "el": "Η εξωτερική στιβάδα καθορίζει πώς δεσμεύεται το άτομο και αν άγει."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-weight",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "An object of mass 10 kg on Earth (g = 9.81 m/s²) has a weight of about:",
+   "el": "Σώμα μάζας 10 kg στη Γη (g = 9,81 m/s²) έχει βάρος περίπου:"
+  },
+  "o": [
+   {
+    "en": "10 kg",
+    "el": "10 kg"
+   },
+   {
+    "en": "98.1 N",
+    "el": "98,1 N"
+   },
+   {
+    "en": "1.02 N",
+    "el": "1,02 N"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "mass_weight",
+   null,
+   "divided_g"
+  ],
+  "x": {
+   "en": "Weight = mass × gravity = 10 × 9.81 = 98.1 N.",
+   "el": "Βάρος = μάζα × g = 10 × 9,81 = 98,1 N."
+  },
+  "status": "new"
+ }
+]

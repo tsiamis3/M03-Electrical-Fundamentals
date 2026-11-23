@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formula sheet · M03</title>
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main id="sheet"></main>
+<script src="data/lessons.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// The formula sheet. Symbols follow the course decks (E for voltage). Add rows to FORMULAS as the course goes on.
+const FORMULAS = [
+  {unit: 'A. Basics (3.01–3.04)', rows: [
+    ['Electron capacity of shell n', '2n²', 'electrons', '3.01'],
+    ['Weight', 'W = m × g', 'N', '3.01'],
+    ['Coulomb\'s law', 'F = k·q₁·q₂ / r²', 'N', '3.02'],
+    ['Potential difference', 'E = W / Q', 'V = J/C', '3.03'],
+    ['Current', 'I = Q / t', 'A = C/s', '3.03'],
+    ['Conductance', 'G = 1 / R = I / E', 'S', '3.03'],
+    ['Charge of one coulomb', '1 C = 6.24 × 10¹⁸ electrons', '', '3.03']]},
+  {unit: 'B. DC sources and circuits (3.05–3.08)', rows: [
+    ['Ohm\'s law', 'E = I × R', 'V', '3.06'],
+    ['Resistors in series', 'R_T = R₁ + R₂ + …', 'Ω', '3.06'],
+    ['Resistors in parallel', '1/R_T = 1/R₁ + 1/R₂ + …', 'Ω', '3.06'],
+    ['Two in parallel', 'R_T = R₁R₂ / (R₁ + R₂)', 'Ω', '3.06'],
+    ['Voltage divider', 'E_x = E_S × R_x / R_T', 'V', '3.06'],
+    ['Current divider', 'I_x = I_T × R_T / R_x', 'A', '3.06'],
+    ['Terminal voltage', 'V = EMF − I·r', 'V', '3.05'],
+    ['Charging voltage', 'V = OCV + I·r', 'V', '3.05'],
+    ['Battery capacity', 'Ah = A × h', 'Ah', '3.05'],
+    ['Resistance of a conductor', 'R = ρ L / A', 'Ω (SI) or Ω·CM/ft with CM and ft', '3.07'],
+    ['Wheatstone bridge balance', 'R_x = (R₂ / R₁) × R₃', 'Ω', '3.07'],
+    ['Power', 'P = W / t = E·I = I²R = E²/R', 'W', '3.08'],
+    ['Horsepower', '1 hp = 33 000 ft·lb/min = 746 W', '', '3.08']]},
+  {unit: 'C. Fields (3.09–3.11)', rows: [
+    ['Capacitance', 'C = Q / E', 'F', '3.09'],
+    ['Capacitors in series', '1/C_T = 1/C₁ + 1/C₂ + …', 'F', '3.09'],
+    ['Capacitors in parallel', 'C_T = C₁ + C₂ + …', 'F', '3.09'],
+    ['RC time constant', 'τ = R × C   (63 % in 1τ, ≈ 99 % in 5τ)', 's', '3.09'],
+    ['Capacitive reactance', 'X_C = 1 / (2πfC)', 'Ω', '3.09'],
+    ['Flux', 'Φ = B × A', 'Wb', '3.11'],
+    ['Inductance of a coil', 'L = μ₀ N² A / l', 'H', '3.11'],
+    ['RL time constant', 'τ = L / R', 's', '3.11'],
+    ['Inductive reactance', 'X_L = 2πfL', 'Ω', '3.11'],
+    ['Mutual induction', 'E_s = M × dI_p/dt,  M = √(L_p L_s)', 'V, H', '3.11']]},
+  {unit: 'E. AC (3.13, 3.14, 3.16)', rows: [
+    ['Period', 'T = 1 / f', 's', '3.13'],
+    ['Generator frequency', 'f = (P/2) × (rpm/60)', 'Hz', '3.13'],
+    ['AC values', 'RMS = 0.707 peak, avg = 0.637 peak, pk-pk = 2 peak', 'V, A', '3.13'],
+    ['Impedance', 'Z = √(R² + (X_L − X_C)²)', 'Ω', '3.14'],
+    ['Resonant frequency', 'f₀ = 1 / (2π√(LC))', 'Hz', '3.14'],
+    ['Power factor', 'PF = P / S = cos φ', '', '3.14'],
+    ['True, apparent, reactive power', 'P = VI cos φ,  S = VI,  Q = VI sin φ', 'W, VA, VAR', '3.14']]},
+  {unit: 'D and F. Machines (3.12, 3.15, 3.17, 3.18)', rows: [
+    ['Turns ratio', 'E_s / E_p = N_s / N_p = I_p / I_s', '', '3.15'],
+    ['Star (wye)', 'V_L = √3 V_P,  I_L = I_P', '', '3.15'],
+    ['Delta', 'V_L = V_P,  I_L = √3 I_P', '', '3.15'],
+    ['Three-phase power', 'S = √3 V_L I_L,  P = √3 V_L I_L cos φ', 'VA, W', '3.15'],
+    ['Alternator frequency', 'f = P × N / 120', 'Hz', '3.17'],
+    ['Synchronous speed', 'N_s = 120 f / P', 'rpm', '3.18'],
+    ['Slip', 's = (N_s − N) / N_s × 100', '%', '3.18']]}
+];
+Site.header('Every formula used in the course decks. Symbols follow the decks: E is voltage.');
+$('sheet').innerHTML = FORMULAS.map(g => `<section class="panel"><h2>${esc(g.unit)}</h2><div class="scroll"><table class="data">
+  <thead><tr><th>Quantity</th><th>Formula</th><th>Units</th><th>Deck</th></tr></thead><tbody>` +
+  g.rows.map(r => `<tr><td>${esc(r[0])}</td><td class="f">${esc(r[1])}</td><td>${esc(r[2])}</td><td class="mute">${esc(r[3])}</td></tr>`).join('') +
+  '</tbody></table></div></section>').join('');
+</script>
+</body>
+</html>

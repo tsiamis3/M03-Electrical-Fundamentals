@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Question review · M03</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main>
+  <section class="panel"><h2>Question review</h2>
+    <p class="mute">For the teacher. Mark each question after class, then download the decisions and run
+      <code>python tools/build_bank.py --review review.json</code>. Decisions are kept in this browser until you clear them.</p>
+    <div class="row">
+      <div><label for="lesson">Lesson</label><select id="lesson"></select></div>
+      <div><label for="show">Show</label><select id="show"><option value="all">All statuses</option><option value="new">New only</option><option value="fix">Needs a fix</option></select></div>
+      <span class="spacer"></span>
+      <span class="mute" id="pending"></span>
+      <button class="btn" id="dl">Download review.json</button>
+      <button class="btn alt" id="clear">Clear decisions</button>
+    </div>
+  </section>
+  <section class="panel" id="list"></section>
+</main>
+<script src="data/lessons.js"></script>
+<script src="data/bank.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// Teacher review: every question with its answer and explanation, and buttons to approve, flag or retire it.
+class ReviewPage {
+  constructor() { this.bank = new Bank(window.M3_BANK); this.dec = Store.get('review', {}); }
+  save() { Store.set('review', this.dec); $('pending').textContent = `${Object.keys(this.dec).length} decisions not yet applied`; }
+  status(q) { return (this.dec[q.id] && this.dec[q.id].status) || q.status || 'new'; }
+  render() {
+    const lid = $('lesson').value, show = $('show').value;
+    const qs = this.bank.all.filter(q => (!lid || q.lesson === lid) && (show === 'all' || this.status(q) === show));
+    $('list').innerHTML = qs.map(q => {
+      const s = this.status(q), d = this.dec[q.id] || {};
+      const opts = q.o.map((o, i) => `<li${i === q.a ? ' style="color:var(--ok)"' : ''}>${esc(o.en)}<span class="alt mute">${esc(o.el)}</span>${q.tags && q.tags[i] ? ` <code class="mute">${esc(q.tags[i])}</code>` : ''}</li>`).join('');
+      const btn = (v, t) => `<button class="chip" data-id="${esc(q.id)}" data-s="${v}" aria-pressed="${s === v}">${t}</button>`;
+      return `<div class="qcard"><div class="qmeta">${esc(q.id)} / ${esc(q.topic)} / d${q.d} <span class="status ${s}">${s}</span></div>
+        <p class="qtext">${esc(q.q.en)}<span class="alt">${esc(q.q.el)}</span></p><ol type="a">${opts}</ol>
+        <div class="expl"><p>${esc(q.x.en)}</p><p class="mute">${esc(q.x.el)}</p></div>
+        <div class="row" style="margin-top:8px">${btn('approved', 'Approve')}${btn('fix', 'Needs a fix')}${btn('retired', 'Retire')}${btn('new', 'Reset')}
+        <input data-note="${esc(q.id)}" placeholder="Note (what to fix)" value="${esc(d.note || q.note || '')}" style="flex:1;min-width:180px"></div></div>`;
+    }).join('') || '<p class="mute">No questions match.</p>';
+    $('list').querySelectorAll('[data-s]').forEach(b => b.addEventListener('click', () => {
+      const id = b.dataset.id, q = this.bank.all.find(x => x.id === id);
+      if (b.dataset.s === (q.status || 'new') && !(this.dec[id] && this.dec[id].note)) delete this.dec[id];
+      else this.dec[id] = {...(this.dec[id] || {}), status: b.dataset.s};
+      this.save(); this.render();
+    }));
+    $('list').querySelectorAll('[data-note]').forEach(inp => inp.addEventListener('change', () => {
+      const id = inp.dataset.note, q = this.bank.all.find(x => x.id === id);
+      this.dec[id] = {status: this.status(q), ...(this.dec[id] || {}), note: inp.value.trim()}; this.save();
+    }));
+  }
+  download() {
+    const blob = new Blob([JSON.stringify(this.dec, null, 1)], {type: 'application/json'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'review.json'; a.click();
+  }
+  init() {
+    Site.header('Approve, flag or retire the questions of each lesson.');
+    const ids = [...new Set(this.bank.all.map(q => q.lesson))];
+    $('lesson').innerHTML = '<option value="">All lessons</option>' + ids.map(id => { const l = Site.lesson(id);
+      return `<option value="${id}">${l ? 'L' + l.n + ' ' + esc(l.title.en) : id}</option>`; }).join('');
+    ['lesson', 'show'].forEach(id => $(id).addEventListener('change', () => this.render()));
+    $('dl').addEventListener('click', () => this.download());
+    $('clear').addEventListener('click', () => { if (confirm('Clear all decisions in this browser?')) { this.dec = {}; this.save(); this.render(); } });
+    this.save(); this.render();
+  }
+}
+new ReviewPage().init();
+</script>
+</body>
+</html>

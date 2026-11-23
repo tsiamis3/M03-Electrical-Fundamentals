@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lessons · M03</title>
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main>
+  <section class="panel"><h2>Lesson log</h2>
+    <p class="mute">Lessons open after each class. Greyed lessons are planned. Your best exercise score shows on the right.</p>
+    <ol class="log" id="log"></ol></section>
+</main>
+<script src="data/lessons.js"></script>
+<script src="data/bank.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// Full lesson log with the Christmas break row in its place.
+class LessonLog {
+  constructor() { this.bank = new Bank(window.M3_BANK); this.breaks = (window.M3_LESSONS.breaks || []).slice(); }
+  row(l, best) {
+    const pub = l.status === 'published', n = this.bank.pick({lessons: [l.id]}).length, b = best['lesson-' + l.id];
+    const title = pub ? `<a href="lesson.html?id=${l.id}">${esc(l.title.en)}</a>` : esc(l.title.en);
+    const sub = l.kind === 'lesson' ? `Deck ${l.topics.join(', ')}, slides ${l.slides}` : (l.kind === 'test' ? 'Test' : 'Exercises');
+    return `<li class="${pub ? '' : 'planned'}"><span class="n">${l.n}</span><span class="d">${esc(Site.fmtDate(l.date))}</span>
+      <span class="t">${title}<small>${esc(sub)}${pub ? ', ' + n + ' exercises' : ''}</small></span>
+      <span class="q">${b ? b.ok + '/' + b.n : ''}</span></li>`;
+  }
+  init() {
+    Site.header('All lessons of Module 3, in order.');
+    const best = Store.get('best', {});
+    $('log').innerHTML = Site.lessons().map(l => {
+      let pre = '';
+      while (this.breaks.length && this.breaks[0].from < l.date) { const b = this.breaks.shift();
+        pre += `<li class="break">${esc(b.label)}, ${esc(Site.fmtDate(b.from))} to ${esc(Site.fmtDate(b.to))}</li>`; }
+      return pre + this.row(l, best);
+    }).join('');
+  }
+}
+new LessonLog().init();
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Units and prefixes · M03</title>
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main>
+  <section class="panel"><h2>Prefix converter</h2>
+    <div class="row">
+      <div><label for="v">Value</label><input id="v" type="number" value="0.047" step="any" style="width:9em"></div>
+      <div><label for="from">From</label><select id="from"></select></div>
+      <div><label for="to">To</label><select id="to"></select></div>
+      <div><label for="u">Unit</label><select id="u"><option>V</option><option>A</option><option>Ω</option><option>W</option><option>F</option><option>H</option><option>Hz</option><option>S</option><option>C</option></select></div>
+    </div>
+    <p class="score" id="out" style="margin-top:14px" aria-live="polite"></p>
+  </section>
+  <section class="panel"><h2>SI prefixes</h2><div class="scroll"><table class="data" id="prefixes"></table></div></section>
+  <section class="panel"><h2>Imperial and CGS units in the decks</h2><div class="scroll"><table class="data" id="others"></table></div></section>
+</main>
+<script src="data/lessons.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// Prefix table and converter, plus the non-SI units that appear in the M03 decks.
+const PREFIXES = [['tera', 'T', 12], ['giga', 'G', 9], ['mega', 'M', 6], ['kilo', 'k', 3], ['hecto', 'h', 2], ['deka', 'da', 1],
+  ['(none)', '', 0], ['deci', 'd', -1], ['centi', 'c', -2], ['milli', 'm', -3], ['micro', 'μ', -6], ['nano', 'n', -9], ['pico', 'p', -12]];
+const OTHERS = [
+  ['mil', 'length (wire diameter)', '1 mil = 0.001 in = 0.0254 mm', '3.07'],
+  ['circular mil (CM)', 'area of a round wire', 'area of a 1 mil diameter circle; CM = d² (d in mils)', '3.07'],
+  ['square mil', 'area of a rectangular conductor', 'sq mil = width × thickness (mils)', '3.07'],
+  ['foot', 'length', '1 ft = 0.3048 m', '3.07'],
+  ['AWG', 'wire gauge', '−3 gauge numbers ≈ 2 × area, −10 ≈ 10 × area', '3.07'],
+  ['ohm·CM/ft', 'resistivity, imperial', 'R = ρ L / A with L in ft, A in CM', '3.07'],
+  ['horsepower (hp)', 'power', '1 hp = 33 000 ft·lb/min = 746 W', '3.08'],
+  ['psi', 'pressure (water-tank analogy)', '1 psi ≈ 6.895 kPa', '3.03'],
+  ['specific gravity', 'electrolyte density', 'relative to water; 1.300 fully charged lead-acid', '3.05'],
+  ['gauss (G)', 'flux density, CGS', '1 T = 10 000 G', '3.10'],
+  ['maxwell', 'flux, CGS', '1 line of force; 1 Wb = 10⁸ Mx', '3.10'],
+  ['gilbert (Gb)', 'magnetomotive force, CGS', '1 AT = 1.26 Gb', '3.10'],
+  ['cps', 'frequency', '1 cps = 1 Hz', '3.13'],
+  ['μμF', 'capacitance (old)', '1 μμF = 1 pF', '3.09']
+];
+class UnitsPage {
+  convert() {
+    const v = parseFloat($('v').value), f = +$('from').value, t = +$('to').value, u = $('u').value;
+    const sym = e => (PREFIXES.find(p => p[2] === e) || [,''])[1];
+    if (isNaN(v)) { $('out').textContent = 'Enter a number'; return; }
+    const r = v * Math.pow(10, f - t);
+    $('out').textContent = `${v} ${sym(f)}${u} = ${+r.toPrecision(6)} ${sym(t)}${u}`;
+  }
+  init() {
+    Site.header('SI prefixes, and the imperial and CGS units that appear in the course decks.');
+    const opts = PREFIXES.map(p => `<option value="${p[2]}">${p[1] || '–'} ${p[0]}</option>`).join('');
+    $('from').innerHTML = opts; $('to').innerHTML = opts; $('from').value = 3; $('to').value = 0;
+    ['v', 'from', 'to', 'u'].forEach(id => $(id).addEventListener('input', () => this.convert()));
+    this.convert();
+    $('prefixes').innerHTML = '<thead><tr><th>Prefix</th><th>Symbol</th><th>Factor</th></tr></thead><tbody>' +
+      PREFIXES.filter(p => p[1]).map(p => `<tr><td>${p[0]}</td><td class="f">${p[1]}</td><td class="f">10<sup>${p[2]}</sup></td></tr>`).join('') + '</tbody>';
+    $('others').innerHTML = '<thead><tr><th>Unit</th><th>Used for</th><th>Conversion</th><th>Deck</th></tr></thead><tbody>' +
+      OTHERS.map(r => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td class="f">${esc(r[2])}</td><td class="mute">${r[3]}</td></tr>`).join('') + '</tbody>';
+  }
+}
+new UnitsPage().init();
+</script>
+</body>
+</html>

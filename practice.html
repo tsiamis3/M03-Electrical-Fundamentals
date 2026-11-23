@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice · M03</title>
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main>
+  <section class="panel" id="builder">
+    <h2>Build a practice set</h2>
+    <fieldset><legend>Lessons</legend><div class="chips" id="f-lessons"></div></fieldset>
+    <fieldset><legend>Topics</legend><div class="chips" id="f-topics"></div></fieldset>
+    <fieldset><legend>Difficulty</legend><div class="chips" id="f-d"></div></fieldset>
+    <div class="row">
+      <div><label for="n">Questions</label><select id="n"><option>5</option><option selected>10</option><option>20</option><option>30</option></select></div>
+      <div><label for="mode">Mode</label><select id="mode"><option value="practice">Check each answer</option><option value="test">Answer all, then check</option></select></div>
+      <span class="spacer"></span>
+      <p class="mute" id="avail" style="margin:0"></p>
+      <button class="btn" id="go">Start</button>
+    </div>
+    <p class="small mute">No selection in a group means all of that group.</p>
+  </section>
+  <section class="panel" id="run" hidden><div class="row"><h2 style="margin:0">Practice set</h2><span class="spacer"></span>
+    <button class="btn alt" id="back">Change the set</button></div><div id="quiz"></div></section>
+</main>
+<script src="data/lessons.js"></script>
+<script src="data/bank.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// Practice builder: filter the bank by lesson, topic and difficulty, then run a quiz.
+class PracticePage {
+  constructor() { this.bank = new Bank(window.M3_BANK); this.sel = {lessons: new Set(), topics: new Set(), d: new Set()}; }
+  chips(el, items, key) {
+    $(el).innerHTML = items.map(([v, label, n]) => `<button class="chip" data-k="${key}" data-v="${esc(v)}" aria-pressed="false">${esc(label)}<small>${n}</small></button>`).join('')
+      || '<span class="mute small">Nothing yet.</span>';
+  }
+  filters() { return {lessons: [...this.sel.lessons], topics: [...this.sel.topics], d: [...this.sel.d].map(Number)}; }
+  pool() { return this.bank.pick(this.filters()); }
+  renderFilters() {
+    const all = this.bank.pick(), byL = this.bank.countBy('lesson', all), byT = this.bank.countBy('topic', all), byD = this.bank.countBy('d', all);
+    this.chips('f-lessons', Site.lessons().filter(l => byL[l.id]).map(l => [l.id, `L${l.n} ${l.title.en}`, byL[l.id]]), 'lessons');
+    this.chips('f-topics', Object.keys(byT).sort().map(t => [t, `${t} ${this.bank.topicName(t).en}`, byT[t]]), 'topics');
+    this.chips('f-d', [[1, 'Easy', byD[1] || 0], [2, 'Medium', byD[2] || 0], [3, 'Hard', byD[3] || 0]].filter(x => x[2]), 'd');
+    document.querySelectorAll('#builder .chip').forEach(c => c.addEventListener('click', () => {
+      const s = this.sel[c.dataset.k], v = c.dataset.v;
+      s.has(v) ? s.delete(v) : s.add(v);
+      c.setAttribute('aria-pressed', s.has(v)); this.count();
+    }));
+    this.count();
+  }
+  count() { const n = this.pool().length; $('avail').textContent = `${n} available`; $('go').disabled = !n; }
+  start() {
+    const n = +$('n').value, qs = shuffle(this.pool()).slice(0, n);
+    $('builder').hidden = true; $('run').hidden = false;
+    new Quiz($('quiz'), qs, {mode: $('mode').value, bank: this.bank}).render();
+    window.scrollTo(0, 0);
+  }
+  init() {
+    Site.header('Mix questions from any lessons you have had. Use it for homework or before a test.');
+    this.renderFilters();
+    $('go').addEventListener('click', () => this.start());
+    $('back').addEventListener('click', () => { $('run').hidden = true; $('builder').hidden = false; });
+    const p = new URLSearchParams(location.search);
+    if (p.get('n')) { $('n').value = p.get('n'); this.start(); }
+  }
+}
+new PracticePage().init();
+</script>
+</body>
+</html>

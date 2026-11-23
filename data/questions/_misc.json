@@ -1,0 +1,70 @@
+{
+ "octet_mixup": {
+  "en": "8 is the limit of the second shell. Use 2n² with n = 3.",
+  "el": "Το 8 είναι το όριο της δεύτερης στιβάδας. Χρησιμοποίησε 2n² με n = 3."
+ },
+ "wrong_n": {
+  "en": "Check which shell: n = 1, 2, 3 … then apply 2n².",
+  "el": "Έλεγξε ποια στιβάδα: n = 1, 2, 3 … και μετά 2n²."
+ },
+ "forgot_square": {
+  "en": "The n is squared: 2n², not 2n.",
+  "el": "Το n είναι στο τετράγωνο: 2n², όχι 2n."
+ },
+ "ion_sign": {
+  "en": "Losing negative electrons makes the atom positive (cation); gaining them makes it negative (anion).",
+  "el": "Χάνοντας αρνητικά ηλεκτρόνια το άτομο γίνεται θετικό (κατιόν)· κερδίζοντας γίνεται αρνητικό (ανιόν)."
+ },
+ "isotope_mixup": {
+  "en": "Isotopes differ in neutrons, not electrons.",
+  "el": "Τα ισότοπα διαφέρουν στα νετρόνια, όχι στα ηλεκτρόνια."
+ },
+ "neutral_mixup": {
+  "en": "A neutral atom has equal numbers of protons and electrons.",
+  "el": "Ουδέτερο άτομο: ίσος αριθμός πρωτονίων και ηλεκτρονίων."
+ },
+ "electron_mass": {
+  "en": "Electrons are about 1/1836 of a proton's mass: they hardly count in the atom's mass.",
+  "el": "Το ηλεκτρόνιο έχει περίπου το 1/1836 της μάζας του πρωτονίου: σχεδόν δεν μετράει στη μάζα του ατόμου."
+ },
+ "coulomb_mixup": {
+  "en": "6.24 × 10¹⁸ is the number of electrons in one coulomb, not a mass ratio.",
+  "el": "Το 6,24 × 10¹⁸ είναι τα ηλεκτρόνια σε ένα coulomb, όχι λόγος μαζών."
+ },
+ "full_shell": {
+  "en": "A full outer shell holds its electrons tightly: that makes an insulator.",
+  "el": "Πλήρης εξωτερική στιβάδα κρατά σφιχτά τα ηλεκτρόνια: αυτό κάνει έναν μονωτή."
+ },
+ "neutron_mixup": {
+  "en": "Neutrons carry no charge and do not carry current.",
+  "el": "Τα νετρόνια δεν έχουν φορτίο και δεν μεταφέρουν ρεύμα."
+ },
+ "ion_breakdown": {
+  "en": "Ionization is any gain or loss of electrons; breakdown is the failure of an insulator in a strong field.",
+  "el": "Ιοντισμός είναι κάθε κέρδος ή απώλεια ηλεκτρονίων· διάσπαση είναι η αστοχία μονωτή σε ισχυρό πεδίο."
+ },
+ "atom_molecule": {
+  "en": "A single atom of hydrogen or oxygen is not water.",
+  "el": "Ένα άτομο υδρογόνου ή οξυγόνου δεν είναι νερό."
+ },
+ "element_mixup": {
+  "en": "Water is a compound of two elements, not an element.",
+  "el": "Το νερό είναι ένωση δύο στοιχείων, όχι στοιχείο."
+ },
+ "inner_shell": {
+  "en": "Inner electrons are tightly bound and take no part in bonding.",
+  "el": "Τα εσωτερικά ηλεκτρόνια είναι σφιχτά δεμένα και δεν συμμετέχουν στους δεσμούς."
+ },
+ "nucleus_mixup": {
+  "en": "There are no electrons in the nucleus: only protons and neutrons.",
+  "el": "Στον πυρήνα δεν υπάρχουν ηλεκτρόνια: μόνο πρωτόνια και νετρόνια."
+ },
+ "mass_weight": {
+  "en": "kg is mass. Weight is a force, in newtons: W = m × g.",
+  "el": "Τα kg είναι μάζα. Το βάρος είναι δύναμη, σε newton: W = m × g."
+ },
+ "divided_g": {
+  "en": "Multiply by g, do not divide.",
+  "el": "Πολλαπλασίασε με το g, μη διαιρείς."
+ }
+}

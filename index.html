@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Electrical Fundamentals · M03</title>
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main>
+  <section class="panel" id="today" aria-live="polite"></section>
+  <div class="cols">
+    <section class="panel"><h2>Lesson log</h2><ol class="log" id="log"></ol>
+      <p class="small"><a href="lessons.html">All 35 lessons</a></p></section>
+    <aside>
+      <section class="panel"><h2>Practise</h2><div id="practice"></div></section>
+      <section class="panel"><h2>Reference</h2>
+        <p><a href="formulas.html">Formula sheet</a><br><span class="mute small">Every formula used in the course decks.</span></p>
+        <p><a href="units.html">Units and prefixes</a><br><span class="mute small">SI, imperial and CGS, with a prefix converter.</span></p>
+        <p><a href="sims.html">Simulations</a><br><span class="mute small">PhET for now, our own lab later.</span></p>
+      </section>
+    </aside>
+  </div>
+</main>
+<footer>M03 Electrical Fundamentals, course site for aircraft maintenance students</footer>
+<script src="data/lessons.js"></script>
+<script src="data/bank.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// Home page: the latest published lesson, the lesson log around it, and quick practice links.
+class HomePage {
+  constructor() { this.bank = new Bank(window.M3_BANK); this.today = new Date().toISOString().slice(0, 10); }
+
+  latest() {
+    const pub = Site.published().filter(l => l.date <= this.today);
+    return pub[pub.length - 1] || Site.published()[0];
+  }
+
+  renderToday() {
+    const l = this.latest();
+    if (!l) { $('today').innerHTML = '<h2>No lessons published yet</h2><p class="mute">The first lesson appears here on its day.</p>'; return; }
+    const n = this.bank.pick({lessons: [l.id]}).length;
+    const when = l.date === this.today ? 'Today' : Site.fmtDate(l.date);
+    $('today').innerHTML = `<div class="today"><div class="no">${l.n}<small>${esc(when)}</small></div><div>
+      <h2>${esc(l.title.en)}</h2>
+      <p class="mute">Deck ${esc(l.topics.join(', '))}${l.slides ? ', slides ' + esc(l.slides) : ''}. ${n} exercises.</p>
+      <div class="row"><a class="btn" href="lesson.html?id=${l.id}">Open the notes</a>
+      <a class="btn alt" href="lesson.html?id=${l.id}#exercises">Do the exercises</a></div></div></div>`;
+  }
+
+  renderLog() {
+    const all = Site.lessons(), cur = this.latest(), i = Math.max(0, all.indexOf(cur));
+    const slice = all.slice(Math.max(0, i - 3), i + 4);
+    const best = Store.get('best', {});
+    $('log').innerHTML = slice.map(l => {
+      const pub = l.status === 'published', b = best['lesson-' + l.id];
+      const title = pub ? `<a href="lesson.html?id=${l.id}">${esc(l.title.en)}</a>` : esc(l.title.en);
+      return `<li class="${pub ? '' : 'planned'}"><span class="n">${l.n}</span><span class="d">${esc(Site.fmtDate(l.date))}</span>
+        <span class="t">${title}<small>${esc(l.topics.length > 3 ? 'Review' : 'Deck ' + l.topics.join(', '))}</small></span>
+        <span class="q">${b ? b.ok + '/' + b.n : ''}</span></li>`;
+    }).join('');
+  }
+
+  renderPractice() {
+    const qs = this.bank.pick(), lessons = [...new Set(qs.map(q => q.lesson))];
+    $('practice').innerHTML = `<p>${qs.length} questions from ${lessons.length} lesson${lessons.length === 1 ? '' : 's'} so far.</p>
+      <div class="row"><a class="btn" href="practice.html?n=10">10 random questions</a></div>
+      <p class="small mute" style="margin-top:10px">Pick lessons or topics in <a href="practice.html">Practice</a>.</p>`;
+  }
+
+  init() { Site.header('Notes and exercises for every lesson of Module 3. New material appears after each class.');
+    this.renderToday(); this.renderLog(); this.renderPractice(); }
+}
+new HomePage().init();
+</script>
+</body>
+</html>

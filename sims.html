@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulations · M03</title>
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<main>
+  <section class="panel"><h2>Our lab</h2>
+    <p class="mute">Simulations built for this course. Each one opens when its lesson comes up.</p>
+    <ol class="log" id="ours"></ol></section>
+  <section class="panel"><h2>PhET simulations by lesson</h2>
+    <p class="mute">Free simulations from the University of Colorado. They run in the browser, on phones too.</p>
+    <div class="scroll"><table class="data" id="phet"></table></div></section>
+</main>
+<script src="data/lessons.js"></script>
+<script src="assets/core.js"></script>
+<script>
+// Simulation index. Set `href` on an OUR_LAB entry when its page exists and it shows as a link.
+const P = s => 'https://phet.colorado.edu/en/simulations/' + s;
+const PHET = [
+  ['L01', 'Build an Atom', P('build-an-atom')],
+  ['L02', 'Balloons and Static Electricity', P('balloons-and-static-electricity')],
+  ['L02', 'John Travoltage', P('john-travoltage')],
+  ['L02', 'Charges and Fields', P('charges-and-fields')],
+  ['L02', 'Coulomb\'s Law', P('coulombs-law')],
+  ['L03', 'Circuit Construction Kit: DC', P('circuit-construction-kit-dc')],
+  ['L04', 'Faraday\'s Law', P('faradays-law')],
+  ['L07', 'Circuit Construction Kit: DC – Virtual Lab', P('circuit-construction-kit-dc-virtual-lab')],
+  ['L09', 'Resistance in a Wire', P('resistance-in-a-wire')],
+  ['L09', 'Ohm\'s Law', P('ohms-law')],
+  ['L14', 'Capacitor Lab: Basics', P('capacitor-lab-basics')],
+  ['L16', 'Magnets and Electromagnets', P('magnets-and-electromagnets')],
+  ['L16', 'Faraday\'s Electromagnetic Lab', P('faradays-electromagnetic-lab')],
+  ['L20', 'Circuit Construction Kit: AC', P('circuit-construction-kit-ac')],
+  ['L20', 'Fourier: Making Waves', P('fourier-making-waves')],
+  ['L25', 'Generator', P('generator')]
+];
+const OUR_LAB = [
+  ['L05', 'Battery lab: hydrometer, cells in series and parallel, internal resistance', ''],
+  ['L07', 'Voltage divider with a movable ground point', ''],
+  ['L10', 'Resistor colour-code trainer, AWG calculator, Wheatstone bridge', ''],
+  ['L14', 'RC charge and discharge', ''],
+  ['L17', 'Hysteresis loop', ''],
+  ['L20', 'AC values on a sine wave, three-phase', ''],
+  ['L21', 'Impedance and power triangles', ''],
+  ['L23', 'Filter responses', ''],
+  ['L25', 'DC generator: commutator and ripple', ''],
+  ['L27', 'DC motor types: torque and speed', ''],
+  ['L29', 'Transformer, star and delta', ''],
+  ['L31', 'Rotating field and induction motor slip', '']
+];
+Site.header('PhET simulations for each lesson, and the ones we build for this course.');
+const lname = id => { const l = Site.lesson(id); return l ? `L${l.n} ${l.title.en}` : id; };
+$('phet').innerHTML = '<thead><tr><th>Lesson</th><th>Simulation</th></tr></thead><tbody>' +
+  PHET.map(([id, name, href]) => `<tr><td class="mute">${esc(lname(id))}</td><td><a href="${href}" target="_blank" rel="noopener">${esc(name)}</a></td></tr>`).join('') + '</tbody>';
+$('ours').innerHTML = OUR_LAB.map(([id, name, href]) => { const l = Site.lesson(id);
+  return `<li class="${href ? '' : 'planned'}"><span class="n">${l ? l.n : ''}</span><span class="d">${l ? esc(Site.fmtDate(l.date)) : ''}</span>
+  <span class="t">${href ? `<a href="${href}">${esc(name)}</a>` : esc(name)}<small>${href ? 'Open' : 'In the workshop'}</small></span><span class="q"></span></li>`; }).join('');
+</script>
+</body>
+</html>
