@@ -1,0 +1,722 @@
+[
+ {
+  "id": "L03-kv",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "2.5 kV is the same as:",
+   "el": "Τα 2,5 kV ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "25 V",
+    "el": "25 V"
+   },
+   {
+    "en": "2 500 V",
+    "el": "2 500 V"
+   },
+   {
+    "en": "0.0025 V",
+    "el": "0,0025 V"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "prefix_step",
+   null,
+   "prefix_direction"
+  ],
+  "x": {
+   "en": "kilo = 1 000. Big unit → small unit: multiply. 2.5 × 1 000 = 2 500 V.",
+   "el": "κιλό = 1 000. Από μεγάλη σε μικρή μονάδα: πολλαπλασιάζουμε. 2,5 × 1 000 = 2 500 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-ma",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "0.25 A is the same as:",
+   "el": "Τα 0,25 A ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "25 mA",
+    "el": "25 mA"
+   },
+   {
+    "en": "2 500 mA",
+    "el": "2 500 mA"
+   },
+   {
+    "en": "250 mA",
+    "el": "250 mA"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "prefix_step",
+   "prefix_step",
+   null
+  ],
+  "x": {
+   "en": "A → mA: multiply by 1 000. 0.25 × 1 000 = 250 mA.",
+   "el": "A → mA: επί 1 000. 0,25 × 1 000 = 250 mA."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-nano",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "0.047 μF is the same as:",
+   "el": "Τα 0,047 μF ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "47 nF",
+    "el": "47 nF"
+   },
+   {
+    "en": "4.7 nF",
+    "el": "4,7 nF"
+   },
+   {
+    "en": "47 pF",
+    "el": "47 pF"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "prefix_step",
+   "milli_micro"
+  ],
+  "x": {
+   "en": "μ → n is one step of 1 000: 0.047 × 1 000 = 47 nF.",
+   "el": "μ → n είναι ένα βήμα του 1 000: 0,047 × 1 000 = 47 nF."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-pd",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Potential difference between two points is:",
+   "el": "Η διαφορά δυναμικού μεταξύ δύο σημείων είναι:"
+  },
+  "o": [
+   {
+    "en": "the work done per unit charge moved between them",
+    "el": "το έργο ανά μονάδα φορτίου που μετακινείται μεταξύ τους"
+   },
+   {
+    "en": "the charge flowing per second",
+    "el": "το φορτίο που ρέει ανά δευτερόλεπτο"
+   },
+   {
+    "en": "the opposition to current",
+    "el": "η αντίσταση στη ροή ρεύματος"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "voltage_current",
+   "resistance_pd"
+  ],
+  "x": {
+   "en": "V = W/Q: joules per coulomb. Charge per second is current; opposition is resistance.",
+   "el": "V = W/Q: joule ανά coulomb. Φορτίο ανά δευτερόλεπτο είναι το ρεύμα· η αντίσταση στη ροή είναι η αντίσταση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-emf",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The electromotive force (emf) of a battery is:",
+   "el": "Η ηλεκτρεγερτική δύναμη (ΗΕΔ) μιας μπαταρίας είναι:"
+  },
+  "o": [
+   {
+    "en": "the voltage dropped across a lamp it feeds",
+    "el": "η πτώση τάσης πάνω σε μια λάμπα που τροφοδοτεί"
+   },
+   {
+    "en": "the push the source gives to move charge around the circuit",
+    "el": "η «ώθηση» που δίνει η πηγή για να κινηθεί το φορτίο στο κύκλωμα"
+   },
+   {
+    "en": "the current it delivers",
+    "el": "το ρεύμα που δίνει"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "emf_pd",
+   null,
+   "voltage_current"
+  ],
+  "x": {
+   "en": "emf belongs to the source (energy given to the charges); a PD across a load is energy taken from them. Both in volts.",
+   "el": "Η ΗΕΔ ανήκει στην πηγή (ενέργεια που δίνεται στα φορτία)· η τάση πάνω σε φορτίο είναι ενέργεια που αφαιρείται. Και οι δύο σε volt."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-tanks",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "In the two-tank picture (10 psi and 2 psi), what makes the water flow?",
+   "el": "Στο παράδειγμα με τις δύο δεξαμενές (10 psi και 2 psi), τι προκαλεί τη ροή;"
+  },
+  "o": [
+   {
+    "en": "The 8 psi difference between the tanks",
+    "el": "Η διαφορά 8 psi μεταξύ των δεξαμενών"
+   },
+   {
+    "en": "The 10 psi in tank A",
+    "el": "Τα 10 psi της δεξαμενής Α"
+   },
+   {
+    "en": "The size of the pipe",
+    "el": "Το μέγεθος του σωλήνα"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "absolute_potential",
+   "pipe_size"
+  ],
+  "x": {
+   "en": "Only a difference drives a flow: 10 − 2 = 8 psi. In a circuit, only a potential difference drives current.",
+   "el": "Μόνο η διαφορά προκαλεί ροή: 10 − 2 = 8 psi. Σε κύκλωμα, μόνο η διαφορά δυναμικού προκαλεί ρεύμα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-vwq",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "120 J of energy moves 5 C of charge between two points. The potential difference is:",
+   "el": "Ενέργεια 120 J μετακινεί φορτίο 5 C μεταξύ δύο σημείων. Η διαφορά δυναμικού είναι:"
+  },
+  "o": [
+   {
+    "en": "24 V",
+    "el": "24 V"
+   },
+   {
+    "en": "600 V",
+    "el": "600 V"
+   },
+   {
+    "en": "0.042 V",
+    "el": "0,042 V"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "multiplied",
+   "inverted"
+  ],
+  "x": {
+   "en": "V = W / Q = 120 / 5 = 24 V.",
+   "el": "V = W / Q = 120 / 5 = 24 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-wvq",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "How much energy is needed to move 3 C through a potential difference of 28 V?",
+   "el": "Πόση ενέργεια χρειάζεται για να μετακινηθεί φορτίο 3 C μέσω διαφοράς δυναμικού 28 V;"
+  },
+  "o": [
+   {
+    "en": "9.3 J",
+    "el": "9,3 J"
+   },
+   {
+    "en": "84 J",
+    "el": "84 J"
+   },
+   {
+    "en": "0.11 J",
+    "el": "0,11 J"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "divided",
+   null,
+   "inverted"
+  ],
+  "x": {
+   "en": "W = V × Q = 28 × 3 = 84 J.",
+   "el": "W = V × Q = 28 × 3 = 84 J."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-vpi",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "A lamp dissipates 56 W while drawing 2 A. The voltage across it is:",
+   "el": "Λάμπα καταναλώνει 56 W με ρεύμα 2 A. Η τάση στα άκρα της είναι:"
+  },
+  "o": [
+   {
+    "en": "112 V",
+    "el": "112 V"
+   },
+   {
+    "en": "0.036 V",
+    "el": "0,036 V"
+   },
+   {
+    "en": "28 V",
+    "el": "28 V"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "multiplied",
+   "inverted",
+   null
+  ],
+  "x": {
+   "en": "From the definition of the volt: V = P / I = 56 / 2 = 28 V.",
+   "el": "Από τον ορισμό του volt: V = P / I = 56 / 2 = 28 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-iqt",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "30 C pass a point in 1 minute. The current is:",
+   "el": "Φορτίο 30 C περνά από ένα σημείο σε 1 λεπτό. Το ρεύμα είναι:"
+  },
+  "o": [
+   {
+    "en": "30 A",
+    "el": "30 A"
+   },
+   {
+    "en": "0.5 A",
+    "el": "0,5 A"
+   },
+   {
+    "en": "1 800 A",
+    "el": "1 800 A"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "minutes",
+   null,
+   "multiplied"
+  ],
+  "x": {
+   "en": "Time in seconds: 1 min = 60 s. I = Q / t = 30 / 60 = 0.5 A.",
+   "el": "Χρόνος σε δευτερόλεπτα: 1 min = 60 s. I = Q / t = 30 / 60 = 0,5 A."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-qit",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "A current of 5 A flows for 2 minutes. The charge that passes is:",
+   "el": "Ρεύμα 5 A ρέει για 2 λεπτά. Το φορτίο που περνά είναι:"
+  },
+  "o": [
+   {
+    "en": "10 C",
+    "el": "10 C"
+   },
+   {
+    "en": "600 C",
+    "el": "600 C"
+   },
+   {
+    "en": "2.5 C",
+    "el": "2,5 C"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "minutes",
+   null,
+   "divided"
+  ],
+  "x": {
+   "en": "Q = I × t = 5 × 120 = 600 C (2 min = 120 s).",
+   "el": "Q = I × t = 5 × 120 = 600 C (2 min = 120 s)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-e-per-s",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A current of 1 A means that every second about ___ electrons pass a point.",
+   "el": "Ρεύμα 1 A σημαίνει ότι κάθε δευτερόλεπτο περνούν από ένα σημείο περίπου ___ ηλεκτρόνια."
+  },
+  "o": [
+   {
+    "en": "6.24 billion (6.24 × 10⁹)",
+    "el": "6,24 δισεκατομμύρια (6,24 × 10⁹)"
+   },
+   {
+    "en": "6.24 × 10¹⁸",
+    "el": "6,24 × 10¹⁸"
+   },
+   {
+    "en": "1.6 × 10⁻¹⁹",
+    "el": "1,6 × 10⁻¹⁹"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "billion_mixup",
+   null,
+   "elementary_charge"
+  ],
+  "x": {
+   "en": "1 A = 1 C/s and 1 C = 6.24 × 10¹⁸ electrons. 1.6 × 10⁻¹⁹ C is the charge of one electron.",
+   "el": "1 A = 1 C/s και 1 C = 6,24 × 10¹⁸ ηλεκτρόνια. Το 1,6 × 10⁻¹⁹ C είναι το φορτίο ενός ηλεκτρονίου."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-drift",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Electrons drift through a wire very slowly, yet a lamp lights the moment the switch closes, because:",
+   "el": "Τα ηλεκτρόνια κινούνται πολύ αργά στο σύρμα, όμως η λάμπα ανάβει μόλις κλείσει ο διακόπτης, επειδή:"
+  },
+  "o": [
+   {
+    "en": "the electrons speed up to the speed of light",
+    "el": "τα ηλεκτρόνια επιταχύνονται στην ταχύτητα του φωτός"
+   },
+   {
+    "en": "the push travels along the whole wire almost instantly",
+    "el": "η «ώθηση» διαδίδεται σε όλο το σύρμα σχεδόν ακαριαία"
+   },
+   {
+    "en": "the lamp stores charge in advance",
+    "el": "η λάμπα αποθηκεύει φορτίο από πριν"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "signal_speed",
+   null,
+   "lamp_store"
+  ],
+  "x": {
+   "en": "Like a tube full of balls: push one in, one comes out at once. Every electron in the wire starts moving together.",
+   "el": "Όπως ένας σωλήνας γεμάτος μπίλιες: σπρώχνεις μία, βγαίνει αμέσως μία στην άλλη άκρη. Όλα τα ηλεκτρόνια του σύρματος ξεκινούν μαζί."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-r-up",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The voltage stays the same and the resistance increases. The current:",
+   "el": "Η τάση μένει ίδια και η αντίσταση αυξάνεται. Το ρεύμα:"
+  },
+  "o": [
+   {
+    "en": "decreases",
+    "el": "μειώνεται"
+   },
+   {
+    "en": "increases",
+    "el": "αυξάνεται"
+   },
+   {
+    "en": "stays the same",
+    "el": "μένει ίδιο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "ohm_inverse",
+   "ohm_unchanged"
+  ],
+  "x": {
+   "en": "More opposition, less current for the same push.",
+   "el": "Μεγαλύτερη αντίσταση, λιγότερο ρεύμα για την ίδια «ώθηση»."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-g-calc",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "24 V across a component drives 0.5 A through it. Its conductance is about:",
+   "el": "Τάση 24 V στα άκρα ενός στοιχείου δίνει ρεύμα 0,5 A. Η αγωγιμότητά του είναι περίπου:"
+  },
+  "o": [
+   {
+    "en": "48 S",
+    "el": "48 S"
+   },
+   {
+    "en": "20.8 mS",
+    "el": "20,8 mS"
+   },
+   {
+    "en": "12 S",
+    "el": "12 S"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "G_R_mixup",
+   null,
+   "multiplied"
+  ],
+  "x": {
+   "en": "G = I / E = 0.5 / 24 = 0.0208 S = 20.8 mS. (48 is the resistance in ohms.)",
+   "el": "G = I / E = 0,5 / 24 = 0,0208 S = 20,8 mS. (Το 48 είναι η αντίσταση σε Ω.)"
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-g-quarter",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "At constant voltage, the conductance of a circuit is cut to ¼. The current becomes:",
+   "el": "Με σταθερή τάση, η αγωγιμότητα ενός κυκλώματος γίνεται το ¼. Το ρεύμα γίνεται:"
+  },
+  "o": [
+   {
+    "en": "¼ of its value",
+    "el": "το ¼"
+   },
+   {
+    "en": "4 times larger",
+    "el": "4 φορές μεγαλύτερο"
+   },
+   {
+    "en": "unchanged",
+    "el": "ίδιο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "inverse_G",
+   "ohm_unchanged"
+  ],
+  "x": {
+   "en": "Current is proportional to conductance: I = G × E. G × ¼ → I × ¼.",
+   "el": "Το ρεύμα είναι ανάλογο της αγωγιμότητας: I = G × E. G × ¼ → I × ¼."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-polarity",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "An atom with more electrons than protons has:",
+   "el": "Άτομο με περισσότερα ηλεκτρόνια από πρωτόνια έχει:"
+  },
+  "o": [
+   {
+    "en": "positive polarity",
+    "el": "θετική πολικότητα"
+   },
+   {
+    "en": "negative polarity",
+    "el": "αρνητική πολικότητα"
+   },
+   {
+    "en": "no polarity",
+    "el": "καμία πολικότητα"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "polarity_sign",
+   null,
+   "neutral_mixup"
+  ],
+  "x": {
+   "en": "Extra electrons → negative charge → negative polarity. (Your notes, slide 17, say the opposite: that is a mistake.)",
+   "el": "Περισσότερα ηλεκτρόνια → αρνητικό φορτίο → αρνητική πολικότητα. (Οι σημειώσεις, slide 17, λένε το αντίθετο: είναι λάθος.)"
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-coulomb",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 3,
+  "units": "SI",
+  "q": {
+   "en": "Two charges of 2 μC and 3 μC are 0.1 m apart in vacuum (k = 9 × 10⁹ N·m²/C²). The force between them is:",
+   "el": "Δύο φορτία 2 μC και 3 μC απέχουν 0,1 m στο κενό (k = 9 × 10⁹ N·m²/C²). Η δύναμη μεταξύ τους είναι:"
+  },
+  "o": [
+   {
+    "en": "0.54 N",
+    "el": "0,54 N"
+   },
+   {
+    "en": "4.5 × 10⁶ N",
+    "el": "4,5 × 10⁶ N"
+   },
+   {
+    "en": "5.4 N",
+    "el": "5,4 N"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "forgot_square_d",
+   "sum_charges",
+   null
+  ],
+  "x": {
+   "en": "F = k q₁ q₂ / r² = 9 × 10⁹ × (2 × 10⁻⁶) × (3 × 10⁻⁶) / 0.1² = 0.054 / 0.01 = 5.4 N.",
+   "el": "F = k q₁ q₂ / r² = 9 × 10⁹ × (2 × 10⁻⁶) × (3 × 10⁻⁶) / 0,1² = 0,054 / 0,01 = 5,4 N."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-conventional",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Outside the source, conventional current is drawn flowing:",
+   "el": "Έξω από την πηγή, η συμβατική φορά του ρεύματος σχεδιάζεται:"
+  },
+  "o": [
+   {
+    "en": "from + to −",
+    "el": "από + προς −"
+   },
+   {
+    "en": "from − to +",
+    "el": "από − προς +"
+   },
+   {
+    "en": "in both directions",
+    "el": "και προς τις δύο κατευθύνσεις"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "flow_direction",
+   "flow_direction"
+  ],
+  "x": {
+   "en": "Conventional (Franklin): + → −. Electrons really move − → +.",
+   "el": "Συμβατική (Franklin): + → −. Τα ηλεκτρόνια πραγματικά κινούνται − → +."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-flow-choice",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "For troubleshooting a circuit, which current direction should a technician use?",
+   "el": "Για την αναζήτηση βλάβης σε κύκλωμα, ποια φορά ρεύματος πρέπει να χρησιμοποιεί ο τεχνικός;"
+  },
+  "o": [
+   {
+    "en": "Only electron flow, because it is the real one",
+    "el": "Μόνο τη φορά ηλεκτρονίων, γιατί είναι η πραγματική"
+   },
+   {
+    "en": "Only conventional flow, because textbooks use it",
+    "el": "Μόνο τη συμβατική, γιατί τη χρησιμοποιούν τα βιβλία"
+   },
+   {
+    "en": "Either, as long as it is used consistently",
+    "el": "Οποιαδήποτε, αρκεί να τη χρησιμοποιεί με συνέπεια"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "flow_only",
+   "flow_only",
+   null
+  ],
+  "x": {
+   "en": "Both give the same answers; mixing them in one analysis is what causes mistakes.",
+   "el": "Και οι δύο δίνουν τα ίδια αποτελέσματα· το λάθος προκύπτει όταν τις ανακατεύεις στην ίδια ανάλυση."
+  },
+  "status": "new"
+ }
+]
