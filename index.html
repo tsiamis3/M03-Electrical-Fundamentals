@@ -56,7 +56,7 @@ class HomePage {
       const pub = l.status === 'published', b = best['lesson-' + l.id];
       const title = pub ? `<a href="lesson.html?id=${l.id}">${esc(l.title.en)}</a>` : esc(l.title.en);
       return `<li class="${pub ? '' : 'planned'}"><span class="n">${l.n}</span><span class="d">${esc(Site.fmtDate(l.date))}</span>
-        <span class="t">${title}<small>${esc(l.topics.length > 3 ? 'Review' : 'Deck ' + l.topics.join(', '))}</small></span>
+        <span class="t">${title}<small>${esc((l.unit && l.unit !== 'R' ? 'Unit ' + l.unit + ' · ' : '') + (l.topics.length > 3 ? 'Review' : 'Deck ' + l.topics.join(', ')))}</small></span>
         <span class="q">${b ? b.ok + '/' + b.n : ''}</span></li>`;
     }).join('');
   }

@@ -8,34 +8,51 @@
 </head>
 <body>
 <main>
-  <section class="panel"><h2>Lesson log</h2>
-    <p class="mute">Lessons open after each class. Greyed lessons are planned. Your best exercise score shows on the right.</p>
-    <ol class="log" id="log"></ol></section>
+  <nav class="chips unit-jump" id="jump" aria-label="Units"></nav>
+  <p class="mute">Lessons open after each class. Greyed lessons are planned. Your best exercise score shows on the right.</p>
+  <div id="units"></div>
 </main>
 <script src="data/lessons.js"></script>
 <script src="data/bank.js"></script>
 <script src="assets/core.js"></script>
 <script>
-// Full lesson log with the Christmas break row in its place.
+// All lessons grouped by course unit (A–F, then the final revision), with the Christmas break in its place.
 class LessonLog {
-  constructor() { this.bank = new Bank(window.M3_BANK); this.breaks = (window.M3_LESSONS.breaks || []).slice(); }
-  row(l, best) {
-    const pub = l.status === 'published', n = this.bank.pick({lessons: [l.id]}).length, b = best['lesson-' + l.id];
+  constructor() { this.bank = new Bank(window.M3_BANK); this.breaks = window.M3_LESSONS.breaks || []; this.best = Store.get('best', {}); }
+  row(l) {
+    const pub = l.status === 'published', n = this.bank.pick({lessons: [l.id]}).length, b = this.best['lesson-' + l.id];
     const title = pub ? `<a href="lesson.html?id=${l.id}">${esc(l.title.en)}</a>` : esc(l.title.en);
     const sub = l.kind === 'lesson' ? `Deck ${l.topics.join(', ')}, slides ${l.slides}` : (l.kind === 'test' ? 'Test' : 'Exercises');
     return `<li class="${pub ? '' : 'planned'}"><span class="n">${l.n}</span><span class="d">${esc(Site.fmtDate(l.date))}</span>
-      <span class="t">${title}<small>${esc(sub)}${pub ? ', ' + n + ' exercises' : ''}</small></span>
+      <span class="t">${title}<small>${esc(sub)}${pub ? ', ' + n + ' exercises' : ''}${pub && l.deep ? ` · <a href="deep.html?id=${l.id}">going deeper</a>` : ''}</small></span>
       <span class="q">${b ? b.ok + '/' + b.n : ''}</span></li>`;
   }
+  // Break rows that fall between the previous lesson and this one.
+  breakBefore(prev, l) {
+    return this.breaks.filter(b => b.from < l.date && (!prev || b.from > prev.date))
+      .map(b => `<li class="break">${esc(b.label)}, ${esc(Site.fmtDate(b.from))} to ${esc(Site.fmtDate(b.to))}</li>`).join('');
+  }
+  unit(u) {
+    const ls = u.lessons, done = ls.filter(l => l.status === 'published').length;
+    const topics = u.topics.map(t => `${t} ${esc(window.M3_LESSONS.topics[t].en)}`).join(' · ');
+    const all = Site.lessons();
+    const rows = ls.map(l => this.breakBefore(all[all.indexOf(l) - 1], l) + this.row(l)).join('');
+    return `<section class="panel unit" id="unit-${u.id}">
+      <div class="unit-head"><span class="letter">${u.id === 'R' ? '★' : u.id}</span><div>
+        <h2>${Lang.t(u.title)}</h2>
+        <p class="mute small">${topics || 'Whole syllabus'}</p></div>
+        <span class="progress" title="Lessons published">${done}/${ls.length}</span></div>
+      <ol class="log">${rows}</ol></section>`;
+  }
+  render() {
+    const units = Site.units();
+    $('jump').innerHTML = units.map(u => `<a class="chip" href="#unit-${u.id}">${u.id === 'R' ? 'Revision' : 'Unit ' + u.id}</a>`).join('');
+    $('units').innerHTML = units.map(u => this.unit(u)).join('');
+  }
   init() {
-    Site.header('All lessons of Module 3, in order.');
-    const best = Store.get('best', {});
-    $('log').innerHTML = Site.lessons().map(l => {
-      let pre = '';
-      while (this.breaks.length && this.breaks[0].from < l.date) { const b = this.breaks.shift();
-        pre += `<li class="break">${esc(b.label)}, ${esc(Site.fmtDate(b.from))} to ${esc(Site.fmtDate(b.to))}</li>`; }
-      return pre + this.row(l, best);
-    }).join('');
+    Site.header('All lessons of Module 3, grouped by course unit.');
+    this.render();
+    document.addEventListener('langchange', () => this.render());
   }
 }
 new LessonLog().init();

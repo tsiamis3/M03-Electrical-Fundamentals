@@ -108,6 +108,17 @@ legend { font-family: var(--display); font-weight: 700; font-size: 18px; margin-
 .today .no small { display: block; font: 600 14px var(--mono); color: var(--mute); margin-top: 8px; }
 .today h2 { font-size: 32px; margin-bottom: 6px; }
 
+/* ---------- course units (lessons page) ---------- */
+.unit-jump { margin-bottom: 14px; }
+.unit { scroll-margin-top: 12px; }
+.unit-head { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 14px; align-items: center; margin-bottom: 10px; }
+.unit-head h2 { margin: 0; }
+.unit-head p { margin: 2px 0 0; }
+.unit-head .alt { display: block; font-size: 16px; color: var(--mute); font-weight: 400; }
+.unit-head .letter { font: 900 44px/1 var(--display); color: var(--copper); text-align: center; }
+@media (max-width: 560px) { .unit-head { grid-template-columns: 30px minmax(0, 1fr) auto; gap: 10px; } .unit-head .letter { font-size: 30px; } .unit-head h2 { font-size: 20px; } }
+.unit-head .progress { font: 600 14px var(--mono); color: var(--mute); border: 1px solid var(--line); border-radius: 99px; padding: 2px 10px; }
+
 /* ---------- lesson log (a real sequence, so it is numbered) ---------- */
 .log { list-style: none; margin: 0; padding: 0; }
 .log li { display: grid; grid-template-columns: 40px 96px minmax(0, 1fr) auto; gap: 10px; align-items: baseline;
@@ -144,6 +155,9 @@ legend { font-family: var(--display); font-weight: 700; font-size: 18px; margin-
 .notebook .formula, .notebook pre { white-space: pre-wrap; font-family: var(--mono); background: rgba(255, 255, 255, .55);
   border: 1px dashed rgba(34, 32, 27, .35); padding: 8px 12px; overflow-x: auto; }
 .notebook img { max-width: 100%; }
+.notebook .ref { display: inline-block; margin: 0 0 8px; padding: 2px 10px; font: 600 14px var(--mono); color: #6b3a18;
+  background: rgba(200, 119, 61, .14); border: 1px solid rgba(200, 119, 61, .5); border-radius: 2px; }
+.notebook .katex-display { overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
 @media (max-width: 560px) { .notebook { padding: 22px 16px 22px 44px;
   background-image: linear-gradient(90deg, transparent 30px, rgba(178, 58, 42, .45) 30px 32px, transparent 32px),
     linear-gradient(var(--paper-grid) 1px, transparent 1px), linear-gradient(90deg, var(--paper-grid) 1px, transparent 1px); } }

@@ -18,6 +18,7 @@
     <p class="mute small" id="exmeta"></p>
     <div id="quiz"></div>
   </section>
+  <p id="deeplink"></p>
   <nav class="row" id="pager"></nav>
 </main>
 <script src="data/lessons.js"></script>
@@ -56,9 +57,11 @@ class LessonPage {
   }
   init() {
     const l = this.lesson;
-    Site.header(l ? `Lesson ${l.n}, ${esc(Site.fmtDate(l.date))}` : 'Lesson');
+    Site.header(l ? `${esc(Site.unitName(l.unit))}${l.unit && l.unit !== 'R' ? ' · ' : ''}Lesson ${l.n}, ${esc(Site.fmtDate(l.date))}` : 'Lesson');
     if (l) document.title = `L${l.n} ${l.title.en} · M03`;
     this.loadNotes(); this.startQuiz('practice'); if (l) this.pager();
+    if (l && l.deep && l.status === 'published')
+      $('deeplink').innerHTML = `<a class="btn alt" href="deep.html?id=${l.id}">Going deeper: the physics behind this lesson</a>`;
     document.querySelectorAll('[data-mode]').forEach(b => b.addEventListener('click', () => {
       document.querySelectorAll('[data-mode]').forEach(x => x.setAttribute('aria-pressed', x === b));
       this.startQuiz(b.dataset.mode);

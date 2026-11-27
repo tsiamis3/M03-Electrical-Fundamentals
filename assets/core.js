@@ -98,6 +98,13 @@ class Site {
 
   static lessons() { return (window.M3_LESSONS && window.M3_LESSONS.lessons) || []; }
   static lesson(id) { return Site.lessons().find(x => x.id === id); }
+  // Course units (A–F + R), in teaching order (the order of their first lesson).
+  static units() {
+    const u = (window.M3_LESSONS && window.M3_LESSONS.units) || {}, ls = Site.lessons();
+    const first = k => { const i = ls.findIndex(l => l.unit === k); return i < 0 ? 1e9 : i; };
+    return Object.keys(u).sort((a, b) => first(a) - first(b)).map(k => ({id: k, ...u[k], lessons: ls.filter(l => l.unit === k)}));
+  }
+  static unitName(k) { const u = ((window.M3_LESSONS || {}).units || {})[k]; return u ? (k === 'R' ? '' : `Unit ${k}: `) + u.title.en : ''; }
   static published() { return Site.lessons().filter(x => x.status === 'published'); }
   static fmtDate(iso) {
     const d = new Date(iso + 'T12:00:00');

@@ -10,6 +10,7 @@
 <main>
   <section class="panel" id="builder">
     <h2>Build a practice set</h2>
+    <fieldset><legend>Units</legend><div class="chips" id="f-units"></div></fieldset>
     <fieldset><legend>Lessons</legend><div class="chips" id="f-lessons"></div></fieldset>
     <fieldset><legend>Topics</legend><div class="chips" id="f-topics"></div></fieldset>
     <fieldset><legend>Difficulty</legend><div class="chips" id="f-d"></div></fieldset>
@@ -31,15 +32,22 @@
 <script>
 // Practice builder: filter the bank by lesson, topic and difficulty, then run a quiz.
 class PracticePage {
-  constructor() { this.bank = new Bank(window.M3_BANK); this.sel = {lessons: new Set(), topics: new Set(), d: new Set()}; }
+  constructor() { this.bank = new Bank(window.M3_BANK); this.sel = {units: new Set(), lessons: new Set(), topics: new Set(), d: new Set()}; }
   chips(el, items, key) {
     $(el).innerHTML = items.map(([v, label, n]) => `<button class="chip" data-k="${key}" data-v="${esc(v)}" aria-pressed="false">${esc(label)}<small>${n}</small></button>`).join('')
       || '<span class="mute small">Nothing yet.</span>';
   }
-  filters() { return {lessons: [...this.sel.lessons], topics: [...this.sel.topics], d: [...this.sel.d].map(Number)}; }
+  filters() {
+    // A unit adds its topics to the topic filter.
+    const units = window.M3_LESSONS.units || {}, topics = new Set(this.sel.topics);
+    this.sel.units.forEach(u => (units[u] ? units[u].topics : []).forEach(t => topics.add(t)));
+    return {lessons: [...this.sel.lessons], topics: [...topics], d: [...this.sel.d].map(Number)};
+  }
   pool() { return this.bank.pick(this.filters()); }
   renderFilters() {
     const all = this.bank.pick(), byL = this.bank.countBy('lesson', all), byT = this.bank.countBy('topic', all), byD = this.bank.countBy('d', all);
+    this.chips('f-units', Site.units().filter(u => u.topics.some(t => byT[t])).map(u =>
+      [u.id, `${u.id} ${u.title.en}`, u.topics.reduce((s, t) => s + (byT[t] || 0), 0)]), 'units');
     this.chips('f-lessons', Site.lessons().filter(l => byL[l.id]).map(l => [l.id, `L${l.n} ${l.title.en}`, byL[l.id]]), 'lessons');
     this.chips('f-topics', Object.keys(byT).sort().map(t => [t, `${t} ${this.bank.topicName(t).en}`, byT[t]]), 'topics');
     this.chips('f-d', [[1, 'Easy', byD[1] || 0], [2, 'Medium', byD[2] || 0], [3, 'Hard', byD[3] || 0]].filter(x => x[2]), 'd');
