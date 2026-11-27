@@ -13,7 +13,7 @@ Question format (same as the M02 bank, plus lesson and status):
      "tags": [tag or null for each option], "x": {"en": ..., "el": ...}, "status": "new"}
 status: new (just written) -> approved (checked in class) | fix (needs a change, hidden) | retired (hidden for good)
 """
-import argparse, json, pathlib, sys
+import argparse, hashlib, json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 QDIR = ROOT / "data" / "questions"
@@ -99,6 +99,21 @@ class BankBuilder:
             print(" ", lid, ", ".join(f"{k} {v}" for k, v in sorted(c.items())))
 
 
+def stamp_pages():
+    """Add ?v=<hash of the file> to every local .js/.css link in the pages, so browsers
+    never mix a new page with old cached scripts (that left the Lessons page empty once)."""
+    def ver(m):
+        f = ROOT / m.group(2)
+        v = hashlib.md5(f.read_bytes()).hexdigest()[:8] if f.exists() else "0"
+        return f'{m.group(1)}{m.group(2)}?v={v}"'
+    for page in ROOT.glob("*.html"):
+        old = page.read_text(encoding="utf-8")
+        new = re.sub(r'((?:src|href)=")((?:assets|data)/[^"?]+\.(?:js|css))(?:\?v=\w+)?"', ver, old)
+        if new != old:
+            page.write_text(new, encoding="utf-8")
+    print("stamped script/css versions in the pages")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--review", help="review.json exported from review.html")
@@ -107,3 +122,4 @@ if __name__ == "__main__":
     if args.review:
         b.apply_review(args.review)
     b.build()
+    stamp_pages()
