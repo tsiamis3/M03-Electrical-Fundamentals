@@ -174,7 +174,7 @@ window.M3_LESSONS = {
    "kind": "lesson",
    "status": "published",
    "notes": "lessons/L01.md",
-   "deep": ""
+   "deep": "deep/L01.md"
   },
   {
    "id": "L02",
