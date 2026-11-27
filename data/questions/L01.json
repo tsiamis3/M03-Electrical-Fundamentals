@@ -1,5 +1,365 @@
 [
  {
+  "id": "L01-weight-si",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "A 12 kg battery weighs (g = 9.81 m/s²):",
+   "el": "Μπαταρία 12 kg έχει βάρος (g = 9,81 m/s²):"
+  },
+  "o": [
+   {
+    "en": "1.22 N",
+    "el": "1,22 N"
+   },
+   {
+    "en": "12 N",
+    "el": "12 N"
+   },
+   {
+    "en": "118 N",
+    "el": "118 N"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "divided_g",
+   "mass_weight",
+   null
+  ],
+  "x": {
+   "en": "W = m × g = 12 × 9.81 ≈ 118 N.",
+   "el": "W = m × g = 12 × 9,81 ≈ 118 N."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-weight-imp",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "imperial",
+  "q": {
+   "en": "A component of mass 3 slugs weighs (g = 32.2 ft/s²):",
+   "el": "Εξάρτημα μάζας 3 slugs έχει βάρος (g = 32,2 ft/s²):"
+  },
+  "o": [
+   {
+    "en": "96.6 lbf",
+    "el": "96,6 lbf"
+   },
+   {
+    "en": "10.7 lbf",
+    "el": "10,7 lbf"
+   },
+   {
+    "en": "3 lbf",
+    "el": "3 lbf"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "divided_g",
+   "mass_weight"
+  ],
+  "x": {
+   "en": "W = m × g = 3 slug × 32.2 ft/s² = 96.6 lbf (1 lbf = 1 slug·ft/s²).",
+   "el": "W = m × g = 3 slug × 32,2 ft/s² = 96,6 lbf (1 lbf = 1 slug·ft/s²)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-mass-g",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "An object weighs 49 N on Earth (g = 9.81 m/s²). Its mass is about:",
+   "el": "Ένα σώμα ζυγίζει 49 N στη Γη (g = 9,81 m/s²). Η μάζα του είναι περίπου:"
+  },
+  "o": [
+   {
+    "en": "481 kg",
+    "el": "481 kg"
+   },
+   {
+    "en": "5 kg",
+    "el": "5 kg"
+   },
+   {
+    "en": "49 kg",
+    "el": "49 kg"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "inverse_g",
+   null,
+   "mass_weight"
+  ],
+  "x": {
+   "en": "m = W / g = 49 / 9.81 ≈ 5 kg.",
+   "el": "m = W / g = 49 / 9,81 ≈ 5 kg."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-neutron-charge",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The neutron has:",
+   "el": "Το νετρόνιο έχει:"
+  },
+  "o": [
+   {
+    "en": "a positive charge",
+    "el": "θετικό φορτίο"
+   },
+   {
+    "en": "no charge",
+    "el": "μηδενικό φορτίο"
+   },
+   {
+    "en": "a negative charge",
+    "el": "αρνητικό φορτίο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "neutron_mixup",
+   null,
+   "neutron_mixup"
+  ],
+  "x": {
+   "en": "Neutrons are neutral; the proton is positive and the electron negative.",
+   "el": "Το νετρόνιο είναι ουδέτερο· το πρωτόνιο θετικό, το ηλεκτρόνιο αρνητικό."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-nucleus",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The nucleus of an atom contains:",
+   "el": "Ο πυρήνας του ατόμου περιέχει:"
+  },
+  "o": [
+   {
+    "en": "protons and electrons",
+    "el": "πρωτόνια και ηλεκτρόνια"
+   },
+   {
+    "en": "protons and neutrons",
+    "el": "πρωτόνια και νετρόνια"
+   },
+   {
+    "en": "neutrons and electrons",
+    "el": "νετρόνια και ηλεκτρόνια"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "nucleus_mixup",
+   null,
+   "nucleus_mixup"
+  ],
+  "x": {
+   "en": "Protons and neutrons form the nucleus; electrons are in shells around it.",
+   "el": "Πρωτόνια και νετρόνια αποτελούν τον πυρήνα· τα ηλεκτρόνια είναι σε στιβάδες γύρω του."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-mass-ratio",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A proton's mass is approximately how many times an electron's mass?",
+   "el": "Η μάζα του πρωτονίου είναι περίπου πόσες φορές η μάζα του ηλεκτρονίου;"
+  },
+  "o": [
+   {
+    "en": "1",
+    "el": "1"
+   },
+   {
+    "en": "18",
+    "el": "18"
+   },
+   {
+    "en": "1836",
+    "el": "1836"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "electron_mass",
+   "mass_ratio",
+   null
+  ],
+  "x": {
+   "en": "m_p / m_e ≈ 1836. That is why electrons hardly count in an atom's mass.",
+   "el": "m_p / m_e ≈ 1836. Γι' αυτό τα ηλεκτρόνια σχεδόν δεν μετράνε στη μάζα του ατόμου."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-element-protons",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "What decides which element an atom is?",
+   "el": "Τι καθορίζει ποιο στοιχείο είναι ένα άτομο;"
+  },
+  "o": [
+   {
+    "en": "The number of neutrons",
+    "el": "Ο αριθμός νετρονίων"
+   },
+   {
+    "en": "The number of protons",
+    "el": "Ο αριθμός πρωτονίων"
+   },
+   {
+    "en": "The number of electrons",
+    "el": "Ο αριθμός ηλεκτρονίων"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "isotope_mixup",
+   null,
+   "ion_not_element"
+  ],
+  "x": {
+   "en": "The proton number (atomic number) defines the element. Changing neutrons gives an isotope; changing electrons gives an ion.",
+   "el": "Ο αριθμός πρωτονίων (ατομικός αριθμός) ορίζει το στοιχείο. Άλλα νετρόνια δίνουν ισότοπο· άλλα ηλεκτρόνια δίνουν ιόν."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-oxygen-e",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A neutral oxygen atom has 8 protons. How many electrons does it have?",
+   "el": "Ουδέτερο άτομο οξυγόνου έχει 8 πρωτόνια. Πόσα ηλεκτρόνια έχει;"
+  },
+  "o": [
+   {
+    "en": "6",
+    "el": "6"
+   },
+   {
+    "en": "8",
+    "el": "8"
+   },
+   {
+    "en": "16",
+    "el": "16"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "valence_count",
+   null,
+   "neutral_mixup"
+  ],
+  "x": {
+   "en": "Neutral: electrons = protons = 8 (2 in the first shell, 6 in the second).",
+   "el": "Ουδέτερο: ηλεκτρόνια = πρωτόνια = 8 (2 στην πρώτη στιβάδα, 6 στη δεύτερη)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-compound",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Water (H₂O) is:",
+   "el": "Το νερό (H₂O) είναι:"
+  },
+  "o": [
+   {
+    "en": "an element",
+    "el": "στοιχείο"
+   },
+   {
+    "en": "a compound",
+    "el": "χημική ένωση"
+   },
+   {
+    "en": "an isotope",
+    "el": "ισότοπο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "element_mixup",
+   null,
+   "isotope_mixup"
+  ],
+  "x": {
+   "en": "Water is two elements, hydrogen and oxygen, chemically combined: a compound.",
+   "el": "Το νερό είναι δύο στοιχεία, υδρογόνο και οξυγόνο, χημικά ενωμένα: χημική ένωση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-molecule",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The smallest particle of water that is still water is:",
+   "el": "Το μικρότερο σωματίδιο νερού που είναι ακόμα νερό είναι:"
+  },
+  "o": [
+   {
+    "en": "a hydrogen atom",
+    "el": "ένα άτομο υδρογόνου"
+   },
+   {
+    "en": "a water molecule",
+    "el": "ένα μόριο νερού"
+   },
+   {
+    "en": "an oxygen ion",
+    "el": "ένα ιόν οξυγόνου"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "atom_molecule",
+   null,
+   "atom_molecule"
+  ],
+  "x": {
+   "en": "A molecule is the smallest particle that keeps the identity of the substance.",
+   "el": "Το μόριο είναι το μικρότερο σωματίδιο που διατηρεί την ταυτότητα της ουσίας."
+  },
+  "status": "new"
+ },
+ {
   "id": "L01-shell3",
   "lesson": "L01",
   "topic": "3.01",
@@ -19,343 +379,91 @@
     "el": "18"
    },
    {
-    "en": "32",
-    "el": "32"
+    "en": "6",
+    "el": "6"
    }
   ],
   "a": 1,
   "tags": [
    "octet_mixup",
    null,
-   "wrong_n"
+   "forgot_square"
   ],
   "x": {
-   "en": "Capacity = 2n² = 2 × 3² = 18.",
-   "el": "Χωρητικότητα = 2n² = 2 × 3² = 18."
+   "en": "2n² = 2 × 3² = 18.",
+   "el": "2n² = 2 × 3² = 18."
   },
   "status": "new"
  },
  {
-  "id": "L01-shell2",
+  "id": "L01-shell4",
   "lesson": "L01",
   "topic": "3.01",
-  "d": 1,
+  "d": 2,
   "units": "—",
   "q": {
-   "en": "The maximum number of electrons in the second shell is:",
-   "el": "Ο μέγιστος αριθμός ηλεκτρονίων στη δεύτερη στιβάδα είναι:"
+   "en": "Using 2n², the fourth shell can hold at most:",
+   "el": "Με τον τύπο 2n², η τέταρτη στιβάδα χωρά το πολύ:"
   },
   "o": [
    {
-    "en": "2",
-    "el": "2"
+    "en": "8 electrons",
+    "el": "8 ηλεκτρόνια"
    },
    {
-    "en": "4",
-    "el": "4"
+    "en": "16 electrons",
+    "el": "16 ηλεκτρόνια"
    },
    {
-    "en": "8",
-    "el": "8"
+    "en": "32 electrons",
+    "el": "32 ηλεκτρόνια"
    }
   ],
   "a": 2,
   "tags": [
    "wrong_n",
-   "forgot_square",
+   "square_mixup",
    null
   ],
   "x": {
-   "en": "2n² = 2 × 2² = 8.",
-   "el": "2n² = 2 × 2² = 8."
+   "en": "2n² = 2 × 4² = 2 × 16 = 32.",
+   "el": "2n² = 2 × 4² = 2 × 16 = 32."
   },
   "status": "new"
  },
  {
-  "id": "L01-cation",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 1,
-  "units": "—",
-  "q": {
-   "en": "An atom that has lost an electron is called:",
-   "el": "Ένα άτομο που έχασε ένα ηλεκτρόνιο λέγεται:"
-  },
-  "o": [
-   {
-    "en": "an anion",
-    "el": "ανιόν"
-   },
-   {
-    "en": "a cation",
-    "el": "κατιόν"
-   },
-   {
-    "en": "an isotope",
-    "el": "ισότοπο"
-   }
-  ],
-  "a": 1,
-  "tags": [
-   "ion_sign",
-   null,
-   "isotope_mixup"
-  ],
-  "x": {
-   "en": "Losing an electron leaves more protons than electrons: a positive ion, or cation.",
-   "el": "Με την απώλεια ηλεκτρονίου μένουν περισσότερα πρωτόνια: θετικό ιόν, δηλαδή κατιόν."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-anion",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 1,
-  "units": "—",
-  "q": {
-   "en": "An atom that has gained an extra electron becomes:",
-   "el": "Ένα άτομο που κέρδισε ένα επιπλέον ηλεκτρόνιο γίνεται:"
-  },
-  "o": [
-   {
-    "en": "a negative ion",
-    "el": "αρνητικό ιόν"
-   },
-   {
-    "en": "a positive ion",
-    "el": "θετικό ιόν"
-   },
-   {
-    "en": "a neutral atom",
-    "el": "ουδέτερο άτομο"
-   }
-  ],
-  "a": 0,
-  "tags": [
-   null,
-   "ion_sign",
-   "neutral_mixup"
-  ],
-  "x": {
-   "en": "More electrons than protons gives a net negative charge: a negative ion (anion).",
-   "el": "Περισσότερα ηλεκτρόνια από πρωτόνια σημαίνει αρνητικό φορτίο: αρνητικό ιόν (ανιόν)."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-mass",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 1,
-  "units": "—",
-  "q": {
-   "en": "The mass of an atom is determined mainly by its:",
-   "el": "Η μάζα ενός ατόμου καθορίζεται κυρίως από:"
-  },
-  "o": [
-   {
-    "en": "electrons",
-    "el": "τα ηλεκτρόνια"
-   },
-   {
-    "en": "protons and neutrons",
-    "el": "τα πρωτόνια και τα νετρόνια"
-   },
-   {
-    "en": "valence electrons",
-    "el": "τα ηλεκτρόνια σθένους"
-   }
-  ],
-  "a": 1,
-  "tags": [
-   "electron_mass",
-   null,
-   "electron_mass"
-  ],
-  "x": {
-   "en": "A proton is about 1836 times heavier than an electron, and the neutron has about the same mass as the proton.",
-   "el": "Το πρωτόνιο είναι περίπου 1836 φορές βαρύτερο από το ηλεκτρόνιο και το νετρόνιο έχει περίπου ίδια μάζα με το πρωτόνιο."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-ratio",
+  "id": "L01-fill-order",
   "lesson": "L01",
   "topic": "3.01",
   "d": 2,
   "units": "—",
   "q": {
-   "en": "The mass of a proton is approximately how many times the mass of an electron?",
-   "el": "Η μάζα του πρωτονίου είναι περίπου πόσες φορές η μάζα του ηλεκτρονίου;"
+   "en": "Electron shells fill:",
+   "el": "Οι στιβάδες γεμίζουν:"
   },
   "o": [
    {
-    "en": "18",
-    "el": "18"
+    "en": "from the shell nearest the nucleus outwards",
+    "el": "από τη στιβάδα πιο κοντά στον πυρήνα προς τα έξω"
    },
    {
-    "en": "1836",
-    "el": "1836"
+    "en": "from the outermost shell inwards",
+    "el": "από την εξωτερική στιβάδα προς τα μέσα"
    },
    {
-    "en": "6.24 × 10¹⁸",
-    "el": "6,24 × 10¹⁸"
-   }
-  ],
-  "a": 1,
-  "tags": [
-   null,
-   null,
-   "coulomb_mixup"
-  ],
-  "x": {
-   "en": "m_p / m_e ≈ 1836.",
-   "el": "m_p / m_e ≈ 1836."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-copper",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 1,
-  "units": "—",
-  "q": {
-   "en": "Copper is a good conductor because each atom has:",
-   "el": "Ο χαλκός είναι καλός αγωγός επειδή κάθε άτομο έχει:"
-  },
-  "o": [
-   {
-    "en": "one loosely bound valence electron",
-    "el": "ένα χαλαρά δεμένο ηλεκτρόνιο σθένους"
-   },
-   {
-    "en": "a full outer shell",
-    "el": "πλήρη εξωτερική στιβάδα"
-   },
-   {
-    "en": "more neutrons than protons",
-    "el": "περισσότερα νετρόνια από πρωτόνια"
+    "en": "only after the previous shell is completely full",
+    "el": "μόνο αφού γεμίσει εντελώς η προηγούμενη"
    }
   ],
   "a": 0,
   "tags": [
    null,
-   "full_shell",
-   "neutron_mixup"
+   "inner_shell",
+   "not_full"
   ],
   "x": {
-   "en": "Copper (like silver and gold) has one electron in its outer shell, easily freed to carry current.",
-   "el": "Ο χαλκός (όπως ο άργυρος και ο χρυσός) έχει ένα ηλεκτρόνιο στην εξωτερική στιβάδα, που ελευθερώνεται εύκολα και μεταφέρει ρεύμα."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-semi",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 1,
-  "units": "—",
-  "q": {
-   "en": "Silicon and germanium are classed as:",
-   "el": "Το πυρίτιο και το γερμάνιο κατατάσσονται στους:"
-  },
-  "o": [
-   {
-    "en": "insulators",
-    "el": "μονωτές"
-   },
-   {
-    "en": "conductors",
-    "el": "αγωγούς"
-   },
-   {
-    "en": "semiconductors",
-    "el": "ημιαγωγούς"
-   }
-  ],
-  "a": 2,
-  "tags": [
-   null,
-   null,
-   null
-  ],
-  "x": {
-   "en": "They sit between conductors and insulators and are used to make transistors and integrated circuits.",
-   "el": "Βρίσκονται ανάμεσα σε αγωγούς και μονωτές και χρησιμοποιούνται σε τρανζίστορ και ολοκληρωμένα."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-breakdown",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 2,
-  "units": "—",
-  "q": {
-   "en": "When an insulator is placed in an extremely strong electric field and its outer electrons are torn loose, this is called:",
-   "el": "Όταν ένας μονωτής βρεθεί σε πολύ ισχυρό ηλεκτρικό πεδίο και αποσπαστούν τα εξωτερικά του ηλεκτρόνια, το φαινόμενο λέγεται:"
-  },
-  "o": [
-   {
-    "en": "ionization",
-    "el": "ιοντισμός"
-   },
-   {
-    "en": "breakdown",
-    "el": "διάσπαση (breakdown)"
-   },
-   {
-    "en": "saturation",
-    "el": "κόρος"
-   }
-  ],
-  "a": 1,
-  "tags": [
-   "ion_breakdown",
-   null,
-   null
-  ],
-  "x": {
-   "en": "Breakdown: the insulator starts to conduct, usually with physical damage.",
-   "el": "Διάσπαση: ο μονωτής αρχίζει να άγει, συνήθως με φυσική ζημιά."
-  },
-  "status": "new"
- },
- {
-  "id": "L01-molecule",
-  "lesson": "L01",
-  "topic": "3.01",
-  "d": 1,
-  "units": "—",
-  "q": {
-   "en": "The smallest particle of water that still keeps the properties of water is:",
-   "el": "Το μικρότερο σωματίδιο νερού που διατηρεί τις ιδιότητες του νερού είναι:"
-  },
-  "o": [
-   {
-    "en": "an atom",
-    "el": "το άτομο"
-   },
-   {
-    "en": "a molecule",
-    "el": "το μόριο"
-   },
-   {
-    "en": "an element",
-    "el": "το στοιχείο"
-   }
-  ],
-  "a": 1,
-  "tags": [
-   "atom_molecule",
-   null,
-   "element_mixup"
-  ],
-  "x": {
-   "en": "A molecule (H₂O: two hydrogen atoms and one oxygen atom). Splitting it gives hydrogen and oxygen, no longer water.",
-   "el": "Το μόριο (H₂O: δύο άτομα υδρογόνου και ένα οξυγόνου). Αν διασπαστεί, παίρνουμε υδρογόνο και οξυγόνο, όχι νερό."
+   "en": "The innermost shell has the lowest energy and fills first, but a shell need not be full before the next one starts.",
+   "el": "Η εσωτερική στιβάδα έχει τη χαμηλότερη ενέργεια και γεμίζει πρώτη, αλλά μια στιβάδα δεν χρειάζεται να γεμίσει πριν ξεκινήσει η επόμενη."
   },
   "status": "new"
  },
@@ -367,7 +475,7 @@
   "units": "—",
   "q": {
    "en": "Valence electrons are the electrons:",
-   "el": "Τα ηλεκτρόνια σθένους είναι τα ηλεκτρόνια:"
+   "el": "Ηλεκτρόνια σθένους είναι τα ηλεκτρόνια:"
   },
   "o": [
    {
@@ -375,8 +483,8 @@
     "el": "της εξωτερικής στιβάδας"
    },
    {
-    "en": "closest to the nucleus",
-    "el": "που είναι πιο κοντά στον πυρήνα"
+    "en": "in the innermost shell",
+    "el": "της εσωτερικής στιβάδας"
    },
    {
     "en": "inside the nucleus",
@@ -390,44 +498,224 @@
    "nucleus_mixup"
   ],
   "x": {
-   "en": "The outer shell decides how an atom bonds and whether it conducts.",
-   "el": "Η εξωτερική στιβάδα καθορίζει πώς δεσμεύεται το άτομο και αν άγει."
+   "en": "Valence electrons are in the outer shell and take part in bonding.",
+   "el": "Τα ηλεκτρόνια σθένους είναι στην εξωτερική στιβάδα και συμμετέχουν στους δεσμούς."
   },
   "status": "new"
  },
  {
-  "id": "L01-weight",
+  "id": "L01-cation",
   "lesson": "L01",
   "topic": "3.01",
-  "d": 2,
-  "units": "SI",
+  "d": 1,
+  "units": "—",
   "q": {
-   "en": "An object of mass 10 kg on Earth (g = 9.81 m/s²) has a weight of about:",
-   "el": "Σώμα μάζας 10 kg στη Γη (g = 9,81 m/s²) έχει βάρος περίπου:"
+   "en": "An atom that loses an electron becomes:",
+   "el": "Ένα άτομο που χάνει ένα ηλεκτρόνιο γίνεται:"
   },
   "o": [
    {
-    "en": "10 kg",
-    "el": "10 kg"
+    "en": "a negative ion (anion)",
+    "el": "αρνητικό ιόν (ανιόν)"
    },
    {
-    "en": "98.1 N",
-    "el": "98,1 N"
+    "en": "a positive ion (cation)",
+    "el": "θετικό ιόν (κατιόν)"
    },
    {
-    "en": "1.02 N",
-    "el": "1,02 N"
+    "en": "an isotope",
+    "el": "ισότοπο"
    }
   ],
   "a": 1,
   "tags": [
-   "mass_weight",
+   "ion_sign",
    null,
-   "divided_g"
+   "isotope_mixup"
   ],
   "x": {
-   "en": "Weight = mass × gravity = 10 × 9.81 = 98.1 N.",
-   "el": "Βάρος = μάζα × g = 10 × 9,81 = 98,1 N."
+   "en": "It now has more protons than electrons, so it is positive: a cation.",
+   "el": "Έχει πλέον περισσότερα πρωτόνια από ηλεκτρόνια, άρα είναι θετικό: κατιόν."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-ion-charge",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "An atom has 11 protons and 10 electrons. It is:",
+   "el": "Ένα άτομο έχει 11 πρωτόνια και 10 ηλεκτρόνια. Είναι:"
+  },
+  "o": [
+   {
+    "en": "neutral",
+    "el": "ουδέτερο"
+   },
+   {
+    "en": "a positive ion, charge +1",
+    "el": "θετικό ιόν, φορτίο +1"
+   },
+   {
+    "en": "a negative ion, charge −1",
+    "el": "αρνητικό ιόν, φορτίο −1"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "neutral_mixup",
+   null,
+   "ion_sign"
+  ],
+  "x": {
+   "en": "Net charge = 11 − 10 = +1 elementary charge: a cation.",
+   "el": "Καθαρό φορτίο = 11 − 10 = +1 στοιχειώδες φορτίο: κατιόν."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-free-e",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The current in a metal wire is the flow of:",
+   "el": "Το ρεύμα σε μεταλλικό σύρμα είναι ροή:"
+  },
+  "o": [
+   {
+    "en": "free electrons",
+    "el": "ελεύθερων ηλεκτρονίων"
+   },
+   {
+    "en": "protons",
+    "el": "πρωτονίων"
+   },
+   {
+    "en": "neutrons",
+    "el": "νετρονίων"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "nucleus_carrier",
+   "neutron_mixup"
+  ],
+  "x": {
+   "en": "Loosely bound outer electrons drift from atom to atom; the nuclei stay in place.",
+   "el": "Τα χαλαρά δεμένα εξωτερικά ηλεκτρόνια κινούνται από άτομο σε άτομο· οι πυρήνες μένουν στη θέση τους."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-conductor",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Which is the best conductor?",
+   "el": "Ποιος είναι ο καλύτερος αγωγός;"
+  },
+  "o": [
+   {
+    "en": "Silver",
+    "el": "Άργυρος"
+   },
+   {
+    "en": "Germanium",
+    "el": "Γερμάνιο"
+   },
+   {
+    "en": "Glass",
+    "el": "Γυαλί"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "semi_mixup",
+   "full_shell"
+  ],
+  "x": {
+   "en": "Silver (like copper and gold) has one loose valence electron and many free electrons.",
+   "el": "Ο άργυρος (όπως ο χαλκός και ο χρυσός) έχει ένα χαλαρό ηλεκτρόνιο σθένους και πολλά ελεύθερα ηλεκτρόνια."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-semi",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Silicon and germanium are:",
+   "el": "Το πυρίτιο και το γερμάνιο είναι:"
+  },
+  "o": [
+   {
+    "en": "conductors",
+    "el": "αγωγοί"
+   },
+   {
+    "en": "insulators",
+    "el": "μονωτές"
+   },
+   {
+    "en": "semiconductors",
+    "el": "ημιαγωγοί"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "semi_mixup",
+   "semi_mixup",
+   null
+  ],
+  "x": {
+   "en": "They are the common semiconductor materials used in transistors and chips.",
+   "el": "Είναι τα συνηθισμένα υλικά ημιαγωγών, για τρανζίστορ και chips."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L01-breakdown",
+  "lesson": "L01",
+  "topic": "3.01",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "When a very strong electric field tears electrons loose in an insulator, this is called:",
+   "el": "Όταν πολύ ισχυρό ηλεκτρικό πεδίο αποσπά ηλεκτρόνια σε έναν μονωτή, αυτό λέγεται:"
+  },
+  "o": [
+   {
+    "en": "ionization of the conductor",
+    "el": "ιονισμός του αγωγού"
+   },
+   {
+    "en": "breakdown",
+    "el": "διάσπαση (breakdown)"
+   },
+   {
+    "en": "valence bonding",
+    "el": "δεσμός σθένους"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "ion_breakdown",
+   null,
+   "inner_shell"
+  ],
+  "x": {
+   "en": "Breakdown: the insulator starts to conduct and is usually damaged.",
+   "el": "Διάσπαση: ο μονωτής αρχίζει να άγει και συνήθως καταστρέφεται."
   },
   "status": "new"
  }

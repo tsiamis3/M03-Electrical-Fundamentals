@@ -24,7 +24,7 @@ class LessonLog {
     const title = pub ? `<a href="lesson.html?id=${l.id}">${esc(l.title.en)}</a>` : esc(l.title.en);
     const sub = l.kind === 'lesson' ? `Deck ${l.topics.join(', ')}, slides ${l.slides}` : (l.kind === 'test' ? 'Test' : 'Exercises');
     return `<li class="${pub ? '' : 'planned'}"><span class="n">${l.n}</span><span class="d">${esc(Site.fmtDate(l.date))}</span>
-      <span class="t">${title}<small>${esc(sub)}${pub ? ', ' + n + ' exercises' : ''}</small></span>
+      <span class="t">${title}<small>${esc(sub)}${pub ? ', ' + n + ' exercises' : ''}${pub && l.deep ? ` · <a href="deep.html?id=${l.id}">going deeper</a>` : ''}</small></span>
       <span class="q">${b ? b.ok + '/' + b.n : ''}</span></li>`;
   }
   // Break rows that fall between the previous lesson and this one.
