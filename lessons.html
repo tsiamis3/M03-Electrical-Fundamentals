@@ -4,15 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lessons · M03</title>
-<link rel="stylesheet" href="assets/lab.css?v=0a7dfa27">
+<link rel="stylesheet" href="assets/lab.css?v=3cb6ec91">
 </head>
 <body>
 <main>
   <nav class="chips unit-jump" id="jump" aria-label="Units"></nav>
   <p class="mute">Lessons open after each class. Greyed lessons are planned. Your best exercise score shows on the right.</p>
   <div id="units"></div>
+  <section class="panel" id="extras" hidden><h2>Going deeper: extras</h2><ul id="extras-list"></ul></section>
 </main>
-<script src="data/lessons.js?v=40877681"></script>
+<script src="data/lessons.js?v=a546e49d"></script>
 <script src="data/bank.js?v=adff520b"></script>
 <script src="assets/core.js?v=77472d13"></script>
 <script>
@@ -46,8 +47,14 @@ class LessonLog {
   }
   render() {
     const units = Site.units();
-    $('jump').innerHTML = units.map(u => `<a class="chip" href="#unit-${u.id}">${u.id === 'R' ? 'Revision' : 'Unit ' + u.id}</a>`).join('');
+    $('jump').innerHTML = units.map(u => `<a class="chip" href="#unit-${u.id}">${u.id === 'R' ? 'Revision' : 'Unit ' + u.id}</a>`).join('') +
+      ((window.M3_LESSONS.extras || []).length ? '<a class="chip" href="#extras">Extras</a>' : '');
     $('units').innerHTML = units.map(u => this.unit(u)).join('');
+    // Extra reading that spans several lessons (deep/<id>.md).
+    const extras = window.M3_LESSONS.extras || [];
+    $('extras').hidden = !extras.length;
+    $('extras-list').innerHTML = extras.map(x => `<li><a href="deep.html?id=${x.id}">${Lang.t(x.title)}</a>
+      <span class="mute small">(${esc(x.topics.join(', '))})</span></li>`).join('');
   }
   init() {
     Site.header('All lessons of Module 3, grouped by course unit.');
