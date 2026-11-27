@@ -825,5 +825,22 @@ window.M3_LESSONS = {
    "notes": "lessons/L35.md",
    "deep": ""
   }
+ ],
+ "extras": [
+  {
+   "id": "maxwell",
+   "title": {
+    "en": "Maxwell's equations",
+    "el": "Οι εξισώσεις του Maxwell"
+   },
+   "topics": [
+    "3.02",
+    "3.10",
+    "3.11",
+    "3.13",
+    "3.15"
+   ],
+   "deep": "deep/maxwell.md"
+  }
  ]
 };

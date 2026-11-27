@@ -147,7 +147,7 @@ legend { font-family: var(--display); font-weight: 700; font-size: 18px; margin-
 .notebook h2 { font-size: 25px; margin-top: 1.4em; border-bottom: 2px solid rgba(34, 32, 27, .25); padding-bottom: 2px; }
 .notebook a { color: #1d5f86; }
 .notebook code { background: rgba(34, 32, 27, .07); padding: 0 4px; }
-.notebook table { border-collapse: collapse; margin: 10px 0; font-size: 15px; }
+.notebook table { border-collapse: collapse; margin: 10px 0; font-size: 15px; display: block; max-width: 100%; overflow-x: auto; }
 .notebook th, .notebook td { border: 1px solid rgba(34, 32, 27, .3); padding: 4px 8px; text-align: left; }
 .notebook blockquote { margin: 14px 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--redink);
   font: 600 22px/1.25 var(--hand); color: var(--redink); }
