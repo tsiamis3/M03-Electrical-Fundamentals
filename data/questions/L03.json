@@ -1,0 +1,758 @@
+[
+ {
+  "id": "L03-mA",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "0.25 A is the same as:",
+   "el": "Τα 0,25 A ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "25 mA",
+    "el": "25 mA"
+   },
+   {
+    "en": "250 mA",
+    "el": "250 mA"
+   },
+   {
+    "en": "2 500 mA",
+    "el": "2 500 mA"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "prefix_step",
+   null,
+   "prefix_step"
+  ],
+  "x": {
+   "en": "A → mA: multiply by 1 000. 0.25 × 1 000 = 250 mA.",
+   "el": "A → mA: επί 1 000. 0,25 × 1 000 = 250 mA."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-kV",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "3 500 V is the same as:",
+   "el": "Τα 3 500 V ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "3.5 kV",
+    "el": "3,5 kV"
+   },
+   {
+    "en": "35 kV",
+    "el": "35 kV"
+   },
+   {
+    "en": "0.35 kV",
+    "el": "0,35 kV"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "prefix_step",
+   "prefix_step"
+  ],
+  "x": {
+   "en": "V → kV: divide by 1 000. 3 500 / 1 000 = 3.5 kV.",
+   "el": "V → kV: διά 1 000. 3 500 / 1 000 = 3,5 kV."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-uA",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "0.000 05 A is the same as:",
+   "el": "Τα 0,000 05 A ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "5 µA",
+    "el": "5 µA"
+   },
+   {
+    "en": "50 µA",
+    "el": "50 µA"
+   },
+   {
+    "en": "0.05 µA",
+    "el": "0,05 µA"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "prefix_step",
+   null,
+   "prefix_direction"
+  ],
+  "x": {
+   "en": "A → µA: multiply by 10⁶. 0.000 05 × 1 000 000 = 50 µA.",
+   "el": "A → µA: επί 10⁶. 0,000 05 × 1 000 000 = 50 µA."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Mk",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "2.2 MΩ is the same as:",
+   "el": "Τα 2,2 MΩ ισούνται με:"
+  },
+  "o": [
+   {
+    "en": "2 200 kΩ",
+    "el": "2 200 kΩ"
+   },
+   {
+    "en": "220 kΩ",
+    "el": "220 kΩ"
+   },
+   {
+    "en": "0.0022 kΩ",
+    "el": "0,0022 kΩ"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "prefix_step",
+   "mega_milli"
+  ],
+  "x": {
+   "en": "One step down (M → k): multiply by 1 000. 2.2 × 1 000 = 2 200 kΩ.",
+   "el": "Ένα βήμα κάτω (M → k): επί 1 000. 2,2 × 1 000 = 2 200 kΩ."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-micro",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The prefix micro (µ) means:",
+   "el": "Το πρόθεμα micro (µ) σημαίνει:"
+  },
+  "o": [
+   {
+    "en": "one thousandth (10⁻³)",
+    "el": "ένα χιλιοστό (10⁻³)"
+   },
+   {
+    "en": "one millionth (10⁻⁶)",
+    "el": "ένα εκατομμυριοστό (10⁻⁶)"
+   },
+   {
+    "en": "one million (10⁶)",
+    "el": "ένα εκατομμύριο (10⁶)"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "milli_micro",
+   null,
+   "mega_milli"
+  ],
+  "x": {
+   "en": "micro = 10⁻⁶. milli = 10⁻³, mega = 10⁶.",
+   "el": "micro = 10⁻⁶. milli = 10⁻³, mega = 10⁶."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Mm",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The symbol M (capital) stands for:",
+   "el": "Το σύμβολο M (κεφαλαίο) σημαίνει:"
+  },
+  "o": [
+   {
+    "en": "milli, 10⁻³",
+    "el": "milli, 10⁻³"
+   },
+   {
+    "en": "mega, 10⁶",
+    "el": "mega, 10⁶"
+   },
+   {
+    "en": "micro, 10⁻⁶",
+    "el": "micro, 10⁻⁶"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "mega_milli",
+   null,
+   "milli_micro"
+  ],
+  "x": {
+   "en": "Capital M = mega (10⁶); small m = milli (10⁻³).",
+   "el": "Κεφαλαίο M = mega (10⁶)· μικρό m = milli (10⁻³)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Idef",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Electric current is:",
+   "el": "Το ηλεκτρικό ρεύμα είναι:"
+  },
+  "o": [
+   {
+    "en": "the rate of flow of charge",
+    "el": "ο ρυθμός ροής φορτίου"
+   },
+   {
+    "en": "the total charge stored",
+    "el": "το συνολικό αποθηκευμένο φορτίο"
+   },
+   {
+    "en": "the energy per unit charge",
+    "el": "η ενέργεια ανά μονάδα φορτίου"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "charge_current",
+   "voltage_current"
+  ],
+  "x": {
+   "en": "I = Q / t: charge per second.",
+   "el": "I = Q / t: φορτίο ανά δευτερόλεπτο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Icalc",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "A charge of 30 C passes a point in 6 s. The current is:",
+   "el": "Φορτίο 30 C περνά από ένα σημείο σε 6 s. Το ρεύμα είναι:"
+  },
+  "o": [
+   {
+    "en": "180 A",
+    "el": "180 A"
+   },
+   {
+    "en": "5 A",
+    "el": "5 A"
+   },
+   {
+    "en": "0.2 A",
+    "el": "0,2 A"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "multiplied",
+   null,
+   "inverted"
+  ],
+  "x": {
+   "en": "I = Q / t = 30 / 6 = 5 A.",
+   "el": "I = Q / t = 30 / 6 = 5 A."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Qcalc",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "A current of 2 A flows for 1 minute. The charge that passes is:",
+   "el": "Ρεύμα 2 A ρέει για 1 λεπτό. Το φορτίο που περνά είναι:"
+  },
+  "o": [
+   {
+    "en": "2 C",
+    "el": "2 C"
+   },
+   {
+    "en": "120 C",
+    "el": "120 C"
+   },
+   {
+    "en": "30 C",
+    "el": "30 C"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "minutes",
+   null,
+   "inverted"
+  ],
+  "x": {
+   "en": "Q = I × t = 2 A × 60 s = 120 C. Time must be in seconds.",
+   "el": "Q = I × t = 2 A × 60 s = 120 C. Ο χρόνος σε δευτερόλεπτα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Vdef",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "One volt is:",
+   "el": "Ένα volt είναι:"
+  },
+  "o": [
+   {
+    "en": "one joule per coulomb",
+    "el": "ένα joule ανά coulomb"
+   },
+   {
+    "en": "one coulomb per second",
+    "el": "ένα coulomb ανά δευτερόλεπτο"
+   },
+   {
+    "en": "one ampere per ohm",
+    "el": "ένα ampere ανά ohm"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "voltage_current",
+   "ohm_inverse"
+  ],
+  "x": {
+   "en": "V = W / Q: energy per unit charge.",
+   "el": "V = W / Q: ενέργεια ανά μονάδα φορτίου."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Vcalc",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "Moving 4 C of charge between two points takes 48 J. The potential difference is:",
+   "el": "Για τη μετακίνηση 4 C μεταξύ δύο σημείων απαιτούνται 48 J. Η διαφορά δυναμικού είναι:"
+  },
+  "o": [
+   {
+    "en": "12 V",
+    "el": "12 V"
+   },
+   {
+    "en": "192 V",
+    "el": "192 V"
+   },
+   {
+    "en": "0.083 V",
+    "el": "0,083 V"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "multiplied",
+   "inverted"
+  ],
+  "x": {
+   "en": "V = W / Q = 48 / 4 = 12 V.",
+   "el": "V = W / Q = 48 / 4 = 12 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Vwatt",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "Between two points of a conductor carrying 1 A, 1 W is dissipated. The potential difference is:",
+   "el": "Μεταξύ δύο σημείων αγωγού που διαρρέεται από 1 A καταναλώνεται 1 W. Η διαφορά δυναμικού είναι:"
+  },
+  "o": [
+   {
+    "en": "1 V",
+    "el": "1 V"
+   },
+   {
+    "en": "1 Ω",
+    "el": "1 Ω"
+   },
+   {
+    "en": "1 J",
+    "el": "1 J"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "unit_mixup",
+   "unit_mixup"
+  ],
+  "x": {
+   "en": "That is the definition of the volt: V = P / I = 1 W / 1 A = 1 V.",
+   "el": "Αυτός είναι ο ορισμός του volt: V = P / I = 1 W / 1 A = 1 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-tanks",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "In the water-tank picture, what makes the water flow from tank A (10 psi) to tank B (2 psi)?",
+   "el": "Στο παράδειγμα με τις δεξαμενές, τι κάνει το νερό να ρέει από τη δεξαμενή A (10 psi) στη B (2 psi);"
+  },
+  "o": [
+   {
+    "en": "the 10 psi in tank A",
+    "el": "τα 10 psi της δεξαμενής A"
+   },
+   {
+    "en": "the 8 psi difference between the tanks",
+    "el": "η διαφορά 8 psi μεταξύ των δεξαμενών"
+   },
+   {
+    "en": "the 12 psi total",
+    "el": "τα συνολικά 12 psi"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "absolute_potential",
+   null,
+   "absolute_potential"
+  ],
+  "x": {
+   "en": "Flow is driven by the difference: 10 − 2 = 8 psi. Likewise current is driven by a potential difference.",
+   "el": "Τη ροή την προκαλεί η διαφορά: 10 − 2 = 8 psi. Αντίστοιχα το ρεύμα το προκαλεί διαφορά δυναμικού."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-emf",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Electromotive force (emf) is best described as:",
+   "el": "Η ηλεκτρεγερτική δύναμη (ΗΕΔ) περιγράφεται καλύτερα ως:"
+  },
+  "o": [
+   {
+    "en": "the push given to charges by a source such as a battery or generator",
+    "el": "η «ώθηση» που δίνει στα φορτία μια πηγή, π.χ. μπαταρία ή γεννήτρια"
+   },
+   {
+    "en": "the opposition to current in a load",
+    "el": "η αντίσταση στο ρεύμα ενός φορτίου"
+   },
+   {
+    "en": "the force between two charges",
+    "el": "η δύναμη μεταξύ δύο φορτίων"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "resistance_emf",
+   "coulomb_emf"
+  ],
+  "x": {
+   "en": "An emf is produced inside a source and drives current round the circuit; it is measured in volts.",
+   "el": "Η ΗΕΔ δημιουργείται μέσα στην πηγή και κινεί το ρεύμα στο κύκλωμα· μετριέται σε volt."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-wire",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The potential difference along a connecting wire in a working circuit is normally:",
+   "el": "Η διαφορά δυναμικού κατά μήκος ενός καλωδίου σύνδεσης σε κύκλωμα που λειτουργεί είναι συνήθως:"
+  },
+  "o": [
+   {
+    "en": "almost zero",
+    "el": "σχεδόν μηδέν"
+   },
+   {
+    "en": "equal to the battery voltage",
+    "el": "ίση με την τάση της μπαταρίας"
+   },
+   {
+    "en": "larger than across the load",
+    "el": "μεγαλύτερη από αυτή στο φορτίο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "wire_drop",
+   "wire_drop"
+  ],
+  "x": {
+   "en": "Wires have very little resistance, so almost no voltage is dropped along them; it appears across the load.",
+   "el": "Τα καλώδια έχουν πολύ μικρή αντίσταση, οπότε η τάση πέφτει σχεδόν όλη στο φορτίο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-drift",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Electrons in a wire carrying current move with a drift velocity that is:",
+   "el": "Τα ηλεκτρόνια σε αγωγό που διαρρέεται από ρεύμα κινούνται με ταχύτητα ολίσθησης:"
+  },
+  "o": [
+   {
+    "en": "close to the speed of light",
+    "el": "κοντά στην ταχύτητα του φωτός"
+   },
+   {
+    "en": "very slow, a fraction of a millimetre per second",
+    "el": "πολύ μικρή, κλάσμα του χιλιοστού ανά δευτερόλεπτο"
+   },
+   {
+    "en": "about the speed of sound",
+    "el": "περίπου ίση με την ταχύτητα του ήχου"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "signal_speed",
+   null,
+   "signal_speed"
+  ],
+  "x": {
+   "en": "The electrons drift slowly; the effect travels fast because the wire is already full of free electrons (balls in a tube).",
+   "el": "Τα ηλεκτρόνια ολισθαίνουν αργά· το αποτέλεσμα διαδίδεται γρήγορα γιατί ο αγωγός είναι ήδη γεμάτος ελεύθερα ηλεκτρόνια."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Runit",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The unit of resistance is the:",
+   "el": "Η μονάδα της αντίστασης είναι το:"
+  },
+  "o": [
+   {
+    "en": "siemens",
+    "el": "siemens"
+   },
+   {
+    "en": "ohm",
+    "el": "ohm"
+   },
+   {
+    "en": "volt",
+    "el": "volt"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "ohm_inverse",
+   null,
+   "unit_mixup"
+  ],
+  "x": {
+   "en": "Resistance in ohms (Ω); its inverse, conductance, in siemens (S).",
+   "el": "Αντίσταση σε ohm (Ω)· το αντίστροφό της, η αγωγιμότητα, σε siemens (S)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Gcalc",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "A resistor of 50 Ω has a conductance of:",
+   "el": "Αντιστάτης 50 Ω έχει αγωγιμότητα:"
+  },
+  "o": [
+   {
+    "en": "50 S",
+    "el": "50 S"
+   },
+   {
+    "en": "0.02 S",
+    "el": "0,02 S"
+   },
+   {
+    "en": "2 S",
+    "el": "2 S"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "ohm_inverse",
+   null,
+   "inverse_calc"
+  ],
+  "x": {
+   "en": "G = 1 / R = 1 / 50 = 0.02 S.",
+   "el": "G = 1 / R = 1 / 50 = 0,02 S."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-Gdouble",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The voltage is kept constant and the conductance of a component is doubled. The current:",
+   "el": "Η τάση μένει σταθερή και η αγωγιμότητα ενός στοιχείου διπλασιάζεται. Το ρεύμα:"
+  },
+  "o": [
+   {
+    "en": "doubles",
+    "el": "διπλασιάζεται"
+   },
+   {
+    "en": "halves",
+    "el": "υποδιπλασιάζεται"
+   },
+   {
+    "en": "stays the same",
+    "el": "μένει ίδιο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "G_R_mixup",
+   "G_R_mixup"
+  ],
+  "x": {
+   "en": "I = G × V: current is proportional to conductance.",
+   "el": "I = G × V: το ρεύμα είναι ανάλογο της αγωγιμότητας."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-conv",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Conventional current flows in the external circuit:",
+   "el": "Η συμβατική φορά του ρεύματος στο εξωτερικό κύκλωμα είναι:"
+  },
+  "o": [
+   {
+    "en": "from + to −",
+    "el": "από το + στο −"
+   },
+   {
+    "en": "from − to +",
+    "el": "από το − στο +"
+   },
+   {
+    "en": "in both directions",
+    "el": "και προς τις δύο κατευθύνσεις"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "flow_direction",
+   "flow_direction"
+  ],
+  "x": {
+   "en": "Conventional (Franklin): + to −. Electrons actually go − to +.",
+   "el": "Συμβατική (Franklin): από + σε −. Τα ηλεκτρόνια κινούνται από − σε +."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L03-eflow",
+  "lesson": "L03",
+  "topic": "3.03",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Electron flow in the external circuit is:",
+   "el": "Η ροή ηλεκτρονίων στο εξωτερικό κύκλωμα είναι:"
+  },
+  "o": [
+   {
+    "en": "from + to −",
+    "el": "από το + στο −"
+   },
+   {
+    "en": "from − to +",
+    "el": "από το − στο +"
+   },
+   {
+    "en": "from the load to ground only",
+    "el": "μόνο από το φορτίο προς τη γη"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "flow_direction",
+   null,
+   "flow_direction"
+  ],
+  "x": {
+   "en": "Electrons leave the negative terminal and are attracted to the positive one.",
+   "el": "Τα ηλεκτρόνια φεύγουν από τον αρνητικό πόλο και έλκονται από τον θετικό."
+  },
+  "status": "new"
+ }
+]

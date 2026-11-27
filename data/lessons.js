@@ -128,7 +128,7 @@ window.M3_LESSONS = {
     "el": "Ηλεκτρική ορολογία και προθέματα SI"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L03.md"
   },
   {
@@ -144,7 +144,7 @@ window.M3_LESSONS = {
     "el": "Παραγωγή ηλεκτρισμού + quiz Α"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L04.md"
   },
   {
@@ -160,7 +160,7 @@ window.M3_LESSONS = {
     "el": "Πρωτογενή στοιχεία και μπαταρίες μολύβδου"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L05.md"
   },
   {
