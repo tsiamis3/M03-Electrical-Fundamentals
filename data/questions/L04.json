@@ -1,0 +1,578 @@
+[
+ {
+  "id": "L04-seven",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Which of these is NOT one of the methods of producing electricity in the syllabus?",
+   "el": "Ποια από αυτές ΔΕΝ είναι μέθοδος παραγωγής ηλεκτρισμού της ύλης;"
+  },
+  "o": [
+   {
+    "en": "Pressure",
+    "el": "Πίεση"
+   },
+   {
+    "en": "Gravity",
+    "el": "Βαρύτητα"
+   },
+   {
+    "en": "Heat",
+    "el": "Θερμότητα"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "seven_list",
+   null,
+   "seven_list"
+  ],
+  "x": {
+   "en": "The seven: light, heat, friction, pressure, chemical action, magnetism and motion. Gravity is not one.",
+   "el": "Οι επτά: φως, θερμότητα, τριβή, πίεση, χημική δράση, μαγνητισμός και κίνηση. Η βαρύτητα δεν είναι."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-pv",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A photovoltaic cell converts:",
+   "el": "Ένα φωτοβολταϊκό στοιχείο μετατρέπει:"
+  },
+  "o": [
+   {
+    "en": "light into electricity",
+    "el": "φως σε ηλεκτρισμό"
+   },
+   {
+    "en": "heat into electricity",
+    "el": "θερμότητα σε ηλεκτρισμό"
+   },
+   {
+    "en": "electricity into light",
+    "el": "ηλεκτρισμό σε φως"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "reverse_device"
+  ],
+  "x": {
+   "en": "Photons free electrons in a semiconductor such as silicon.",
+   "el": "Τα φωτόνια ελευθερώνουν ηλεκτρόνια σε ημιαγωγό, όπως το πυρίτιο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-holes",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "In a silicon solar cell, holes:",
+   "el": "Σε ηλιακό στοιχείο πυριτίου, οι οπές:"
+  },
+  "o": [
+   {
+    "en": "are free protons",
+    "el": "είναι ελεύθερα πρωτόνια"
+   },
+   {
+    "en": "behave as positive charges and move opposite to the electrons",
+    "el": "συμπεριφέρονται σαν θετικά φορτία και κινούνται αντίθετα από τα ηλεκτρόνια"
+   },
+   {
+    "en": "move with the electrons",
+    "el": "κινούνται μαζί με τα ηλεκτρόνια"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "hole_literal",
+   null,
+   "hole_direction"
+  ],
+  "x": {
+   "en": "A hole is the absence of an electron; it acts like a + charge and drifts the other way.",
+   "el": "Η οπή είναι η απουσία ηλεκτρονίου· συμπεριφέρεται σαν θετικό φορτίο και κινείται αντίθετα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tc-metals",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A thermocouple is made of:",
+   "el": "Ένα θερμοζεύγος αποτελείται από:"
+  },
+  "o": [
+   {
+    "en": "two wires of the same metal",
+    "el": "δύο σύρματα από το ίδιο μέταλλο"
+   },
+   {
+    "en": "two different metals joined at a junction",
+    "el": "δύο διαφορετικά μέταλλα ενωμένα σε επαφή"
+   },
+   {
+    "en": "a crystal under pressure",
+    "el": "έναν κρύσταλλο υπό πίεση"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "same_metals",
+   null,
+   "tc_piezo"
+  ],
+  "x": {
+   "en": "Dissimilar metals joined at a junction: the Seebeck effect.",
+   "el": "Διαφορετικά μέταλλα ενωμένα σε επαφή: φαινόμενο Seebeck."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tc-uniform",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Both junctions of a thermocouple are at the same temperature. Its output is:",
+   "el": "Και οι δύο επαφές ενός θερμοζεύγους είναι στην ίδια θερμοκρασία. Η έξοδός του είναι:"
+  },
+  "o": [
+   {
+    "en": "zero",
+    "el": "μηδενική"
+   },
+   {
+    "en": "maximum",
+    "el": "μέγιστη"
+   },
+   {
+    "en": "proportional to that temperature",
+    "el": "ανάλογη αυτής της θερμοκρασίας"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "tc_absolute",
+   "tc_absolute"
+  ],
+  "x": {
+   "en": "The emf comes from a temperature difference. No difference, no voltage.",
+   "el": "Η ΗΕΔ προέρχεται από διαφορά θερμοκρασίας. Χωρίς διαφορά, χωρίς τάση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tc-double",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The temperature difference across a thermocouple doubles. Its output voltage roughly:",
+   "el": "Η διαφορά θερμοκρασίας σε ένα θερμοζεύγος διπλασιάζεται. Η τάση εξόδου περίπου:"
+  },
+  "o": [
+   {
+    "en": "doubles",
+    "el": "διπλασιάζεται"
+   },
+   {
+    "en": "stays the same",
+    "el": "μένει ίδια"
+   },
+   {
+    "en": "becomes four times larger",
+    "el": "τετραπλασιάζεται"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "tc_absolute",
+   "square_trap"
+  ],
+  "x": {
+   "en": "The voltage is (nearly) proportional to the temperature difference.",
+   "el": "Η τάση είναι (σχεδόν) ανάλογη της διαφοράς θερμοκρασίας."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tc-use",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "On aircraft, thermocouples are used to measure:",
+   "el": "Στα αεροσκάφη, τα θερμοζεύγη μετρούν:"
+  },
+  "o": [
+   {
+    "en": "fuel quantity",
+    "el": "ποσότητα καυσίμου"
+   },
+   {
+    "en": "exhaust gas temperature (EGT)",
+    "el": "θερμοκρασία καυσαερίων (EGT)"
+   },
+   {
+    "en": "airspeed",
+    "el": "ταχύτητα αέρα"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "tc_use",
+   null,
+   "tc_use"
+  ],
+  "x": {
+   "en": "EGT, ITT and CHT: high temperatures, where thermocouples are cheap and robust.",
+   "el": "EGT, ITT και CHT: υψηλές θερμοκρασίες, όπου τα θερμοζεύγη είναι φθηνά και ανθεκτικά."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-friction",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Electricity produced by friction is:",
+   "el": "Ο ηλεκτρισμός που παράγεται με τριβή είναι:"
+  },
+  "o": [
+   {
+    "en": "static electricity",
+    "el": "στατικός ηλεκτρισμός"
+   },
+   {
+    "en": "alternating current",
+    "el": "εναλλασσόμενο ρεύμα"
+   },
+   {
+    "en": "piezoelectricity",
+    "el": "πιεζοηλεκτρισμός"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "static_dynamic",
+   "conductor_piezo"
+  ],
+  "x": {
+   "en": "Rubbing insulators transfers electrons and leaves a static charge (lesson 2).",
+   "el": "Η τριβή μονωτών μεταφέρει ηλεκτρόνια και αφήνει στατικό φορτίο (μάθημα 2)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezo",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A piezoelectric crystal produces a voltage when it is:",
+   "el": "Ένας πιεζοηλεκτρικός κρύσταλλος δίνει τάση όταν:"
+  },
+  "o": [
+   {
+    "en": "heated",
+    "el": "θερμαίνεται"
+   },
+   {
+    "en": "lit",
+    "el": "φωτίζεται"
+   },
+   {
+    "en": "mechanically stressed",
+    "el": "δέχεται μηχανική τάση (πίεση)"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "source_mixup",
+   "source_mixup",
+   null
+  ],
+  "x": {
+   "en": "Piezo means pressure: stress produces a polarization and a voltage.",
+   "el": "Πιέζω: η μηχανική τάση προκαλεί πόλωση και ηλεκτρική τάση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezo-mat",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Which material is piezoelectric?",
+   "el": "Ποιο υλικό είναι πιεζοηλεκτρικό;"
+  },
+  "o": [
+   {
+    "en": "Copper",
+    "el": "Χαλκός"
+   },
+   {
+    "en": "Quartz",
+    "el": "Χαλαζίας"
+   },
+   {
+    "en": "Constantan",
+    "el": "Κονσταντάνη"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "conductor_piezo",
+   null,
+   "tc_piezo"
+  ],
+  "x": {
+   "en": "Quartz, Rochelle salt and barium titanate are non-conducting crystals.",
+   "el": "Ο χαλαζίας, το άλας Rochelle και το τιτανικό βάριο είναι μη αγώγιμοι κρύσταλλοι."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezo-rev",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Applying a voltage to a piezoelectric crystal:",
+   "el": "Αν εφαρμόσουμε τάση σε πιεζοηλεκτρικό κρύσταλλο:"
+  },
+  "o": [
+   {
+    "en": "has no effect",
+    "el": "δεν συμβαίνει τίποτα"
+   },
+   {
+    "en": "destroys it",
+    "el": "καταστρέφεται"
+   },
+   {
+    "en": "makes it change shape",
+    "el": "αλλάζει σχήμα"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "piezo_oneway",
+   "piezo_oneway",
+   null
+  ],
+  "x": {
+   "en": "The effect works both ways: voltage → movement in buzzers and ultrasonic transducers.",
+   "el": "Το φαινόμενο δουλεύει και αντίστροφα: τάση → κίνηση σε βομβητές και υπερηχητικούς μετατροπείς."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-vib",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "An engine vibration sensor most likely uses:",
+   "el": "Ένας αισθητήρας κραδασμών κινητήρα πιθανότατα χρησιμοποιεί:"
+  },
+  "o": [
+   {
+    "en": "a piezoelectric crystal",
+    "el": "πιεζοηλεκτρικό κρύσταλλο"
+   },
+   {
+    "en": "a thermocouple",
+    "el": "θερμοζεύγος"
+   },
+   {
+    "en": "a photocell",
+    "el": "φωτοκύτταρο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "source_mixup"
+  ],
+  "x": {
+   "en": "Vibration is changing pressure on the crystal, which gives an alternating voltage.",
+   "el": "Ο κραδασμός είναι μεταβαλλόμενη πίεση στον κρύσταλλο, που δίνει εναλλασσόμενη τάση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-cell-sign",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "In a zinc / manganese dioxide cell, the zinc releases electrons. The zinc terminal is:",
+   "el": "Σε στοιχείο ψευδαργύρου / διοξειδίου του μαγγανίου, ο ψευδάργυρος ελευθερώνει ηλεκτρόνια. Ο πόλος του ψευδαργύρου είναι:"
+  },
+  "o": [
+   {
+    "en": "negative",
+    "el": "αρνητικός"
+   },
+   {
+    "en": "positive",
+    "el": "θετικός"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερος"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "cell_sign",
+   "cell_sign"
+  ],
+  "x": {
+   "en": "The electrode that releases electrons keeps an excess of them: it is the − terminal. (Your notes, slide 8, say the opposite.)",
+   "el": "Το ηλεκτρόδιο που ελευθερώνει ηλεκτρόνια έχει περίσσεια: είναι ο αρνητικός πόλος. (Οι σημειώσεις, slide 8, λένε το αντίθετο.)"
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-cell-flow",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A wire is connected across a cell. In the wire, electrons flow:",
+   "el": "Συνδέουμε σύρμα στα άκρα ενός στοιχείου. Στο σύρμα τα ηλεκτρόνια ρέουν:"
+  },
+  "o": [
+   {
+    "en": "from + to −",
+    "el": "από + προς −"
+   },
+   {
+    "en": "from − to +",
+    "el": "από − προς +"
+   },
+   {
+    "en": "both ways equally",
+    "el": "και προς τις δύο κατευθύνσεις"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "flow_direction",
+   null,
+   "flow_direction"
+  ],
+  "x": {
+   "en": "Electrons leave the negative terminal and are attracted to the positive one.",
+   "el": "Τα ηλεκτρόνια φεύγουν από τον αρνητικό πόλο και έλκονται από τον θετικό."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-motion",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "An aircraft generator produces electricity by:",
+   "el": "Μια γεννήτρια αεροσκάφους παράγει ηλεκτρισμό με:"
+  },
+  "o": [
+   {
+    "en": "chemical action",
+    "el": "χημική δράση"
+   },
+   {
+    "en": "magnetism and motion",
+    "el": "μαγνητισμό και κίνηση"
+   },
+   {
+    "en": "pressure on a crystal",
+    "el": "πίεση σε κρύσταλλο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "source_mixup",
+   null,
+   "source_mixup"
+  ],
+  "x": {
+   "en": "A conductor moving through magnetic flux (or flux moving past it) gets an emf.",
+   "el": "Αγωγός που κινείται μέσα σε μαγνητική ροή (ή ροή που κινείται γύρω του) αποκτά ΗΕΔ."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-stationary",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A magnet sits still inside a coil connected to a meter. The meter reads:",
+   "el": "Ένας μαγνήτης μένει ακίνητος μέσα σε πηνίο συνδεδεμένο με όργανο. Το όργανο δείχνει:"
+  },
+  "o": [
+   {
+    "en": "zero",
+    "el": "μηδέν"
+   },
+   {
+    "en": "a steady current",
+    "el": "σταθερό ρεύμα"
+   },
+   {
+    "en": "maximum current",
+    "el": "μέγιστο ρεύμα"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "stationary",
+   "stationary"
+  ],
+  "x": {
+   "en": "An emf needs motion (a change in flux). No movement, no emf.",
+   "el": "Η ΗΕΔ χρειάζεται κίνηση (μεταβολή της ροής). Χωρίς κίνηση, καμία ΗΕΔ."
+  },
+  "status": "new"
+ }
+]

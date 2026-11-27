@@ -94,7 +94,7 @@ PLAN = [
  (["3.12", "3.15", "3.17", "3.18"], "", "Test 4: machines", "Τεστ 4: μηχανές", "test"),
  (list(TOPICS), "", "Mock exam 1", "Mock exam 1", "test"),
 ]
-PUBLISHED = {"L01", "L02", "L03"}
+PUBLISHED = {"L01", "L02", "L03", "L04", "L05", "L06"}
 
 lessons = []
 for i, (date, (topics, slides, en, el, kind)) in enumerate(zip(schedule(len(PLAN)), PLAN), 1):
