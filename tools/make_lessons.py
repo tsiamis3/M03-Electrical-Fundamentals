@@ -97,6 +97,16 @@ PLAN = [
 # Extra "going deeper" pages that belong to no single lesson: (id, title EN, title EL, related topics). File: deep/<id>.md
 EXTRAS = [
  ("maxwell", "Maxwell's equations", "Οι εξισώσεις του Maxwell", ["3.02", "3.10", "3.11", "3.13", "3.15"]),
+ ("em-poynting", "Where the energy really flows: the Poynting vector", "Πού ρέει η ενέργεια: το διάνυσμα Poynting", ["3.03", "3.08", "3.13"]),
+ ("em-skin", "Skin effect, eddy currents and eddy-current NDT", "Επιδερμικό φαινόμενο, δινορρεύματα και έλεγχος NDT", ["3.11", "3.13", "3.15"]),
+ ("em-hysteresis", "Ferromagnetism and the hysteresis loop", "Σιδηρομαγνητισμός και βρόχος υστέρησης", ["3.10", "3.15"]),
+ ("em-paschen", "Arcing at altitude: Paschen's law", "Τόξα σε ύψος: ο νόμος του Paschen", ["3.02", "3.03"]),
+ ("em-lightning", "Lightning strikes on aircraft", "Κεραυνός σε αεροσκάφος", ["3.02", "3.11"]),
+ ("em-antennas", "Antennas and radar", "Κεραίες και ραντάρ", ["3.13"]),
+ ("em-tdr", "Transmission lines and finding wire faults (TDR)", "Γραμμές μεταφοράς και εντοπισμός βλαβών (TDR)", ["3.06", "3.14"]),
+ ("em-emc", "EMI, HIRF and shielding", "EMI, HIRF και θωράκιση", ["3.11", "3.13"]),
+ ("em-relativity", "Magnetism as relativistic electricity", "Ο μαγνητισμός ως σχετικιστικός ηλεκτρισμός", ["3.02", "3.10"]),
+ ("em-laplace", "Solving Laplace's equation with Python", "Επίλυση της εξίσωσης Laplace με Python", ["3.02", "3.09"]),
 ]
 PUBLISHED = {"L01", "L02", "L03", "L04", "L05", "L06"}
 
