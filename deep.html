@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Going deeper · M03</title>
-<link rel="stylesheet" href="assets/lab.css?v=3cb6ec91">
+<link rel="stylesheet" href="assets/lab.css?v=0d6c769b">
 <link rel="stylesheet" href="assets/vendor/katex/katex.min.css?v=d0d6077d">
 <script src="assets/vendor/katex/katex.min.js?v=f4e1ebdc"></script>
 <script src="assets/vendor/marked.min.js?v=b7319d77"></script>
@@ -14,7 +14,8 @@
   <article class="notebook" id="deep"><p>Loading…</p></article>
   <nav class="row" id="back"></nav>
 </main>
-<script src="data/lessons.js?v=a546e49d"></script>
+<script src="data/lessons.js?v=b01915ba"></script>
+<script src="assets/sims.js?v=1a7c357f"></script>
 <script src="assets/core.js?v=77472d13"></script>
 <script>
 // "Going deeper" page: deep/Lxx.md, the physics behind a lesson, for the curious. Maths in $…$ / $$…$$ is drawn with KaTeX.
@@ -54,6 +55,7 @@ class DeepPage {
       const r = await fetch(src, {cache: 'no-cache'});
       if (!r.ok) throw new Error(r.status);
       $('deep').innerHTML = this.render(await r.text());
+      if (typeof Sims !== 'undefined') Sims.mount($('deep'));   // interactive figures (assets/sims.js)
     } catch (e) {
       $('deep').innerHTML = `<p>The file ${esc(src)} could not be loaded. Open the site through a web server, not as a local file.</p>`;
     }

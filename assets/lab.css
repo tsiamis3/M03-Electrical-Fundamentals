@@ -157,6 +157,19 @@ legend { font-family: var(--display); font-weight: 700; font-size: 18px; margin-
 .notebook img { max-width: 100%; }
 .notebook .ref { display: inline-block; margin: 0 0 8px; padding: 2px 10px; font: 600 14px var(--mono); color: #6b3a18;
   background: rgba(200, 119, 61, .14); border: 1px solid rgba(200, 119, 61, .5); border-radius: 2px; }
+.notebook pre { white-space: pre; font-size: 13px; line-height: 1.45; }
+.notebook pre code { background: none; padding: 0; }
+.notebook figure { margin: 14px 0; }
+.notebook figure img { display: block; width: 100%; height: auto; }
+.notebook figcaption { font-size: 14px; color: #5b564b; margin-top: 4px; }
+.notebook .sim-box { margin: 16px 0; padding: 12px; background: rgba(255, 255, 255, .6); border: 1px solid rgba(34, 32, 27, .35); border-radius: 3px; }
+.notebook .sim-box canvas { display: block; }
+.notebook .sim-controls { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 8px; }
+.notebook .sim-controls label { color: var(--paper-ink); font-size: 14px; margin: 0; flex: 1 1 200px; }
+.notebook .sim-controls input[type=range] { width: 100%; accent-color: #b8622b; }
+.notebook .sim-controls select { background: #fff; color: var(--paper-ink); border-color: rgba(34, 32, 27, .35); width: 100%; }
+.notebook .sim-controls span { font-weight: 600; }
+.notebook .sim-out { font-size: 15px; margin: 8px 0 0; }
 .notebook .katex-display { overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
 @media (max-width: 560px) { .notebook { padding: 22px 16px 22px 44px;
   background-image: linear-gradient(90deg, transparent 30px, rgba(178, 58, 42, .45) 30px 32px, transparent 32px),

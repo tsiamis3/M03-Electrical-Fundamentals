@@ -841,6 +841,127 @@ window.M3_LESSONS = {
     "3.15"
    ],
    "deep": "deep/maxwell.md"
+  },
+  {
+   "id": "em-poynting",
+   "title": {
+    "en": "Where the energy really flows: the Poynting vector",
+    "el": "Πού ρέει η ενέργεια: το διάνυσμα Poynting"
+   },
+   "topics": [
+    "3.03",
+    "3.08",
+    "3.13"
+   ],
+   "deep": "deep/em-poynting.md"
+  },
+  {
+   "id": "em-skin",
+   "title": {
+    "en": "Skin effect, eddy currents and eddy-current NDT",
+    "el": "Επιδερμικό φαινόμενο, δινορρεύματα και έλεγχος NDT"
+   },
+   "topics": [
+    "3.11",
+    "3.13",
+    "3.15"
+   ],
+   "deep": "deep/em-skin.md"
+  },
+  {
+   "id": "em-hysteresis",
+   "title": {
+    "en": "Ferromagnetism and the hysteresis loop",
+    "el": "Σιδηρομαγνητισμός και βρόχος υστέρησης"
+   },
+   "topics": [
+    "3.10",
+    "3.15"
+   ],
+   "deep": "deep/em-hysteresis.md"
+  },
+  {
+   "id": "em-paschen",
+   "title": {
+    "en": "Arcing at altitude: Paschen's law",
+    "el": "Τόξα σε ύψος: ο νόμος του Paschen"
+   },
+   "topics": [
+    "3.02",
+    "3.03"
+   ],
+   "deep": "deep/em-paschen.md"
+  },
+  {
+   "id": "em-lightning",
+   "title": {
+    "en": "Lightning strikes on aircraft",
+    "el": "Κεραυνός σε αεροσκάφος"
+   },
+   "topics": [
+    "3.02",
+    "3.11"
+   ],
+   "deep": "deep/em-lightning.md"
+  },
+  {
+   "id": "em-antennas",
+   "title": {
+    "en": "Antennas and radar",
+    "el": "Κεραίες και ραντάρ"
+   },
+   "topics": [
+    "3.13"
+   ],
+   "deep": "deep/em-antennas.md"
+  },
+  {
+   "id": "em-tdr",
+   "title": {
+    "en": "Transmission lines and finding wire faults (TDR)",
+    "el": "Γραμμές μεταφοράς και εντοπισμός βλαβών (TDR)"
+   },
+   "topics": [
+    "3.06",
+    "3.14"
+   ],
+   "deep": "deep/em-tdr.md"
+  },
+  {
+   "id": "em-emc",
+   "title": {
+    "en": "EMI, HIRF and shielding",
+    "el": "EMI, HIRF και θωράκιση"
+   },
+   "topics": [
+    "3.11",
+    "3.13"
+   ],
+   "deep": "deep/em-emc.md"
+  },
+  {
+   "id": "em-relativity",
+   "title": {
+    "en": "Magnetism as relativistic electricity",
+    "el": "Ο μαγνητισμός ως σχετικιστικός ηλεκτρισμός"
+   },
+   "topics": [
+    "3.02",
+    "3.10"
+   ],
+   "deep": "deep/em-relativity.md"
+  },
+  {
+   "id": "em-laplace",
+   "title": {
+    "en": "Solving Laplace's equation with Python",
+    "el": "Επίλυση της εξίσωσης Laplace με Python"
+   },
+   "topics": [
+    "3.02",
+    "3.09"
+   ],
+   "deep": "deep/em-laplace.md"
   }
  ]
 };
