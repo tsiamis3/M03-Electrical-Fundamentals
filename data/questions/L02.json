@@ -1,0 +1,722 @@
+[
+ {
+  "id": "L02-static",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Static electricity is:",
+   "el": "Ο στατικός ηλεκτρισμός είναι:"
+  },
+  "o": [
+   {
+    "en": "charge at rest on the surface of an object",
+    "el": "φορτίο σε ηρεμία στην επιφάνεια ενός σώματος"
+   },
+   {
+    "en": "charge flowing through a conductor",
+    "el": "φορτίο που ρέει μέσα σε αγωγό"
+   },
+   {
+    "en": "a current that reverses direction",
+    "el": "ρεύμα που αλλάζει φορά"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "static_dynamic",
+   "static_dynamic"
+  ],
+  "x": {
+   "en": "Static: electrons at rest, piled up on a surface. Dynamic: electrons moving (DC or AC current).",
+   "el": "Στατικός: ηλεκτρόνια σε ηρεμία, συσσωρευμένα σε επιφάνεια. Δυναμικός: ηλεκτρόνια σε κίνηση (ρεύμα DC ή AC)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-insulator",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A static charge builds up most easily when two surfaces touch and separate and:",
+   "el": "Στατικό φορτίο δημιουργείται πιο εύκολα όταν δύο επιφάνειες έρχονται σε επαφή και χωρίζουν και:"
+  },
+  "o": [
+   {
+    "en": "both are copper",
+    "el": "είναι και οι δύο από χαλκό"
+   },
+   {
+    "en": "at least one is an insulator",
+    "el": "τουλάχιστον η μία είναι μονωτής"
+   },
+   {
+    "en": "both are grounded",
+    "el": "είναι και οι δύο γειωμένες"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "conductor_leaks",
+   null,
+   "conductor_leaks"
+  ],
+  "x": {
+   "en": "An insulator gives the charge no path to leave, so it stays on the surface.",
+   "el": "Ο μονωτής δεν δίνει δρόμο διαφυγής στο φορτίο, οπότε αυτό μένει στην επιφάνεια."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-tribo",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Two materials touch. The one with weakly bound outer electrons becomes:",
+   "el": "Δύο υλικά έρχονται σε επαφή. Αυτό με τα χαλαρά δεμένα εξωτερικά ηλεκτρόνια γίνεται:"
+  },
+  "o": [
+   {
+    "en": "negative",
+    "el": "αρνητικό"
+   },
+   {
+    "en": "positive",
+    "el": "θετικό"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "tribo_sign",
+   null,
+   "conservation"
+  ],
+  "x": {
+   "en": "It loses electrons to the other material, so it is left with more protons than electrons: positive.",
+   "el": "Χάνει ηλεκτρόνια προς το άλλο υλικό, οπότε μένει με περισσότερα πρωτόνια: θετικό."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-pith-same",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Two pith balls are touched by the same charged glass rod. They will:",
+   "el": "Δύο σφαιρίδια αγγίζονται από την ίδια φορτισμένη γυάλινη ράβδο. Θα:"
+  },
+  "o": [
+   {
+    "en": "attract",
+    "el": "έλκονται"
+   },
+   {
+    "en": "repel",
+    "el": "απωθούνται"
+   },
+   {
+    "en": "not affect each other",
+    "el": "δεν αλληλεπιδρούν"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "like_unlike",
+   null,
+   "charged_force"
+  ],
+  "x": {
+   "en": "Both get the same charge from the rod, and like charges repel.",
+   "el": "Παίρνουν το ίδιο φορτίο από τη ράβδο, και τα όμοια φορτία απωθούνται."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-fur",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A plastic rod rubbed with fur becomes negative. The fur becomes:",
+   "el": "Πλαστική ράβδος τριμμένη με γούνα γίνεται αρνητική. Η γούνα γίνεται:"
+  },
+  "o": [
+   {
+    "en": "negative",
+    "el": "αρνητική"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερη"
+   },
+   {
+    "en": "positive",
+    "el": "θετική"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "conservation",
+   "conservation",
+   null
+  ],
+  "x": {
+   "en": "The electrons the rod gained came from the fur, so the fur is left positive. Charge is moved, not created.",
+   "el": "Τα ηλεκτρόνια που κέρδισε η ράβδος ήρθαν από τη γούνα, οπότε η γούνα μένει θετική. Το φορτίο μετακινείται, δεν δημιουργείται."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-neutral-pull",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A charged balloon attracts a neutral piece of paper because:",
+   "el": "Φορτισμένο μπαλόνι έλκει ουδέτερο χαρτάκι επειδή:"
+  },
+  "o": [
+   {
+    "en": "the charges in the paper separate, and the opposite charge comes closer",
+    "el": "τα φορτία στο χαρτί διαχωρίζονται και το αντίθετο φορτίο έρχεται πιο κοντά"
+   },
+   {
+    "en": "the paper is really positively charged",
+    "el": "το χαρτί είναι στην πραγματικότητα θετικά φορτισμένο"
+   },
+   {
+    "en": "gravity pulls the paper up",
+    "el": "η βαρύτητα τραβάει το χαρτί προς τα πάνω"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "neutral_charged",
+   "gravity_mixup"
+  ],
+  "x": {
+   "en": "Polarization: the opposite charge sits on the near side, so attraction beats repulsion.",
+   "el": "Πόλωση: το αντίθετο φορτίο βρίσκεται στην κοντινή πλευρά, οπότε η έλξη υπερισχύει της άπωσης."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-field-dir",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The direction of an electric field line is the direction in which a small ___ test charge would move.",
+   "el": "Η φορά μιας δυναμικής γραμμής είναι η φορά προς την οποία θα κινούνταν ένα μικρό ___ φορτίο δοκιμής."
+  },
+  "o": [
+   {
+    "en": "positive",
+    "el": "θετικό"
+   },
+   {
+    "en": "negative",
+    "el": "αρνητικό"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "test_charge",
+   "test_charge"
+  ],
+  "x": {
+   "en": "By agreement a positive test charge is used, so lines point away from + and towards −.",
+   "el": "Συμβατικά χρησιμοποιείται θετικό φορτίο δοκιμής, οπότε οι γραμμές φεύγουν από το + και πάνε προς το −."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-lines",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Electric field lines:",
+   "el": "Οι δυναμικές γραμμές του ηλεκτρικού πεδίου:"
+  },
+  "o": [
+   {
+    "en": "cross where the field is strongest",
+    "el": "τέμνονται εκεί όπου το πεδίο είναι ισχυρότερο"
+   },
+   {
+    "en": "never cross",
+    "el": "δεν τέμνονται ποτέ"
+   },
+   {
+    "en": "form closed loops around a single charge",
+    "el": "σχηματίζουν κλειστούς βρόχους γύρω από ένα φορτίο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "lines_cross",
+   null,
+   "closed_loops"
+  ],
+  "x": {
+   "en": "The field has one direction at each point, so two lines can never cross. They start on + and end on −.",
+   "el": "Το πεδίο έχει μία φορά σε κάθε σημείο, άρα δύο γραμμές δεν τέμνονται ποτέ. Ξεκινούν από + και καταλήγουν σε −."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-hollow",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A hollow metal sphere is charged. Inside the sphere:",
+   "el": "Κούφια μεταλλική σφαίρα φορτίζεται. Μέσα στη σφαίρα:"
+  },
+  "o": [
+   {
+    "en": "there is no charge and no field",
+    "el": "δεν υπάρχει φορτίο ούτε πεδίο"
+   },
+   {
+    "en": "the charge is spread over the inner surface",
+    "el": "το φορτίο απλώνεται στην εσωτερική επιφάνεια"
+   },
+   {
+    "en": "the field is strongest at the centre",
+    "el": "το πεδίο είναι ισχυρότερο στο κέντρο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "outer_surface",
+   "outer_surface"
+  ],
+  "x": {
+   "en": "Like charges push each other to the outer surface. Inside, the field is zero: a Faraday cage.",
+   "el": "Τα όμοια φορτία σπρώχνονται στην εξωτερική επιφάνεια. Μέσα το πεδίο είναι μηδέν: κλωβός Faraday."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-points",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "On an irregularly shaped conductor, the charge is greatest:",
+   "el": "Σε αγωγό ακανόνιστου σχήματος, το φορτίο είναι μεγαλύτερο:"
+  },
+  "o": [
+   {
+    "en": "on the flattest areas",
+    "el": "στις πιο επίπεδες περιοχές"
+   },
+   {
+    "en": "evenly everywhere",
+    "el": "παντού ομοιόμορφα"
+   },
+   {
+    "en": "at the sharp points and edges",
+    "el": "στις αιχμές και τις ακμές"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "sharp_points",
+   "sharp_points",
+   null
+  ],
+  "x": {
+   "en": "Charge piles up where the curvature is sharpest. Aircraft static wicks use sharp points to leak it away.",
+   "el": "Το φορτίο μαζεύεται όπου η καμπυλότητα είναι εντονότερη. Τα static wicks των αεροσκαφών έχουν αιχμές γι' αυτό τον λόγο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-esd",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Which action is most likely to cause ESD damage to a circuit card?",
+   "el": "Ποια ενέργεια είναι πιο πιθανό να προκαλέσει ζημιά ESD σε κάρτα;"
+  },
+  "o": [
+   {
+    "en": "Touching its connector pins",
+    "el": "Να αγγίξεις τις ακίδες του connector"
+   },
+   {
+    "en": "Holding it while wearing a grounding wrist strap",
+    "el": "Να την κρατάς φορώντας γειωμένο βραχιόλι"
+   },
+   {
+    "en": "Keeping it in its ESD bag",
+    "el": "Να τη φυλάς στη σακούλα ESD"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "esd_safe",
+   "esd_safe"
+  ],
+  "x": {
+   "en": "The charge on your body discharges through the pins into the components. Strap, bags and caps prevent this.",
+   "el": "Το φορτίο του σώματος εκφορτίζεται μέσω των ακίδων στα εξαρτήματα. Βραχιόλι, σακούλες και καπάκια το αποτρέπουν."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-refuel",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The aircraft and the fuel truck are bonded and grounded before refuelling because:",
+   "el": "Το αεροσκάφος και το βυτιοφόρο γειώνονται και συνδέονται πριν τον ανεφοδιασμό επειδή:"
+  },
+  "o": [
+   {
+    "en": "fuel is a good conductor",
+    "el": "το καύσιμο είναι καλός αγωγός"
+   },
+   {
+    "en": "flowing fuel builds up static charge that could spark",
+    "el": "το καύσιμο που ρέει φορτίζεται στατικά και μπορεί να προκαλέσει σπινθήρα"
+   },
+   {
+    "en": "it measures the fuel quantity",
+    "el": "έτσι μετριέται η ποσότητα καυσίμου"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "fuel_conductor",
+   null,
+   "fuel_purpose"
+  ],
+  "x": {
+   "en": "Fuel conducts poorly, so the charge from the flow stays and a spark could ignite the vapour. Bonding equalizes the potentials.",
+   "el": "Το καύσιμο άγει ελάχιστα, οπότε το φορτίο από τη ροή μένει και ένας σπινθήρας μπορεί να αναφλέξει τους ατμούς. Η σύνδεση εξισώνει τα δυναμικά."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-coul-d",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The distance between two charges is doubled. The force between them becomes:",
+   "el": "Η απόσταση δύο φορτίων διπλασιάζεται. Η δύναμη μεταξύ τους γίνεται:"
+  },
+  "o": [
+   {
+    "en": "one half",
+    "el": "το μισό"
+   },
+   {
+    "en": "one quarter",
+    "el": "το ένα τέταρτο"
+   },
+   {
+    "en": "twice as large",
+    "el": "διπλάσια"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "forgot_square_d",
+   null,
+   "inverse_mixup"
+  ],
+  "x": {
+   "en": "Force ∝ 1/d². Twice the distance → 1/2² = 1/4 of the force.",
+   "el": "Δύναμη ∝ 1/d². Διπλάσια απόσταση → 1/2² = 1/4 της δύναμης."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-coul-q",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "One of two charges is tripled; the distance stays the same. The force:",
+   "el": "Το ένα από δύο φορτία τριπλασιάζεται· η απόσταση μένει ίδια. Η δύναμη:"
+  },
+  "o": [
+   {
+    "en": "triples",
+    "el": "τριπλασιάζεται"
+   },
+   {
+    "en": "becomes 9 times larger",
+    "el": "γίνεται 9 φορές μεγαλύτερη"
+   },
+   {
+    "en": "becomes one third",
+    "el": "γίνεται το ένα τρίτο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "square_charge",
+   "inverse_mixup"
+  ],
+  "x": {
+   "en": "Force ∝ Q₁ × Q₂. Only one charge changed, by 3, so the force is ×3. Only the distance is squared.",
+   "el": "Δύναμη ∝ Q₁ × Q₂. Άλλαξε μόνο το ένα φορτίο, ×3, άρα η δύναμη ×3. Στο τετράγωνο είναι μόνο η απόσταση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-q-it",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "A current of 2 A flows for 5 s. The charge that passes is:",
+   "el": "Ρεύμα 2 A ρέει για 5 s. Το φορτίο που περνά είναι:"
+  },
+  "o": [
+   {
+    "en": "10 C",
+    "el": "10 C"
+   },
+   {
+    "en": "0.4 C",
+    "el": "0,4 C"
+   },
+   {
+    "en": "2.5 C",
+    "el": "2,5 C"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "inverted",
+   "divided"
+  ],
+  "x": {
+   "en": "Q = I × t = 2 × 5 = 10 C.",
+   "el": "Q = I × t = 2 × 5 = 10 C."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-electrons",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "How many electrons make up a charge of 2 C?",
+   "el": "Πόσα ηλεκτρόνια αντιστοιχούν σε φορτίο 2 C;"
+  },
+  "o": [
+   {
+    "en": "6.24 × 10¹⁸",
+    "el": "6,24 × 10¹⁸"
+   },
+   {
+    "en": "1.25 × 10¹⁹",
+    "el": "1,25 × 10¹⁹"
+   },
+   {
+    "en": "3.12 × 10¹⁸",
+    "el": "3,12 × 10¹⁸"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "one_coulomb",
+   null,
+   "divided"
+  ],
+  "x": {
+   "en": "1 C = 6.24 × 10¹⁸ electrons, so 2 C = 2 × 6.24 × 10¹⁸ = 1.25 × 10¹⁹.",
+   "el": "1 C = 6,24 × 10¹⁸ ηλεκτρόνια, άρα 2 C = 2 × 6,24 × 10¹⁸ = 1,25 × 10¹⁹."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-contact",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A positively charged rod touches a neutral metal bar. The bar becomes:",
+   "el": "Θετικά φορτισμένη ράβδος αγγίζει ουδέτερη μεταλλική ράβδο. Η μεταλλική ράβδος γίνεται:"
+  },
+  "o": [
+   {
+    "en": "positive",
+    "el": "θετική"
+   },
+   {
+    "en": "negative",
+    "el": "αρνητική"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερη"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "contact_induction",
+   "conservation"
+  ],
+  "x": {
+   "en": "Electrons move from the bar into the rod: charging by contact gives the same sign as the rod.",
+   "el": "Ηλεκτρόνια περνούν από τη ράβδο μετάλλου στη φορτισμένη ράβδο: η φόρτιση με επαφή δίνει το ίδιο πρόσημο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-induction",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A metal bar is charged by induction using a positively charged rod (ground removed first, then the rod). The bar ends up:",
+   "el": "Μεταλλική ράβδος φορτίζεται με επαγωγή από θετικά φορτισμένη ράβδο (αφαιρείται πρώτα η γείωση, μετά η ράβδος). Η μεταλλική ράβδος καταλήγει:"
+  },
+  "o": [
+   {
+    "en": "positive",
+    "el": "θετική"
+   },
+   {
+    "en": "negative",
+    "el": "αρνητική"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερη"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "contact_induction",
+   null,
+   "ground_order"
+  ],
+  "x": {
+   "en": "Electrons come in from ground towards the + rod. With the ground removed first, they are trapped: negative, opposite to the rod.",
+   "el": "Ηλεκτρόνια έρχονται από τη γείωση προς τη θετική ράβδο. Αφού αφαιρεθεί πρώτα η γείωση, εγκλωβίζονται: αρνητική, αντίθετη από τη ράβδο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-liquid",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "In salty water, the current is carried by:",
+   "el": "Στο αλμυρό νερό, το ρεύμα μεταφέρεται από:"
+  },
+  "o": [
+   {
+    "en": "ions",
+    "el": "ιόντα"
+   },
+   {
+    "en": "free electrons only",
+    "el": "μόνο ελεύθερα ηλεκτρόνια"
+   },
+   {
+    "en": "protons leaving the nuclei",
+    "el": "πρωτόνια που φεύγουν από τους πυρήνες"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "metal_liquid",
+   "nucleus_carrier"
+  ],
+  "x": {
+   "en": "The dissolved salt is already split into + and − ions; they move to opposite electrodes.",
+   "el": "Το διαλυμένο αλάτι είναι ήδη χωρισμένο σε θετικά και αρνητικά ιόντα· αυτά κινούνται προς αντίθετα ηλεκτρόδια."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L02-vacuum",
+  "lesson": "L02",
+  "topic": "3.02",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A vacuum can carry a current:",
+   "el": "Το κενό μπορεί να μεταφέρει ρεύμα:"
+  },
+  "o": [
+   {
+    "en": "always: it is an ideal conductor",
+    "el": "πάντα: είναι ιδανικός αγωγός"
+   },
+   {
+    "en": "only if electrons are put into it, e.g. from a heated cathode",
+    "el": "μόνο αν βάλουμε μέσα ηλεκτρόνια, π.χ. από θερμαινόμενη κάθοδο"
+   },
+   {
+    "en": "only through the ions it contains",
+    "el": "μόνο μέσω των ιόντων που περιέχει"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "vacuum_ideal",
+   null,
+   "vacuum_ions"
+  ],
+  "x": {
+   "en": "A vacuum has no carriers of its own. Electrons put into it travel freely (vacuum tubes, X-ray tubes).",
+   "el": "Το κενό δεν έχει δικούς του φορείς. Ηλεκτρόνια που μπαίνουν σε αυτό κινούνται ελεύθερα (λυχνίες κενού, λυχνίες ακτίνων Χ)."
+  },
+  "status": "new"
+ }
+]

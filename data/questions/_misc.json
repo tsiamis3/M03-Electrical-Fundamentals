@@ -94,5 +94,201 @@
  "semi_mixup": {
   "en": "Silicon and germanium are semiconductors: between conductors and insulators.",
   "el": "Πυρίτιο και γερμάνιο είναι ημιαγωγοί: ανάμεσα σε αγωγούς και μονωτές."
+ },
+ "static_dynamic": {
+  "en": "Static means charge at rest on a surface; moving charge is a current (dynamic).",
+  "el": "Στατικός σημαίνει φορτίο σε ηρεμία σε επιφάνεια· το φορτίο που κινείται είναι ρεύμα (δυναμικός)."
+ },
+ "conductor_leaks": {
+  "en": "A conductor or a ground lets the charge flow away, so it cannot build up.",
+  "el": "Ένας αγωγός ή μια γείωση αφήνουν το φορτίο να φύγει, οπότε δεν συσσωρεύεται."
+ },
+ "tribo_sign": {
+  "en": "Losing negative electrons leaves a material positive, not negative.",
+  "el": "Όταν ένα υλικό χάνει αρνητικά ηλεκτρόνια μένει θετικό, όχι αρνητικό."
+ },
+ "conservation": {
+  "en": "Charge is not created: electrons gained by one material were lost by the other.",
+  "el": "Το φορτίο δεν δημιουργείται: τα ηλεκτρόνια που κέρδισε το ένα υλικό τα έχασε το άλλο."
+ },
+ "like_unlike": {
+  "en": "Same charge from the same rod: like charges repel.",
+  "el": "Ίδιο φορτίο από την ίδια ράβδο: τα όμοια φορτία απωθούνται."
+ },
+ "charged_force": {
+  "en": "Two charged objects always exert a force on each other.",
+  "el": "Δύο φορτισμένα σώματα ασκούν πάντα δύναμη το ένα στο άλλο."
+ },
+ "neutral_charged": {
+  "en": "The paper stays neutral overall; its charges only separate (polarization).",
+  "el": "Το χαρτί μένει συνολικά ουδέτερο· τα φορτία του απλώς διαχωρίζονται (πόλωση)."
+ },
+ "gravity_mixup": {
+  "en": "Gravity pulls down; the upward pull is electric.",
+  "el": "Η βαρύτητα τραβά προς τα κάτω· η έλξη προς τα πάνω είναι ηλεκτρική."
+ },
+ "test_charge": {
+  "en": "By agreement the test charge is positive, so lines leave + and enter −.",
+  "el": "Συμβατικά το φορτίο δοκιμής είναι θετικό, οπότε οι γραμμές φεύγουν από + και μπαίνουν σε −."
+ },
+ "lines_cross": {
+  "en": "At each point the field has one direction, so lines can never cross.",
+  "el": "Σε κάθε σημείο το πεδίο έχει μία φορά, άρα οι γραμμές δεν τέμνονται ποτέ."
+ },
+ "closed_loops": {
+  "en": "Electric field lines start on + and end on −; they do not close on themselves.",
+  "el": "Οι γραμμές του ηλεκτρικού πεδίου ξεκινούν από + και τελειώνουν σε −· δεν κλείνουν."
+ },
+ "outer_surface": {
+  "en": "Like charges push each other to the outer surface; inside there is no charge and no field.",
+  "el": "Τα όμοια φορτία σπρώχνονται στην εξωτερική επιφάνεια· μέσα δεν υπάρχει φορτίο ούτε πεδίο."
+ },
+ "sharp_points": {
+  "en": "Charge is not even on an irregular shape: it piles up at points and sharp edges.",
+  "el": "Σε ακανόνιστο σχήμα το φορτίο δεν είναι ομοιόμορφο: μαζεύεται στις αιχμές και τις ακμές."
+ },
+ "esd_safe": {
+  "en": "Wrist straps and ESD bags protect the component; touching the pins is the danger.",
+  "el": "Το βραχιόλι και οι σακούλες ESD προστατεύουν· ο κίνδυνος είναι να αγγίξεις τις ακίδες."
+ },
+ "fuel_conductor": {
+  "en": "Fuel is a poor conductor: that is why the charge stays and can spark.",
+  "el": "Το καύσιμο είναι κακός αγωγός: γι' αυτό το φορτίο μένει και μπορεί να δώσει σπινθήρα."
+ },
+ "fuel_purpose": {
+  "en": "Bonding and grounding are about static charge, not fuel quantity.",
+  "el": "Η σύνδεση και η γείωση αφορούν το στατικό φορτίο, όχι την ποσότητα καυσίμου."
+ },
+ "forgot_square_d": {
+  "en": "The distance is squared: twice the distance gives ¼ of the force.",
+  "el": "Η απόσταση είναι στο τετράγωνο: διπλάσια απόσταση δίνει το ¼ της δύναμης."
+ },
+ "inverse_mixup": {
+  "en": "Force grows with the charges and falls with distance, not the other way round.",
+  "el": "Η δύναμη αυξάνεται με τα φορτία και μειώνεται με την απόσταση, όχι ανάποδα."
+ },
+ "square_charge": {
+  "en": "Only the distance is squared; the charges enter once each.",
+  "el": "Μόνο η απόσταση είναι στο τετράγωνο· τα φορτία μπαίνουν μία φορά το καθένα."
+ },
+ "inverted": {
+  "en": "Check which quantity goes on top: the formula, not the numbers, decides.",
+  "el": "Έλεγξε ποιο μέγεθος πάει στον αριθμητή: το καθορίζει ο τύπος, όχι οι αριθμοί."
+ },
+ "divided": {
+  "en": "Here you multiply, not divide.",
+  "el": "Εδώ πολλαπλασιάζουμε, δεν διαιρούμε."
+ },
+ "multiplied": {
+  "en": "Here you divide, not multiply.",
+  "el": "Εδώ διαιρούμε, δεν πολλαπλασιάζουμε."
+ },
+ "one_coulomb": {
+  "en": "6.24 × 10¹⁸ is one coulomb; multiply by the number of coulombs.",
+  "el": "Το 6,24 × 10¹⁸ είναι ένα coulomb· πολλαπλασίασε με τον αριθμό των coulomb."
+ },
+ "contact_induction": {
+  "en": "Contact gives the same sign as the rod; induction gives the opposite sign.",
+  "el": "Η επαφή δίνει το ίδιο πρόσημο με τη ράβδο· η επαγωγή το αντίθετο."
+ },
+ "ground_order": {
+  "en": "The bar keeps its charge only if the ground is removed before the rod.",
+  "el": "Η ράβδος κρατά το φορτίο μόνο αν αφαιρεθεί η γείωση πριν από τη φορτισμένη ράβδο."
+ },
+ "metal_liquid": {
+  "en": "Only metals conduct with free electrons; in solutions the carriers are ions.",
+  "el": "Μόνο τα μέταλλα άγουν με ελεύθερα ηλεκτρόνια· στα διαλύματα οι φορείς είναι ιόντα."
+ },
+ "vacuum_ideal": {
+  "en": "A vacuum has no carriers of its own, so by itself it does not conduct.",
+  "el": "Το κενό δεν έχει δικούς του φορείς, άρα από μόνο του δεν άγει."
+ },
+ "vacuum_ions": {
+  "en": "A vacuum contains no ions; carriers must be put into it.",
+  "el": "Το κενό δεν περιέχει ιόντα· οι φορείς πρέπει να μπουν απ' έξω."
+ },
+ "prefix_step": {
+  "en": "Each prefix step is × 1 000. Count the steps between the two units.",
+  "el": "Κάθε βήμα προθέματος είναι × 1 000. Μέτρα τα βήματα ανάμεσα στις δύο μονάδες."
+ },
+ "prefix_direction": {
+  "en": "Big unit → small unit: multiply. Small → big: divide.",
+  "el": "Από μεγάλη σε μικρή μονάδα: πολλαπλασιάζουμε. Από μικρή σε μεγάλη: διαιρούμε."
+ },
+ "milli_micro": {
+  "en": "μ → n → p are steps of 1 000 each; 47 nF is not 47 pF.",
+  "el": "μ → n → p είναι βήματα του 1 000· τα 47 nF δεν είναι 47 pF."
+ },
+ "voltage_current": {
+  "en": "Charge per second is current (I = Q/t); voltage is energy per charge (V = W/Q).",
+  "el": "Φορτίο ανά δευτερόλεπτο είναι το ρεύμα (I = Q/t)· τάση είναι ενέργεια ανά φορτίο (V = W/Q)."
+ },
+ "resistance_pd": {
+  "en": "Opposition to current is resistance (Ω), not potential difference.",
+  "el": "Η αντίσταση στη ροή είναι η αντίσταση (Ω), όχι η διαφορά δυναμικού."
+ },
+ "emf_pd": {
+  "en": "The voltage across a lamp is a PD (energy taken); emf is what the source supplies.",
+  "el": "Η τάση σε μια λάμπα είναι πτώση τάσης (ενέργεια που αφαιρείται)· ΗΕΔ είναι ό,τι δίνει η πηγή."
+ },
+ "absolute_potential": {
+  "en": "Flow depends on the difference between the two points, not on one value alone.",
+  "el": "Η ροή εξαρτάται από τη διαφορά ανάμεσα στα δύο σημεία, όχι από μία τιμή μόνη της."
+ },
+ "pipe_size": {
+  "en": "The pipe sets how easily water flows, but without a pressure difference there is no flow at all.",
+  "el": "Ο σωλήνας ορίζει πόσο εύκολα ρέει το νερό, αλλά χωρίς διαφορά πίεσης δεν υπάρχει ροή."
+ },
+ "minutes": {
+  "en": "Convert the time to seconds first: 1 min = 60 s.",
+  "el": "Μετάτρεψε πρώτα τον χρόνο σε δευτερόλεπτα: 1 min = 60 s."
+ },
+ "billion_mixup": {
+  "en": "10¹⁸ is a billion billions, not a billion (10⁹). Your notes, slide 12, get this wrong.",
+  "el": "Το 10¹⁸ είναι δισεκατομμύριο δισεκατομμύρια, όχι δισεκατομμύριο (10⁹). Οι σημειώσεις (slide 12) το γράφουν λάθος."
+ },
+ "elementary_charge": {
+  "en": "1.6 × 10⁻¹⁹ C is the charge of one electron, not a number of electrons.",
+  "el": "Το 1,6 × 10⁻¹⁹ C είναι το φορτίο ενός ηλεκτρονίου, όχι πλήθος ηλεκτρονίων."
+ },
+ "signal_speed": {
+  "en": "Electrons drift at a fraction of a mm/s; it is the push (the field) that travels fast.",
+  "el": "Τα ηλεκτρόνια κινούνται με κλάσματα του mm/s· γρήγορα διαδίδεται η «ώθηση» (το πεδίο)."
+ },
+ "lamp_store": {
+  "en": "A lamp stores no charge; the electrons already in the wire start moving together.",
+  "el": "Η λάμπα δεν αποθηκεύει φορτίο· τα ηλεκτρόνια που ήδη υπάρχουν στο σύρμα ξεκινούν μαζί."
+ },
+ "ohm_inverse": {
+  "en": "More resistance means less current, not more.",
+  "el": "Περισσότερη αντίσταση σημαίνει λιγότερο ρεύμα, όχι περισσότερο."
+ },
+ "ohm_unchanged": {
+  "en": "The current does change: it depends on the voltage and on R (or G).",
+  "el": "Το ρεύμα αλλάζει: εξαρτάται από την τάση και από την R (ή τη G)."
+ },
+ "G_R_mixup": {
+  "en": "E / I gives the resistance in ohms; conductance is the inverse, I / E, in siemens.",
+  "el": "Το E / I δίνει την αντίσταση σε Ω· η αγωγιμότητα είναι το αντίστροφο, I / E, σε siemens."
+ },
+ "inverse_G": {
+  "en": "Current is proportional to conductance, not inversely proportional.",
+  "el": "Το ρεύμα είναι ανάλογο της αγωγιμότητας, όχι αντιστρόφως ανάλογο."
+ },
+ "polarity_sign": {
+  "en": "Extra electrons give a negative charge and negative polarity.",
+  "el": "Επιπλέον ηλεκτρόνια δίνουν αρνητικό φορτίο και αρνητική πολικότητα."
+ },
+ "sum_charges": {
+  "en": "Coulomb's law multiplies the charges (q₁ × q₂); it does not add them.",
+  "el": "Ο νόμος του Coulomb πολλαπλασιάζει τα φορτία (q₁ × q₂)· δεν τα προσθέτει."
+ },
+ "flow_direction": {
+  "en": "Conventional current is + → −; electrons move − → +.",
+  "el": "Η συμβατική φορά είναι + → −· τα ηλεκτρόνια κινούνται − → +."
+ },
+ "flow_only": {
+  "en": "Both conventions work; what matters is not mixing them in the same analysis.",
+  "el": "Και οι δύο συμβάσεις δουλεύουν· σημασία έχει να μην τις ανακατεύεις."
  }
 }
