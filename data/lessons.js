@@ -112,7 +112,7 @@ window.M3_LESSONS = {
     "el": "Στατικός ηλεκτρισμός και αγωγή"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L02.md"
   },
   {
