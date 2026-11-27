@@ -1,0 +1,722 @@
+[
+ {
+  "id": "L06-nicad-el",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The electrolyte of a nickel-cadmium battery is:",
+   "el": "Ο ηλεκτρολύτης μιας μπαταρίας νικελίου-καδμίου είναι:"
+  },
+  "o": [
+   {
+    "en": "sulphuric acid",
+    "el": "θειικό οξύ"
+   },
+   {
+    "en": "potassium hydroxide (an alkali)",
+    "el": "υδροξείδιο του καλίου (αλκάλιο)"
+   },
+   {
+    "en": "distilled water only",
+    "el": "μόνο απεσταγμένο νερό"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "nicad_electrolyte",
+   null,
+   "nicad_electrolyte"
+  ],
+  "x": {
+   "en": "KOH, 20–34 % by weight in distilled water.",
+   "el": "KOH, 20–34 % κατά βάρος σε απεσταγμένο νερό."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-nicad-v",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The open-circuit voltage of one nickel-cadmium cell is about:",
+   "el": "Η τάση ανοιχτού κυκλώματος ενός στοιχείου νικελίου-καδμίου είναι περίπου:"
+  },
+  "o": [
+   {
+    "en": "2.2 V",
+    "el": "2,2 V"
+   },
+   {
+    "en": "1.25 V",
+    "el": "1,25 V"
+   },
+   {
+    "en": "3.7 V",
+    "el": "3,7 V"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "cell_voltage",
+   null,
+   "cell_voltage"
+  ],
+  "x": {
+   "en": "NiCad ≈ 1.25 V; lead-acid ≈ 2–2.2 V; Li-ion ≈ 3.7 V.",
+   "el": "NiCad ≈ 1,25 V· μολύβδου ≈ 2–2,2 V· Li-ion ≈ 3,7 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-water",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Distilled water should be added to a NiCad battery:",
+   "el": "Απεσταγμένο νερό προσθέτουμε σε μπαταρία NiCad:"
+  },
+  "o": [
+   {
+    "en": "only when it is fully charged",
+    "el": "μόνο όταν είναι πλήρως φορτισμένη"
+   },
+   {
+    "en": "only when it is discharged",
+    "el": "μόνο όταν είναι εκφορτισμένη"
+   },
+   {
+    "en": "at any state of charge",
+    "el": "σε οποιαδήποτε κατάσταση φόρτισης"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "water_timing",
+   "water_timing"
+  ],
+  "x": {
+   "en": "The plates absorb electrolyte on discharge; the level is highest at full charge. Filling earlier would overflow later.",
+   "el": "Οι πλάκες απορροφούν ηλεκτρολύτη στην εκφόρτιση· η στάθμη είναι ψηλότερη σε πλήρη φόρτιση. Αν συμπληρώσουμε νωρίτερα, θα ξεχειλίσει αργότερα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-gassing",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Towards the end of charging, a NiCad cell gasses. This gas is:",
+   "el": "Στο τέλος της φόρτισης ένα στοιχείο NiCad βγάζει αέρια. Αυτά είναι:"
+  },
+  "o": [
+   {
+    "en": "hydrogen and oxygen from the water",
+    "el": "υδρογόνο και οξυγόνο από το νερό"
+   },
+   {
+    "en": "chlorine",
+    "el": "χλώριο"
+   },
+   {
+    "en": "carbon dioxide",
+    "el": "διοξείδιο του άνθρακα"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "gas_type",
+   "gas_type"
+  ],
+  "x": {
+   "en": "Water splits: hydrogen at the negative plates, oxygen at the positive plates.",
+   "el": "Το νερό διασπάται: υδρογόνο στις αρνητικές πλάκες, οξυγόνο στις θετικές."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-replace",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Before a NiCad replaces a lead-acid battery, the battery compartment is neutralized with:",
+   "el": "Πριν μια NiCad αντικαταστήσει μπαταρία μολύβδου, ο χώρος της εξουδετερώνεται με:"
+  },
+  "o": [
+   {
+    "en": "sulphuric acid",
+    "el": "θειικό οξύ"
+   },
+   {
+    "en": "ammonia or boric acid solution",
+    "el": "διάλυμα αμμωνίας ή βορικού οξέος"
+   },
+   {
+    "en": "more electrolyte",
+    "el": "επιπλέον ηλεκτρολύτη"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "neutralizer",
+   null,
+   "neutralizer"
+  ],
+  "x": {
+   "en": "All acid traces must go; then dry and paint with alkali-resistant varnish.",
+   "el": "Πρέπει να φύγει κάθε ίχνος οξέος· μετά στέγνωμα και βερνίκι ανθεκτικό στα αλκάλια."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-koh-spill",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "KOH electrolyte is spilled on your hand. You neutralize it with:",
+   "el": "Χύνεται ηλεκτρολύτης KOH στο χέρι σου. Τον εξουδετερώνεις με:"
+  },
+  "o": [
+   {
+    "en": "baking soda",
+    "el": "μαγειρική σόδα"
+   },
+   {
+    "en": "vinegar or dilute boric acid",
+    "el": "ξίδι ή αραιό βορικό οξύ"
+   },
+   {
+    "en": "more KOH",
+    "el": "περισσότερο KOH"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "neutralizer",
+   null,
+   "neutralizer"
+  ],
+  "x": {
+   "en": "An alkali is neutralized by a weak acid, then rinsed with water. Baking soda is for acid spills.",
+   "el": "Ένα αλκάλιο εξουδετερώνεται με ασθενές οξύ και μετά ξέπλυμα. Η σόδα είναι για τα οξέα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-boric-g",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 3,
+  "units": "imperial",
+  "q": {
+   "en": "The boric acid solution for NiCad spills is 1 lb per US gallon of water (1 lb = 453.6 g, 1 US gal = 3.785 L). That is about:",
+   "el": "Το διάλυμα βορικού οξέος για διαρροές NiCad είναι 1 lb ανά US gallon νερού (1 lb = 453,6 g, 1 US gal = 3,785 L). Αυτό είναι περίπου:"
+  },
+  "o": [
+   {
+    "en": "1 717 g/L",
+    "el": "1 717 g/L"
+   },
+   {
+    "en": "12 g/L",
+    "el": "12 g/L"
+   },
+   {
+    "en": "120 g/L",
+    "el": "120 g/L"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "unit_multiplied",
+   "unit_step",
+   null
+  ],
+  "x": {
+   "en": "453.6 g / 3.785 L ≈ 120 g/L.",
+   "el": "453,6 g / 3,785 L ≈ 120 g/L."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-h2",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Battery-room ventilation must keep hydrogen below 1 % because it can explode above about:",
+   "el": "Ο εξαερισμός του χώρου μπαταριών κρατά το υδρογόνο κάτω από 1 % επειδή μπορεί να εκραγεί πάνω από περίπου:"
+  },
+  "o": [
+   {
+    "en": "4 % by volume",
+    "el": "4 % κατ' όγκο"
+   },
+   {
+    "en": "40 % by volume",
+    "el": "40 % κατ' όγκο"
+   },
+   {
+    "en": "0.1 % by volume",
+    "el": "0,1 % κατ' όγκο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "h2_limit",
+   "h2_limit"
+  ],
+  "x": {
+   "en": "Explosive above about 4 %; 1 % keeps a safety margin.",
+   "el": "Εκρηκτικό πάνω από περίπου 4 %· το 1 % δίνει περιθώριο ασφαλείας."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-memory",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "\"Voltage depression\" (memory) in NiCad batteries is caused by:",
+   "el": "Η «πτώση τάσης» (memory) στις NiCad οφείλεται σε:"
+  },
+  "o": [
+   {
+    "en": "constant overcharge and infrequent discharge",
+    "el": "συνεχή υπερφόρτιση και σπάνια εκφόρτιση"
+   },
+   {
+    "en": "deep, frequent cycling",
+    "el": "βαθιούς, συχνούς κύκλους"
+   },
+   {
+    "en": "adding too much water",
+    "el": "πολύ νερό"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "memory_cause",
+   "memory_cause"
+  ],
+  "x": {
+   "en": "Typical of standby use; SLA batteries do not suffer from it.",
+   "el": "Τυπικό σε χρήση standby· οι SLA δεν το παθαίνουν."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-sla",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "For an emergency battery pack that sits in standby most of its life, the better choice is:",
+   "el": "Για πακέτο μπαταρίας έκτακτης ανάγκης που μένει σχεδόν πάντα σε standby, καλύτερη επιλογή είναι:"
+  },
+  "o": [
+   {
+    "en": "NiCad",
+    "el": "NiCad"
+   },
+   {
+    "en": "sealed lead-acid (SLA)",
+    "el": "σφραγισμένη μολύβδου (SLA)"
+   },
+   {
+    "en": "a primary carbon-zinc cell",
+    "el": "πρωτογενές στοιχείο άνθρακα-ψευδαργύρου"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "memory_cause",
+   null,
+   "primary_secondary"
+  ],
+  "x": {
+   "en": "SLA: no voltage depression, cells matched inside, simple testing (often BITE).",
+   "el": "SLA: χωρίς πτώση τάσης, ταιριασμένα στοιχεία, απλός έλεγχος (συχνά BITE)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-nimh",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A NiMH cell differs from a NiCad mainly in its:",
+   "el": "Ένα στοιχείο NiMH διαφέρει από NiCad κυρίως:"
+  },
+  "o": [
+   {
+    "en": "negative electrode: a hydrogen-absorbing alloy instead of cadmium",
+    "el": "στο αρνητικό ηλεκτρόδιο: κράμα που απορροφά υδρογόνο αντί για κάδμιο"
+   },
+   {
+    "en": "positive electrode: lead dioxide",
+    "el": "στο θετικό ηλεκτρόδιο: διοξείδιο του μολύβδου"
+   },
+   {
+    "en": "electrolyte: sulphuric acid",
+    "el": "στον ηλεκτρολύτη: θειικό οξύ"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "plate_swap",
+   "nicad_electrolyte"
+  ],
+  "x": {
+   "en": "Positive electrode similar (nickel oxyhydroxide); negative is a metal hydride alloy. 2–3× the capacity.",
+   "el": "Παρόμοιο θετικό (οξυυδροξείδιο του νικελίου)· αρνητικό από κράμα υδριδίου. 2–3 φορές τη χωρητικότητα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-liion",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The main safety hazard of lithium-ion batteries is that they:",
+   "el": "Ο κύριος κίνδυνος των μπαταριών ιόντων λιθίου είναι ότι:"
+  },
+  "o": [
+   {
+    "en": "contain a flammable electrolyte and can overheat and catch fire",
+    "el": "περιέχουν εύφλεκτο ηλεκτρολύτη και μπορεί να υπερθερμανθούν και να πάρουν φωτιά"
+   },
+   {
+    "en": "contain sulphuric acid",
+    "el": "περιέχουν θειικό οξύ"
+   },
+   {
+    "en": "release chlorine when charged",
+    "el": "βγάζουν χλώριο στη φόρτιση"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "electrolyte_mixup",
+   "gas_type"
+  ],
+  "x": {
+   "en": "Organic solvent electrolyte; overheating can start thermal runaway.",
+   "el": "Ηλεκτρολύτης με οργανικό διαλύτη· η υπερθέρμανση μπορεί να ξεκινήσει θερμική διαφυγή."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-b787",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The Boeing 787 battery is 32 V with 8 cells in series. Each cell gives about:",
+   "el": "Η μπαταρία του Boeing 787 είναι 32 V με 8 στοιχεία σε σειρά. Κάθε στοιχείο δίνει περίπου:"
+  },
+  "o": [
+   {
+    "en": "4 V",
+    "el": "4 V"
+   },
+   {
+    "en": "256 V",
+    "el": "256 V"
+   },
+   {
+    "en": "1.25 V",
+    "el": "1,25 V"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "multiplied",
+   "cell_voltage"
+  ],
+  "x": {
+   "en": "In series the voltages add: 32 / 8 = 4 V per cell, typical of lithium-ion.",
+   "el": "Σε σειρά οι τάσεις προστίθενται: 32 / 8 = 4 V ανά στοιχείο, τυπικό για Li-ion."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-series-i",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "In a series circuit:",
+   "el": "Σε κύκλωμα σειράς:"
+  },
+  "o": [
+   {
+    "en": "the voltage is the same across every component",
+    "el": "η τάση είναι ίδια σε κάθε στοιχείο"
+   },
+   {
+    "en": "the current is the same through every component",
+    "el": "το ρεύμα είναι ίδιο σε κάθε στοιχείο"
+   },
+   {
+    "en": "the currents add up",
+    "el": "τα ρεύματα προστίθενται"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "series_parallel",
+   null,
+   "series_parallel"
+  ],
+  "x": {
+   "en": "One path, so one current. The voltages add up.",
+   "el": "Ένας δρόμος, άρα ένα ρεύμα. Οι τάσεις προστίθενται."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-bulbs",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "Four identical bulbs are in series across a 6 V battery. The voltage across each bulb is:",
+   "el": "Τέσσερις ίδιες λάμπες σε σειρά σε μπαταρία 6 V. Η τάση σε κάθε λάμπα είναι:"
+  },
+  "o": [
+   {
+    "en": "6 V",
+    "el": "6 V"
+   },
+   {
+    "en": "24 V",
+    "el": "24 V"
+   },
+   {
+    "en": "1.5 V",
+    "el": "1,5 V"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "series_parallel",
+   "multiplied",
+   null
+  ],
+  "x": {
+   "en": "The 6 V is shared: 6 / 4 = 1.5 V each. In parallel each would get 6 V.",
+   "el": "Τα 6 V μοιράζονται: 6 / 4 = 1,5 V η καθεμία. Σε παράλληλη σύνδεση η καθεμία θα έπαιρνε 6 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-parallel-out",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "One of four bulbs connected in parallel burns out. The other three:",
+   "el": "Μία από τέσσερις λάμπες σε παράλληλη σύνδεση καίγεται. Οι άλλες τρεις:"
+  },
+  "o": [
+   {
+    "en": "go out",
+    "el": "σβήνουν"
+   },
+   {
+    "en": "keep working",
+    "el": "συνεχίζουν να λειτουργούν"
+   },
+   {
+    "en": "get brighter",
+    "el": "λάμπουν περισσότερο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "parallel_break",
+   null,
+   "parallel_bright"
+  ],
+  "x": {
+   "en": "Each bulb has its own path to the battery. In series, all would go out.",
+   "el": "Κάθε λάμπα έχει δικό της δρόμο προς τη μπαταρία. Σε σειρά θα έσβηναν όλες."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-par-ah",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Two 24 V, 40 Ah batteries are connected in parallel. The result is:",
+   "el": "Δύο μπαταρίες 24 V, 40 Ah σε παράλληλη σύνδεση. Το αποτέλεσμα είναι:"
+  },
+  "o": [
+   {
+    "en": "48 V, 40 Ah",
+    "el": "48 V, 40 Ah"
+   },
+   {
+    "en": "24 V, 80 Ah",
+    "el": "24 V, 80 Ah"
+   },
+   {
+    "en": "24 V, 40 Ah",
+    "el": "24 V, 40 Ah"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "series_parallel",
+   null,
+   "series_parallel"
+  ],
+  "x": {
+   "en": "Parallel keeps the voltage and adds the plate area, so the Ah add.",
+   "el": "Η παράλληλη κρατά την τάση και προσθέτει επιφάνεια πλακών, άρα προστίθενται τα Ah."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-cold",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "On a very cold morning, a battery's internal resistance:",
+   "el": "Ένα πολύ κρύο πρωί, η εσωτερική αντίσταση μιας μπαταρίας:"
+  },
+  "o": [
+   {
+    "en": "is higher, so its voltage drops more under load",
+    "el": "είναι μεγαλύτερη, οπότε η τάση πέφτει περισσότερο με φορτίο"
+   },
+   {
+    "en": "is lower, so it gives more current",
+    "el": "είναι μικρότερη, οπότε δίνει περισσότερο ρεύμα"
+   },
+   {
+    "en": "does not change",
+    "el": "δεν αλλάζει"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "rint_temp",
+   "rint_temp"
+  ],
+  "x": {
+   "en": "Cold raises internal resistance; heat lowers it.",
+   "el": "Το κρύο αυξάνει την εσωτερική αντίσταση· η ζέστη τη μειώνει."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-egt-metals",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Turbine EGT thermocouples are usually made of:",
+   "el": "Τα θερμοζεύγη EGT των στροβιλοκινητήρων είναι συνήθως από:"
+  },
+  "o": [
+   {
+    "en": "chromel and alumel",
+    "el": "chromel και alumel"
+   },
+   {
+    "en": "iron and constantan",
+    "el": "σίδηρο και κονσταντάνη"
+   },
+   {
+    "en": "copper and copper",
+    "el": "χαλκό και χαλκό"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "cht_egt",
+   "same_metals"
+  ],
+  "x": {
+   "en": "Chromel–alumel for EGT; iron– or copper–constantan for piston-engine CHT.",
+   "el": "Chromel–alumel για EGT· σίδηρος– ή χαλκός–κονσταντάνη για CHT εμβολοφόρων."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L06-photon",
+  "lesson": "L06",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The energy of a single photon depends on the light's:",
+   "el": "Η ενέργεια ενός φωτονίου εξαρτάται από:"
+  },
+  "o": [
+   {
+    "en": "brightness",
+    "el": "τη φωτεινότητα"
+   },
+   {
+    "en": "frequency (colour)",
+    "el": "τη συχνότητα (χρώμα)"
+   },
+   {
+    "en": "distance from the source",
+    "el": "την απόσταση από την πηγή"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "photon_bright",
+   null,
+   "photon_bright"
+  ],
+  "x": {
+   "en": "E = h × f: higher frequency (bluer), more energy per photon. Brightness is the number of photons.",
+   "el": "E = h × f: μεγαλύτερη συχνότητα (πιο μπλε), περισσότερη ενέργεια ανά φωτόνιο. Η φωτεινότητα είναι το πλήθος των φωτονίων."
+  },
+  "status": "new"
+ }
+]

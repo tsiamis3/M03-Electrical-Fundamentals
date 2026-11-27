@@ -226,9 +226,9 @@ window.M3_LESSONS = {
     "el": "Παραγωγή ηλεκτρισμού + quiz Α"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L04.md",
-   "deep": ""
+   "deep": "deep/L04.md"
   },
   {
    "id": "L05",
@@ -244,9 +244,9 @@ window.M3_LESSONS = {
     "el": "Πρωτογενή στοιχεία και μπαταρίες μολύβδου"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L05.md",
-   "deep": ""
+   "deep": "deep/L05.md"
   },
   {
    "id": "L06",
@@ -262,9 +262,9 @@ window.M3_LESSONS = {
     "el": "NiCad, SLA, Li-ion, θερμοζεύγη, φωτοκύτταρα"
    },
    "kind": "lesson",
-   "status": "planned",
+   "status": "published",
    "notes": "lessons/L06.md",
-   "deep": ""
+   "deep": "deep/L06.md"
   },
   {
    "id": "L07",

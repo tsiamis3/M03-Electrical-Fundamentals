@@ -290,5 +290,229 @@
  "flow_only": {
   "en": "Both conventions work; what matters is not mixing them in the same analysis.",
   "el": "Και οι δύο συμβάσεις δουλεύουν· σημασία έχει να μην τις ανακατεύεις."
+ },
+ "seven_list": {
+  "en": "The syllabus lists seven: light, heat, friction, pressure, chemical action, magnetism and motion.",
+  "el": "Η ύλη αναφέρει επτά: φως, θερμότητα, τριβή, πίεση, χημική δράση, μαγνητισμό και κίνηση."
+ },
+ "source_mixup": {
+  "en": "Match the energy to the device: light → photocell, heat → thermocouple, pressure → piezo, motion → generator.",
+  "el": "Αντιστοίχισε ενέργεια και διάταξη: φως → φωτοκύτταρο, θερμότητα → θερμοζεύγος, πίεση → πιεζο, κίνηση → γεννήτρια."
+ },
+ "reverse_device": {
+  "en": "That is the opposite device (a lamp or LED). A solar cell makes electricity from light.",
+  "el": "Αυτή είναι η αντίστροφη διάταξη (λάμπα ή LED). Το ηλιακό στοιχείο φτιάχνει ηλεκτρισμό από φως."
+ },
+ "hole_literal": {
+  "en": "A hole is not a particle: it is a missing electron that acts like a + charge.",
+  "el": "Η οπή δεν είναι σωματίδιο: είναι ένα ηλεκτρόνιο που λείπει και συμπεριφέρεται σαν θετικό φορτίο."
+ },
+ "hole_direction": {
+  "en": "Holes act as + charges, so they move opposite to the electrons.",
+  "el": "Οι οπές συμπεριφέρονται σαν θετικά φορτία, άρα κινούνται αντίθετα από τα ηλεκτρόνια."
+ },
+ "same_metals": {
+  "en": "Two wires of the same metal give no thermocouple voltage: the metals must differ.",
+  "el": "Δύο σύρματα από το ίδιο μέταλλο δεν δίνουν τάση: τα μέταλλα πρέπει να διαφέρουν."
+ },
+ "tc_piezo": {
+  "en": "Pressure on a crystal is piezoelectricity; a thermocouple uses heat and two metals.",
+  "el": "Η πίεση σε κρύσταλλο είναι πιεζοηλεκτρισμός· το θερμοζεύγος χρησιμοποιεί θερμότητα και δύο μέταλλα."
+ },
+ "tc_absolute": {
+  "en": "A thermocouple responds to the temperature difference between its junctions, not to one temperature.",
+  "el": "Το θερμοζεύγος αποκρίνεται στη διαφορά θερμοκρασίας των επαφών του, όχι σε μία θερμοκρασία."
+ },
+ "square_trap": {
+  "en": "The relation is (nearly) linear: twice the difference, twice the voltage.",
+  "el": "Η σχέση είναι (σχεδόν) γραμμική: διπλάσια διαφορά, διπλάσια τάση."
+ },
+ "tc_use": {
+  "en": "Thermocouples measure high temperatures: EGT, ITT, CHT, fire detection.",
+  "el": "Τα θερμοζεύγη μετρούν υψηλές θερμοκρασίες: EGT, ITT, CHT, ανίχνευση φωτιάς."
+ },
+ "conductor_piezo": {
+  "en": "Piezoelectric materials are non-conducting crystals (quartz, Rochelle salt, barium titanate).",
+  "el": "Τα πιεζοηλεκτρικά υλικά είναι μη αγώγιμοι κρύσταλλοι (χαλαζίας, άλας Rochelle, τιτανικό βάριο)."
+ },
+ "piezo_oneway": {
+  "en": "The piezo effect works both ways: voltage makes the crystal change shape.",
+  "el": "Το πιεζοηλεκτρικό φαινόμενο δουλεύει και αντίστροφα: η τάση αλλάζει το σχήμα του κρυστάλλου."
+ },
+ "cell_sign": {
+  "en": "The electrode that releases electrons holds an excess of them: it is negative.",
+  "el": "Το ηλεκτρόδιο που ελευθερώνει ηλεκτρόνια έχει περίσσεια: είναι αρνητικό."
+ },
+ "stationary": {
+  "en": "An emf needs a change: the conductor or the field must move.",
+  "el": "Η ΗΕΔ χρειάζεται μεταβολή: πρέπει να κινείται ο αγωγός ή το πεδίο."
+ },
+ "primary_secondary": {
+  "en": "Primary cells use up an electrode and cannot be recharged; secondary cells can.",
+  "el": "Τα πρωτογενή καταναλώνουν ένα ηλεκτρόδιο και δεν επαναφορτίζονται· τα δευτερογενή ναι."
+ },
+ "dry_poles": {
+  "en": "Carbon rod = +, zinc can = −.",
+  "el": "Ράβδος άνθρακα = +, δοχείο ψευδαργύρου = −."
+ },
+ "dry_paste": {
+  "en": "The electrolyte is the paste between the rod and the can.",
+  "el": "Ο ηλεκτρολύτης είναι η πάστα ανάμεσα στη ράβδο και το δοχείο."
+ },
+ "alk_voltage": {
+  "en": "Alkaline and carbon-zinc cells have the same voltage (about 1.5 V).",
+  "el": "Αλκαλικά και άνθρακα-ψευδαργύρου έχουν την ίδια τάση (περίπου 1,5 V)."
+ },
+ "plate_swap": {
+  "en": "Positive plate: lead dioxide (PbO₂). Negative plate: spongy lead.",
+  "el": "Θετική πλάκα: διοξείδιο του μολύβδου (PbO₂). Αρνητική: σπογγώδης μόλυβδος."
+ },
+ "discharged_state": {
+  "en": "Lead sulphate is what forms on discharge, not the charged plate material.",
+  "el": "Ο θειικός μόλυβδος σχηματίζεται στην εκφόρτιση· δεν είναι το υλικό της φορτισμένης πλάκας."
+ },
+ "plate_count": {
+  "en": "Each positive plate sits between two negatives: one more negative plate.",
+  "el": "Κάθε θετική πλάκα είναι ανάμεσα σε δύο αρνητικές: μία αρνητική παραπάνω."
+ },
+ "separator_job": {
+  "en": "Separators keep the plates apart; the electrolyte fills the cell.",
+  "el": "Οι διαχωριστές κρατούν τις πλάκες χωριστά· ο ηλεκτρολύτης γεμίζει το στοιχείο."
+ },
+ "strap_job": {
+  "en": "Cells are joined in series by cell straps, not by separators.",
+  "el": "Τα στοιχεία συνδέονται σε σειρά με τις λάμες, όχι με τους διαχωριστές."
+ },
+ "test_tool": {
+  "en": "Specific gravity is measured with a hydrometer.",
+  "el": "Το ειδικό βάρος μετριέται με υδρόμετρο."
+ },
+ "vent_job": {
+  "en": "The vent plug controls gas and spills; it does not hold the plates.",
+  "el": "Η τάπα ελέγχει τα αέρια και τις διαρροές· δεν συγκρατεί τις πλάκες."
+ },
+ "sump_mixup": {
+  "en": "Boric acid neutralizes alkali (NiCad). Lead-acid fumes are acid: use sodium bicarbonate.",
+  "el": "Το βορικό οξύ εξουδετερώνει αλκάλια (NiCad). Οι ατμοί μολύβδου είναι όξινοι: σόδα."
+ },
+ "sump_water": {
+  "en": "Water does not neutralize the acid fumes; bicarbonate does.",
+  "el": "Το νερό δεν εξουδετερώνει τους όξινους ατμούς· η σόδα ναι."
+ },
+ "sg_direction": {
+  "en": "Acid goes into the plates and water forms: the SG falls on discharge.",
+  "el": "Το οξύ πηγαίνει στις πλάκες και σχηματίζεται νερό: το SG πέφτει στην εκφόρτιση."
+ },
+ "cell_count": {
+  "en": "About 2 V per lead-acid cell: divide the battery voltage by 2.",
+  "el": "Περίπου 2 V ανά στοιχείο μολύβδου: διαίρεσε την τάση της μπαταρίας με το 2."
+ },
+ "capacity_rate": {
+  "en": "Capacity in Ah = current × hours.",
+  "el": "Χωρητικότητα σε Ah = ρεύμα × ώρες."
+ },
+ "series_parallel": {
+  "en": "Series: same current, voltages add. Parallel: same voltage, currents and Ah add.",
+  "el": "Σειρά: ίδιο ρεύμα, οι τάσεις προστίθενται. Παράλληλα: ίδια τάση, ρεύματα και Ah προστίθενται."
+ },
+ "rating_time": {
+  "en": "Faster discharge heats the battery and gives fewer Ah.",
+  "el": "Γρηγορότερη εκφόρτιση θερμαίνει τη μπαταρία και δίνει λιγότερα Ah."
+ },
+ "cycle_limit": {
+  "en": "The life-cycle limit is 80 % of rated capacity.",
+  "el": "Το όριο του κύκλου ζωής είναι το 80 % της ονομαστικής χωρητικότητας."
+ },
+ "float_scale": {
+  "en": "Denser liquid lifts the float higher, so the high readings are at the bottom of the stem.",
+  "el": "Το πυκνότερο υγρό ανεβάζει τον πλωτήρα, άρα οι μεγάλες ενδείξεις είναι κάτω."
+ },
+ "sg_band": {
+  "en": "Bands: 1.300–1.275 high, 1.275–1.240 medium, 1.240–1.200 low.",
+  "el": "Ζώνες: 1,300–1,275 υψηλή, 1,275–1,240 μέτρια, 1,240–1,200 χαμηλή."
+ },
+ "temp_range": {
+  "en": "No correction between 21 °C and 32 °C.",
+  "el": "Καμία διόρθωση μεταξύ 21 °C και 32 °C."
+ },
+ "charge_ir": {
+  "en": "The charger must supply the open-circuit voltage plus the I × r drop inside the battery.",
+  "el": "Ο φορτιστής πρέπει να δίνει την τάση ανοιχτού κυκλώματος συν την πτώση I × r μέσα στη μπαταρία."
+ },
+ "rint_whole": {
+  "en": "Use the voltage difference, not the whole voltage: r = ΔV / I.",
+  "el": "Χρησιμοποίησε τη διαφορά τάσης, όχι όλη την τάση: r = ΔV / I."
+ },
+ "cv_cc": {
+  "en": "The aircraft generator holds the voltage constant: constant-voltage charging.",
+  "el": "Η γεννήτρια κρατά σταθερή την τάση: φόρτιση σταθερής τάσης."
+ },
+ "vent_charge": {
+  "en": "Loosen the caps (gases out) but keep them in place (no acid spray).",
+  "el": "Χαλάρωσε τις τάπες (να φεύγουν τα αέρια) αλλά άφησέ τες στη θέση τους (να μη πετάγεται οξύ)."
+ },
+ "nicad_electrolyte": {
+  "en": "NiCad uses potassium hydroxide (KOH), an alkali.",
+  "el": "Η NiCad χρησιμοποιεί υδροξείδιο του καλίου (KOH), αλκάλιο."
+ },
+ "cell_voltage": {
+  "en": "Cell voltages: NiCad ≈ 1.25 V, lead-acid ≈ 2–2.2 V, Li-ion ≈ 3.7–4 V.",
+  "el": "Τάσεις στοιχείων: NiCad ≈ 1,25 V, μολύβδου ≈ 2–2,2 V, Li-ion ≈ 3,7–4 V."
+ },
+ "water_never": {
+  "en": "NiCads do use water (gassing); sintered plates are about high rates.",
+  "el": "Οι NiCad καταναλώνουν νερό (αέρια)· οι πλάκες sintered αφορούν τους υψηλούς ρυθμούς."
+ },
+ "water_timing": {
+  "en": "Add water only at full charge, when the electrolyte level is highest.",
+  "el": "Νερό μόνο σε πλήρη φόρτιση, όταν η στάθμη του ηλεκτρολύτη είναι η ψηλότερη."
+ },
+ "gas_type": {
+  "en": "Gassing is water splitting into hydrogen and oxygen.",
+  "el": "Τα αέρια προέρχονται από διάσπαση του νερού σε υδρογόνο και οξυγόνο."
+ },
+ "neutralizer": {
+  "en": "Neutralize the opposite chemistry: acid with alkali (bicarbonate), alkali with weak acid (boric acid, vinegar, ammonia for cleaning).",
+  "el": "Εξουδετέρωσε με το αντίθετο: οξύ με αλκάλιο (σόδα), αλκάλιο με ασθενές οξύ (βορικό, ξίδι)."
+ },
+ "unit_multiplied": {
+  "en": "g per litre: divide the grams by the litres.",
+  "el": "g ανά λίτρο: διαίρεσε τα γραμμάρια με τα λίτρα."
+ },
+ "unit_step": {
+  "en": "Check the arithmetic: 453.6 / 3.785 is about 120.",
+  "el": "Έλεγξε την πράξη: 453,6 / 3,785 είναι περίπου 120."
+ },
+ "h2_limit": {
+  "en": "Hydrogen in air is explosive above about 4 % by volume.",
+  "el": "Το υδρογόνο στον αέρα είναι εκρηκτικό πάνω από περίπου 4 % κατ' όγκο."
+ },
+ "memory_cause": {
+  "en": "Voltage depression comes from constant overcharge with rare discharges, typical of standby use.",
+  "el": "Η πτώση τάσης προέρχεται από συνεχή υπερφόρτιση με σπάνιες εκφορτίσεις, τυπικά σε standby."
+ },
+ "parallel_break": {
+  "en": "In parallel each bulb has its own path; only in series does one failure stop all.",
+  "el": "Σε παράλληλη σύνδεση κάθε λάμπα έχει δικό της δρόμο· μόνο σε σειρά μία βλάβη τα σβήνει όλα."
+ },
+ "parallel_bright": {
+  "en": "Each remaining bulb still gets the same battery voltage: same brightness.",
+  "el": "Κάθε λάμπα που μένει παίρνει την ίδια τάση: ίδια φωτεινότητα."
+ },
+ "rint_temp": {
+  "en": "Cold raises internal resistance; heat lowers it.",
+  "el": "Το κρύο αυξάνει την εσωτερική αντίσταση· η ζέστη τη μειώνει."
+ },
+ "cht_egt": {
+  "en": "Iron–constantan is for piston-engine CHT; turbine EGT uses chromel–alumel.",
+  "el": "Σίδηρος–κονσταντάνη για CHT εμβολοφόρων· τα EGT στροβίλων είναι chromel–alumel."
+ },
+ "photon_bright": {
+  "en": "Brightness is how many photons; the energy of each photon depends on frequency.",
+  "el": "Η φωτεινότητα είναι πόσα φωτόνια· η ενέργεια του καθενός εξαρτάται από τη συχνότητα."
+ },
+ "electrolyte_mixup": {
+  "en": "Each chemistry has its own electrolyte: lead-acid sulphuric acid, NiCad KOH, Li-ion a lithium salt in an organic solvent.",
+  "el": "Κάθε χημεία έχει δικό της ηλεκτρολύτη: μολύβδου θειικό οξύ, NiCad KOH, Li-ion άλας λιθίου σε οργανικό διαλύτη."
  }
 }

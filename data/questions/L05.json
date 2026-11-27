@@ -1,0 +1,722 @@
+[
+ {
+  "id": "L05-primary",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A primary cell:",
+   "el": "Ένα πρωτογενές στοιχείο:"
+  },
+  "o": [
+   {
+    "en": "can be recharged many times",
+    "el": "μπορεί να επαναφορτιστεί πολλές φορές"
+   },
+   {
+    "en": "cannot be recharged, because an electrode is used up",
+    "el": "δεν επαναφορτίζεται, γιατί ένα ηλεκτρόδιο καταναλώνεται"
+   },
+   {
+    "en": "only works at high temperature",
+    "el": "λειτουργεί μόνο σε υψηλή θερμοκρασία"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "primary_secondary",
+   null,
+   "primary_secondary"
+  ],
+  "x": {
+   "en": "The reaction consumes one metal and cannot be reversed. Recharging can make it explode.",
+   "el": "Η αντίδραση καταναλώνει το ένα μέταλλο και δεν αντιστρέφεται. Η επαναφόρτιση μπορεί να προκαλέσει έκρηξη."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-dry",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "In a carbon-zinc dry cell, the zinc case is the:",
+   "el": "Σε ξηρό στοιχείο άνθρακα-ψευδαργύρου, το δοχείο ψευδαργύρου είναι:"
+  },
+  "o": [
+   {
+    "en": "negative terminal",
+    "el": "ο αρνητικός πόλος"
+   },
+   {
+    "en": "positive terminal",
+    "el": "ο θετικός πόλος"
+   },
+   {
+    "en": "electrolyte",
+    "el": "ο ηλεκτρολύτης"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "dry_poles",
+   "dry_paste"
+  ],
+  "x": {
+   "en": "Carbon rod in the middle: +. Zinc can: −. Between them: the electrolyte paste.",
+   "el": "Ράβδος άνθρακα στη μέση: +. Δοχείο ψευδαργύρου: −. Ανάμεσα: η πάστα του ηλεκτρολύτη."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-plates",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "In a charged lead-acid cell, the positive plates are made of:",
+   "el": "Σε φορτισμένο στοιχείο μολύβδου, οι θετικές πλάκες είναι από:"
+  },
+  "o": [
+   {
+    "en": "lead dioxide (PbO₂)",
+    "el": "διοξείδιο του μολύβδου (PbO₂)"
+   },
+   {
+    "en": "spongy lead",
+    "el": "σπογγώδη μόλυβδο"
+   },
+   {
+    "en": "lead sulphate",
+    "el": "θειικό μόλυβδο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "plate_swap",
+   "discharged_state"
+  ],
+  "x": {
+   "en": "Positive: PbO₂. Negative: spongy Pb. Lead sulphate forms on both on discharge.",
+   "el": "Θετική: PbO₂. Αρνητική: σπογγώδης Pb. Ο θειικός μόλυβδος σχηματίζεται και στις δύο στην εκφόρτιση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-negplates",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A lead-acid cell always has:",
+   "el": "Ένα στοιχείο μολύβδου έχει πάντα:"
+  },
+  "o": [
+   {
+    "en": "one more positive plate than negative",
+    "el": "μία θετική πλάκα περισσότερη από τις αρνητικές"
+   },
+   {
+    "en": "equal numbers of plates",
+    "el": "ίσο αριθμό πλακών"
+   },
+   {
+    "en": "one more negative plate than positive",
+    "el": "μία αρνητική πλάκα περισσότερη από τις θετικές"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "plate_count",
+   "plate_count",
+   null
+  ],
+  "x": {
+   "en": "Each positive plate sits between two negatives.",
+   "el": "Κάθε θετική πλάκα βρίσκεται ανάμεσα σε δύο αρνητικές."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-vent",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The lead weight in a lead-acid vent plug:",
+   "el": "Το βαρίδιο μολύβδου στην τάπα εξαερισμού:"
+  },
+  "o": [
+   {
+    "en": "closes the vent hole in inverted flight",
+    "el": "κλείνει την οπή εξαερισμού σε ανάποδη πτήση"
+   },
+   {
+    "en": "measures the specific gravity",
+    "el": "μετρά το ειδικό βάρος"
+   },
+   {
+    "en": "holds the plates in place",
+    "el": "συγκρατεί τις πλάκες"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "test_tool",
+   "vent_job"
+  ],
+  "x": {
+   "en": "In level flight gas escapes through a small hole; inverted, the weight covers it so acid does not spill.",
+   "el": "Σε οριζόντια πτήση τα αέρια βγαίνουν από μια μικρή οπή· σε ανάποδη, το βαρίδιο την κλείνει για να μη χυθεί οξύ."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-sump",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The pad in a lead-acid battery sump jar is soaked in:",
+   "el": "Το μαξιλαράκι στο δοχείο sump μπαταρίας μολύβδου είναι εμποτισμένο με:"
+  },
+  "o": [
+   {
+    "en": "boric acid",
+    "el": "βορικό οξύ"
+   },
+   {
+    "en": "sodium bicarbonate",
+    "el": "όξινο ανθρακικό νάτριο (σόδα)"
+   },
+   {
+    "en": "distilled water",
+    "el": "απεσταγμένο νερό"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "sump_mixup",
+   null,
+   "sump_water"
+  ],
+  "x": {
+   "en": "Bicarbonate (an alkali) neutralizes acid fumes. Boric acid is for NiCad (alkaline) batteries.",
+   "el": "Η σόδα (αλκάλιο) εξουδετερώνει τους όξινους ατμούς. Το βορικό οξύ είναι για τις NiCad (αλκαλικές)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-sg-discharge",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "As a lead-acid battery discharges, the specific gravity of its electrolyte:",
+   "el": "Καθώς εκφορτίζεται μια μπαταρία μολύβδου, το ειδικό βάρος του ηλεκτρολύτη:"
+  },
+  "o": [
+   {
+    "en": "rises",
+    "el": "αυξάνεται"
+   },
+   {
+    "en": "falls",
+    "el": "μειώνεται"
+   },
+   {
+    "en": "stays the same",
+    "el": "μένει ίδιο"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "sg_direction",
+   null,
+   "sg_direction"
+  ],
+  "x": {
+   "en": "Acid goes into the plates as lead sulphate and water is formed, so the electrolyte gets weaker.",
+   "el": "Το οξύ πηγαίνει στις πλάκες ως θειικός μόλυβδος και σχηματίζεται νερό, οπότε ο ηλεκτρολύτης αραιώνει."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-cells24",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A 24 V lead-acid battery has:",
+   "el": "Μια μπαταρία μολύβδου 24 V έχει:"
+  },
+  "o": [
+   {
+    "en": "6 cells",
+    "el": "6 στοιχεία"
+   },
+   {
+    "en": "24 cells",
+    "el": "24 στοιχεία"
+   },
+   {
+    "en": "12 cells",
+    "el": "12 στοιχεία"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "cell_count",
+   "cell_count",
+   null
+  ],
+  "x": {
+   "en": "About 2 V per cell: 24 / 2 = 12 cells in series.",
+   "el": "Περίπου 2 V ανά στοιχείο: 24 / 2 = 12 στοιχεία σε σειρά."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-ah",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "SI",
+  "q": {
+   "en": "A battery supplies 8 A for 5 hours. Its capacity is:",
+   "el": "Μια μπαταρία δίνει 8 A για 5 ώρες. Η χωρητικότητά της είναι:"
+  },
+  "o": [
+   {
+    "en": "40 Ah",
+    "el": "40 Ah"
+   },
+   {
+    "en": "1.6 Ah",
+    "el": "1,6 Ah"
+   },
+   {
+    "en": "13 Ah",
+    "el": "13 Ah"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "capacity_rate",
+   "capacity_rate"
+  ],
+  "x": {
+   "en": "Ah = A × h = 8 × 5 = 40 Ah.",
+   "el": "Ah = A × h = 8 × 5 = 40 Ah."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-ah-time",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "SI",
+  "q": {
+   "en": "A 25 Ah battery (5-hour rating) feeds a 5 A load. Ideally it lasts:",
+   "el": "Μπαταρία 25 Ah (ρυθμός 5 ωρών) τροφοδοτεί φορτίο 5 A. Ιδανικά διαρκεί:"
+  },
+  "o": [
+   {
+    "en": "125 h",
+    "el": "125 h"
+   },
+   {
+    "en": "5 h",
+    "el": "5 h"
+   },
+   {
+    "en": "0.2 h",
+    "el": "0,2 h"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "multiplied",
+   null,
+   "inverted"
+  ],
+  "x": {
+   "en": "t = Ah / A = 25 / 5 = 5 h. At heavier loads it would give fewer Ah.",
+   "el": "t = Ah / A = 25 / 5 = 5 h. Με μεγαλύτερο φορτίο θα έδινε λιγότερα Ah."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-series-ah",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Two 24 V, 40 Ah batteries are connected in series. The result is:",
+   "el": "Δύο μπαταρίες 24 V, 40 Ah συνδέονται σε σειρά. Το αποτέλεσμα είναι:"
+  },
+  "o": [
+   {
+    "en": "48 V, 40 Ah",
+    "el": "48 V, 40 Ah"
+   },
+   {
+    "en": "24 V, 80 Ah",
+    "el": "24 V, 80 Ah"
+   },
+   {
+    "en": "48 V, 80 Ah",
+    "el": "48 V, 80 Ah"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "series_parallel",
+   "series_parallel"
+  ],
+  "x": {
+   "en": "Series adds the voltages; the Ah stay the same.",
+   "el": "Η σύνδεση σε σειρά προσθέτει τις τάσεις· τα Ah μένουν ίδια."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-rate",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Discharging a battery at a much higher current than its rating:",
+   "el": "Αν εκφορτίσουμε μπαταρία με ρεύμα πολύ μεγαλύτερο από το ονομαστικό:"
+  },
+  "o": [
+   {
+    "en": "gives more ampere-hours",
+    "el": "δίνει περισσότερες αμπερώρες"
+   },
+   {
+    "en": "does not change the ampere-hours",
+    "el": "δεν αλλάζει τις αμπερώρες"
+   },
+   {
+    "en": "heats it and gives fewer ampere-hours",
+    "el": "τη θερμαίνει και δίνει λιγότερες αμπερώρες"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "rating_time",
+   "rating_time",
+   null
+  ],
+  "x": {
+   "en": "Heavy discharge heats the battery and lowers its efficiency and total Ah output.",
+   "el": "Η βαριά εκφόρτιση θερμαίνει τη μπαταρία και μειώνει την απόδοση και τις συνολικές Ah."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-life",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A battery's life cycle ends when its capacity falls below:",
+   "el": "Ο κύκλος ζωής μιας μπαταρίας τελειώνει όταν η χωρητικότητα πέσει κάτω από:"
+  },
+  "o": [
+   {
+    "en": "50 %",
+    "el": "50 %"
+   },
+   {
+    "en": "80 %",
+    "el": "80 %"
+   },
+   {
+    "en": "95 %",
+    "el": "95 %"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "cycle_limit",
+   null,
+   "cycle_limit"
+  ],
+  "x": {
+   "en": "Defined as the number of full cycles until capacity is below 80 % of rated.",
+   "el": "Ορίζεται ως ο αριθμός πλήρων κύκλων μέχρι η χωρητικότητα να πέσει κάτω από το 80 %."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-float",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "On a battery hydrometer float, the highest reading (1.300) is:",
+   "el": "Στον πλωτήρα του υδρομέτρου, η μεγαλύτερη ένδειξη (1,300) βρίσκεται:"
+  },
+  "o": [
+   {
+    "en": "at the top of the scale",
+    "el": "στο πάνω μέρος της κλίμακας"
+   },
+   {
+    "en": "in the middle",
+    "el": "στη μέση"
+   },
+   {
+    "en": "at the bottom of the scale",
+    "el": "στο κάτω μέρος της κλίμακας"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "float_scale",
+   "float_scale",
+   null
+  ],
+  "x": {
+   "en": "Denser electrolyte makes the float ride higher, so the high numbers are at the bottom.",
+   "el": "Πυκνότερος ηλεκτρολύτης κάνει τον πλωτήρα να επιπλέει ψηλότερα, οπότε οι μεγάλοι αριθμοί είναι κάτω."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-sg-band",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A hydrometer reads 1.220 (no temperature correction needed). The state of charge is:",
+   "el": "Το υδρόμετρο δείχνει 1,220 (χωρίς διόρθωση θερμοκρασίας). Η κατάσταση φόρτισης είναι:"
+  },
+  "o": [
+   {
+    "en": "high",
+    "el": "υψηλή"
+   },
+   {
+    "en": "medium",
+    "el": "μέτρια"
+   },
+   {
+    "en": "low: recharge now",
+    "el": "χαμηλή: φόρτιση αμέσως"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "sg_band",
+   "sg_band",
+   null
+  ],
+  "x": {
+   "en": "1.240–1.200 is low. Aircraft batteries need recharging at this point.",
+   "el": "1,240–1,200 είναι χαμηλή. Η μπαταρία αεροσκάφους χρειάζεται φόρτιση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-temp",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A hydrometer reading needs no temperature correction when the electrolyte is between:",
+   "el": "Η ένδειξη του υδρομέτρου δεν χρειάζεται διόρθωση όταν ο ηλεκτρολύτης είναι μεταξύ:"
+  },
+  "o": [
+   {
+    "en": "21 °C and 32 °C",
+    "el": "21 °C και 32 °C"
+   },
+   {
+    "en": "0 °C and 15 °C",
+    "el": "0 °C και 15 °C"
+   },
+   {
+    "en": "32 °C and 50 °C",
+    "el": "32 °C και 50 °C"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "temp_range",
+   "temp_range"
+  ],
+  "x": {
+   "en": "Between 21 and 32 °C the error is too small to matter; outside, add or subtract the correction.",
+   "el": "Μεταξύ 21 και 32 °C το σφάλμα είναι αμελητέο· εκτός, προσθέτουμε ή αφαιρούμε τη διόρθωση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-charge-v",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 3,
+  "units": "SI",
+  "q": {
+   "en": "A 12-cell battery has an open-circuit voltage of 26.4 V and an internal resistance of 0.05 Ω. To charge it at 10 A the charger must supply about:",
+   "el": "Μπαταρία 12 στοιχείων έχει τάση ανοιχτού κυκλώματος 26,4 V και εσωτερική αντίσταση 0,05 Ω. Για φόρτιση με 10 A ο φορτιστής πρέπει να δίνει περίπου:"
+  },
+  "o": [
+   {
+    "en": "26.9 V",
+    "el": "26,9 V"
+   },
+   {
+    "en": "25.9 V",
+    "el": "25,9 V"
+   },
+   {
+    "en": "26.4 V",
+    "el": "26,4 V"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "charge_ir",
+   "charge_ir"
+  ],
+  "x": {
+   "en": "Charging voltage = open-circuit V + I × r = 26.4 + 10 × 0.05 = 26.9 V.",
+   "el": "Τάση φόρτισης = τάση ανοιχτού κυκλώματος + I × r = 26,4 + 10 × 0,05 = 26,9 V."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-r-int",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 3,
+  "units": "SI",
+  "q": {
+   "en": "A battery reads 25.2 V with no load and 24.0 V while supplying 60 A. Its internal resistance is:",
+   "el": "Μπαταρία δείχνει 25,2 V χωρίς φορτίο και 24,0 V όταν δίνει 60 A. Η εσωτερική της αντίσταση είναι:"
+  },
+  "o": [
+   {
+    "en": "0.4 Ω",
+    "el": "0,4 Ω"
+   },
+   {
+    "en": "0.02 Ω",
+    "el": "0,02 Ω"
+   },
+   {
+    "en": "50 Ω",
+    "el": "50 Ω"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "rint_whole",
+   null,
+   "inverted"
+  ],
+  "x": {
+   "en": "r = (no-load V − load V) / I = (25.2 − 24.0) / 60 = 1.2 / 60 = 0.02 Ω.",
+   "el": "r = (V χωρίς φορτίο − V με φορτίο) / I = (25,2 − 24,0) / 60 = 1,2 / 60 = 0,02 Ω."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-cv",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "On the aircraft, the battery is charged by the generator using the:",
+   "el": "Στο αεροσκάφος η μπαταρία φορτίζεται από τη γεννήτρια με τη μέθοδο:"
+  },
+  "o": [
+   {
+    "en": "constant current method",
+    "el": "σταθερού ρεύματος"
+   },
+   {
+    "en": "constant voltage method",
+    "el": "σταθερής τάσης"
+   },
+   {
+    "en": "pulse method",
+    "el": "παλμών"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "cv_cc",
+   null,
+   "cv_cc"
+  ],
+  "x": {
+   "en": "The voltage regulator holds the generator voltage constant; the current tapers as the battery fills.",
+   "el": "Ο ρυθμιστής κρατά σταθερή την τάση της γεννήτριας· το ρεύμα μειώνεται καθώς γεμίζει η μπαταρία."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L05-gas",
+  "lesson": "L05",
+  "topic": "3.05",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "While a lead-acid battery is being charged:",
+   "el": "Κατά τη φόρτιση μπαταρίας μολύβδου:"
+  },
+  "o": [
+   {
+    "en": "remove the vent caps completely",
+    "el": "αφαιρούμε εντελώς τις τάπες"
+   },
+   {
+    "en": "tighten the vent caps fully",
+    "el": "σφίγγουμε τελείως τις τάπες"
+   },
+   {
+    "en": "loosen the vent caps but leave them in place",
+    "el": "χαλαρώνουμε τις τάπες αλλά τις αφήνουμε στη θέση τους"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "vent_charge",
+   "vent_charge",
+   null
+  ],
+  "x": {
+   "en": "Hydrogen and oxygen must escape, but the caps stay on to stop spray. No flames or sparks.",
+   "el": "Υδρογόνο και οξυγόνο πρέπει να φεύγουν, αλλά οι τάπες μένουν για να μη πετάγεται οξύ. Χωρίς φλόγες και σπινθήρες."
+  },
+  "status": "new"
+ }
+]
