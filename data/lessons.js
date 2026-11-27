@@ -190,9 +190,9 @@ window.M3_LESSONS = {
     "el": "Στατικός ηλεκτρισμός και αγωγή"
    },
    "kind": "lesson",
-   "status": "published",
+   "status": "planned",
    "notes": "lessons/L02.md",
-   "deep": "deep/L02.md"
+   "deep": ""
   },
   {
    "id": "L03",
@@ -208,9 +208,9 @@ window.M3_LESSONS = {
     "el": "Ηλεκτρική ορολογία και προθέματα SI"
    },
    "kind": "lesson",
-   "status": "published",
+   "status": "planned",
    "notes": "lessons/L03.md",
-   "deep": "deep/L03.md"
+   "deep": ""
   },
   {
    "id": "L04",
@@ -226,9 +226,9 @@ window.M3_LESSONS = {
     "el": "Παραγωγή ηλεκτρισμού + quiz Α"
    },
    "kind": "lesson",
-   "status": "published",
+   "status": "planned",
    "notes": "lessons/L04.md",
-   "deep": "deep/L04.md"
+   "deep": ""
   },
   {
    "id": "L05",
@@ -244,9 +244,9 @@ window.M3_LESSONS = {
     "el": "Πρωτογενή στοιχεία και μπαταρίες μολύβδου"
    },
    "kind": "lesson",
-   "status": "published",
+   "status": "planned",
    "notes": "lessons/L05.md",
-   "deep": "deep/L05.md"
+   "deep": ""
   },
   {
    "id": "L06",
