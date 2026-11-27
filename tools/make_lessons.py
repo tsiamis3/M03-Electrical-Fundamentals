@@ -62,7 +62,7 @@ PLAN = [
  ("2027-01-28", ["3.12", "3.15", "3.17", "3.18"], "", "Test 4: machines", "Τεστ 4: μηχανές", "test"),
  ("2027-01-29", list(TOPICS), "", "Mock exam 1", "Mock exam 1", "test"),
 ]
-PUBLISHED = {"L01"}
+PUBLISHED = {"L01", "L02"}
 
 lessons = []
 for i, (date, topics, slides, en, el, kind) in enumerate(PLAN, 1):

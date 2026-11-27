@@ -66,5 +66,105 @@
  "divided_g": {
   "en": "Multiply by g, do not divide.",
   "el": "Πολλαπλασίασε με το g, μη διαιρείς."
+ },
+ "static_dynamic": {
+  "en": "Charges flowing are dynamic electricity; static means charges at rest on a surface.",
+  "el": "Φορτία σε ροή είναι δυναμικός ηλεκτρισμός· στατικός σημαίνει φορτία σε ηρεμία σε μια επιφάνεια."
+ },
+ "conductor_leaks": {
+  "en": "A conductor or a grounded surface lets the charge flow away, so nothing builds up.",
+  "el": "Ένας αγωγός ή μια γειωμένη επιφάνεια αφήνει το φορτίο να φύγει, οπότε δεν συσσωρεύεται."
+ },
+ "conservation": {
+  "en": "Charge is conserved: what one material loses, the other gains.",
+  "el": "Το φορτίο διατηρείται: ό,τι χάνει το ένα υλικό, το κερδίζει το άλλο."
+ },
+ "like_unlike": {
+  "en": "Like charges repel, unlike charges attract.",
+  "el": "Ομώνυμα απωθούνται, ετερώνυμα έλκονται."
+ },
+ "test_charge": {
+  "en": "The convention uses a positive test charge. An electron moves against the field lines.",
+  "el": "Η σύμβαση χρησιμοποιεί θετικό δοκιμαστικό φορτίο. Το ηλεκτρόνιο κινείται αντίθετα στις γραμμές."
+ },
+ "field_strength": {
+  "en": "Field strength is shown by how close the lines are, not by their length or arrows.",
+  "el": "Η ένταση φαίνεται από την πυκνότητα των γραμμών, όχι από το μήκος ή τα βέλη."
+ },
+ "outer_surface": {
+  "en": "Excess charge on a conductor goes to the outer surface only.",
+  "el": "Το επιπλέον φορτίο σε αγωγό πηγαίνει μόνο στην εξωτερική επιφάνεια."
+ },
+ "sharp_points": {
+  "en": "Charge concentrates where the curvature is tightest: at points and edges.",
+  "el": "Το φορτίο συγκεντρώνεται όπου η καμπυλότητα είναι πιο έντονη: σε αιχμές και ακμές."
+ },
+ "contact_induction": {
+  "en": "Contact gives the same sign as the rod; induction with grounding gives the opposite sign.",
+  "el": "Η επαφή δίνει το ίδιο πρόσημο με τη ράβδο· η επαγωγή με γείωση δίνει το αντίθετο."
+ },
+ "ground_order": {
+  "en": "If the ground is removed before the rod, the bar keeps its charge.",
+  "el": "Αν η γείωση αφαιρεθεί πριν από τη ράβδο, η ράβδος κρατά το φορτίο της."
+ },
+ "elementary_charge": {
+  "en": "One electron carries only 1.6 × 10⁻¹⁹ C. A coulomb is 6.24 × 10¹⁸ electrons.",
+  "el": "Ένα ηλεκτρόνιο έχει μόνο 1,6 × 10⁻¹⁹ C. Ένα coulomb είναι 6,24 × 10¹⁸ ηλεκτρόνια."
+ },
+ "ohm_mixup": {
+  "en": "Volts and ohms give a current (Ohm's law), not a charge. Charge = current × time.",
+  "el": "Volt και ohm δίνουν ρεύμα (νόμος του Ohm), όχι φορτίο. Φορτίο = ρεύμα × χρόνος."
+ },
+ "forgot_current": {
+  "en": "That is the number for 1 C. Here Q = I × t = 2 C.",
+  "el": "Αυτός είναι ο αριθμός για 1 C. Εδώ Q = I × t = 2 C."
+ },
+ "inverted_e": {
+  "en": "That is a charge in coulombs, not a number of electrons. Divide Q by e.",
+  "el": "Αυτό είναι φορτίο σε coulomb, όχι αριθμός ηλεκτρονίων. Διαίρεσε το Q με το e."
+ },
+ "forgot_square_d": {
+  "en": "The distance is squared in Coulomb's law: F ∝ 1/d².",
+  "el": "Η απόσταση είναι στο τετράγωνο στον νόμο του Coulomb: F ∝ 1/d²."
+ },
+ "inverse_mixup": {
+  "en": "Force goes up with the charges and down with the distance.",
+  "el": "Η δύναμη αυξάνει με τα φορτία και μειώνεται με την απόσταση."
+ },
+ "one_charge": {
+  "en": "Both charges changed: multiply both factors, 2 × 2.",
+  "el": "Άλλαξαν και τα δύο φορτία: πολλαπλασίασε και τους δύο παράγοντες, 2 × 2."
+ },
+ "prefix_error": {
+  "en": "Check the prefixes: µ = 10⁻⁶, m = 10⁻³.",
+  "el": "Έλεγξε τα προθέματα: µ = 10⁻⁶, m = 10⁻³."
+ },
+ "esd_pins": {
+  "en": "Touching connector pins is exactly how ESD damage happens.",
+  "el": "Το άγγιγμα των ακίδων είναι ακριβώς ο τρόπος που γίνεται η ζημιά από ESD."
+ },
+ "esd_carpet": {
+  "en": "Carpet builds up static charge: a known ESD source.",
+  "el": "Η μοκέτα φορτίζεται στατικά: γνωστή πηγή ESD."
+ },
+ "fuel_conductor": {
+  "en": "Fuel is a poor conductor; that is why charge builds up in it.",
+  "el": "Το καύσιμο είναι κακός αγωγός· γι' αυτό φορτίζεται."
+ },
+ "metal_liquid": {
+  "en": "Free electrons carry current in metals. In electrolytes the carriers are ions.",
+  "el": "Τα ελεύθερα ηλεκτρόνια άγουν στα μέταλλα. Στους ηλεκτρολύτες φορείς είναι τα ιόντα."
+ },
+ "nucleus_carrier": {
+  "en": "Protons stay inside the nuclei; they are never free carriers here.",
+  "el": "Τα πρωτόνια μένουν μέσα στους πυρήνες· δεν είναι ελεύθεροι φορείς."
+ },
+ "gas_conductor": {
+  "en": "Gases have almost no free carriers until they are ionized.",
+  "el": "Τα αέρια σχεδόν δεν έχουν ελεύθερους φορείς μέχρι να ιονιστούν."
+ },
+ "vacuum_ions": {
+  "en": "There is nothing in a vacuum to ionize or cool; the electrons must be injected.",
+  "el": "Στο κενό δεν υπάρχει τίποτα να ιονιστεί ή να ψυχθεί· τα ηλεκτρόνια πρέπει να εισαχθούν."
  }
 }
