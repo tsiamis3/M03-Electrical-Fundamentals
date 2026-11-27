@@ -166,5 +166,261 @@
  "vacuum_ions": {
   "en": "There is nothing in a vacuum to ionize or cool; the electrons must be injected.",
   "el": "Στο κενό δεν υπάρχει τίποτα να ιονιστεί ή να ψυχθεί· τα ηλεκτρόνια πρέπει να εισαχθούν."
+ },
+ "prefix_step": {
+  "en": "Each prefix step (k, m, µ …) is a factor of 1 000. Count the steps.",
+  "el": "Κάθε βήμα προθέματος (k, m, µ …) είναι παράγοντας 1 000. Μέτρα τα βήματα."
+ },
+ "prefix_direction": {
+  "en": "To a smaller unit the number gets bigger; to a bigger unit it gets smaller.",
+  "el": "Σε μικρότερη μονάδα ο αριθμός μεγαλώνει· σε μεγαλύτερη μικραίνει."
+ },
+ "mega_milli": {
+  "en": "Capital M = mega (10⁶), small m = milli (10⁻³).",
+  "el": "Κεφαλαίο M = mega (10⁶), μικρό m = milli (10⁻³)."
+ },
+ "milli_micro": {
+  "en": "milli = 10⁻³, micro = 10⁻⁶.",
+  "el": "milli = 10⁻³, micro = 10⁻⁶."
+ },
+ "charge_current": {
+  "en": "Charge is an amount (C); current is how fast it flows (C/s).",
+  "el": "Το φορτίο είναι ποσότητα (C)· το ρεύμα είναι πόσο γρήγορα ρέει (C/s)."
+ },
+ "voltage_current": {
+  "en": "Energy per coulomb is voltage, not current.",
+  "el": "Η ενέργεια ανά coulomb είναι τάση, όχι ρεύμα."
+ },
+ "multiplied": {
+  "en": "You multiplied; this one needs a division.",
+  "el": "Πολλαπλασίασες· εδώ χρειάζεται διαίρεση."
+ },
+ "inverted": {
+  "en": "The division is upside down. Check which quantity goes on top.",
+  "el": "Η διαίρεση είναι ανάποδα. Έλεγξε ποιο μέγεθος πάει στον αριθμητή."
+ },
+ "minutes": {
+  "en": "Time must be in seconds: 1 min = 60 s.",
+  "el": "Ο χρόνος σε δευτερόλεπτα: 1 min = 60 s."
+ },
+ "ohm_inverse": {
+  "en": "Ohms are for resistance; siemens are for conductance, its inverse.",
+  "el": "Ohm για την αντίσταση· siemens για την αγωγιμότητα, το αντίστροφό της."
+ },
+ "unit_mixup": {
+  "en": "Check the unit: volts for potential difference, ohms for resistance, joules for energy.",
+  "el": "Έλεγξε τη μονάδα: volt για τάση, ohm για αντίσταση, joule για ενέργεια."
+ },
+ "absolute_potential": {
+  "en": "Flow depends on the difference between the two points, not on either value alone.",
+  "el": "Η ροή εξαρτάται από τη διαφορά μεταξύ των δύο σημείων, όχι από την καθεμιά τιμή."
+ },
+ "resistance_emf": {
+  "en": "Opposition to current is resistance. An emf is the push from a source.",
+  "el": "Η αντίθεση στο ρεύμα είναι αντίσταση. Η ΗΕΔ είναι η ώθηση της πηγής."
+ },
+ "coulomb_emf": {
+  "en": "Despite the name, emf is not a force in newtons; it is measured in volts.",
+  "el": "Παρά το όνομα, η ΗΕΔ δεν είναι δύναμη σε newton· μετριέται σε volt."
+ },
+ "wire_drop": {
+  "en": "Wires have almost no resistance, so almost no voltage drops along them.",
+  "el": "Τα καλώδια δεν έχουν σχεδόν αντίσταση, οπότε σχεδόν δεν πέφτει τάση πάνω τους."
+ },
+ "signal_speed": {
+  "en": "The effect travels fast; the electrons themselves drift very slowly.",
+  "el": "Το αποτέλεσμα διαδίδεται γρήγορα· τα ίδια τα ηλεκτρόνια κινούνται πολύ αργά."
+ },
+ "inverse_calc": {
+  "en": "G = 1 / R: divide 1 by the resistance.",
+  "el": "G = 1 / R: διαίρεσε το 1 με την αντίσταση."
+ },
+ "G_R_mixup": {
+  "en": "Conductance is the inverse of resistance: more conductance, more current.",
+  "el": "Η αγωγιμότητα είναι το αντίστροφο της αντίστασης: περισσότερη αγωγιμότητα, περισσότερο ρεύμα."
+ },
+ "flow_direction": {
+  "en": "Conventional current: + to −. Electron flow: − to +.",
+  "el": "Συμβατική φορά: + προς −. Ροή ηλεκτρονίων: − προς +."
+ },
+ "seven_list": {
+  "en": "That one is in the list: light, heat, friction, pressure, chemical action, magnetism and motion.",
+  "el": "Αυτό είναι στη λίστα: φως, θερμότητα, τριβή, πίεση, χημική δράση, μαγνητισμός και κίνηση."
+ },
+ "source_mixup": {
+  "en": "Match the energy to the device: light → photocell, heat → thermocouple, pressure → piezo crystal, chemical → battery.",
+  "el": "Αντιστοίχισε ενέργεια και διάταξη: φως → φωτοκύτταρο, θερμότητα → θερμοζεύγος, πίεση → πιεζοκρύσταλλος, χημική → μπαταρία."
+ },
+ "reverse_device": {
+  "en": "That is the reverse process (a lamp or LED).",
+  "el": "Αυτή είναι η αντίστροφη διαδικασία (λάμπα ή LED)."
+ },
+ "hole_literal": {
+  "en": "A hole is not a physical gap: it is a missing electron.",
+  "el": "Η οπή δεν είναι φυσικό κενό: είναι ένα ηλεκτρόνιο που λείπει."
+ },
+ "same_metals": {
+  "en": "Identical metals give no thermoelectric voltage; the metals must be dissimilar.",
+  "el": "Ίδια μέταλλα δεν δίνουν θερμοηλεκτρική τάση· πρέπει να είναι ανόμοια."
+ },
+ "tc_absolute": {
+  "en": "A thermocouple responds to the temperature difference between its junctions.",
+  "el": "Το θερμοζεύγος αποκρίνεται στη διαφορά θερμοκρασίας των επαφών του."
+ },
+ "tc_length": {
+  "en": "Wire length does not set the emf; the metals and the temperature difference do.",
+  "el": "Το μήκος δεν καθορίζει την ΗΕΔ· την καθορίζουν τα μέταλλα και η διαφορά θερμοκρασίας."
+ },
+ "cht_egt": {
+  "en": "Iron or copper with constantan: piston CHT. Chromel–alumel: turbine EGT.",
+  "el": "Σίδηρος ή χαλκός με constantan: CHT εμβολοφόρων. Chromel–alumel: EGT στροβίλων."
+ },
+ "tc_power": {
+  "en": "Thermocouples, photocells and piezo crystals give tiny outputs: they are sensors, not power sources.",
+  "el": "Θερμοζεύγη, φωτοκύτταρα και πιεζοκρύσταλλοι δίνουν μικρές εξόδους: είναι αισθητήρες, όχι πηγές ισχύος."
+ },
+ "conductor_piezo": {
+  "en": "Piezoelectric materials are insulating crystals, not metals.",
+  "el": "Τα πιεζοηλεκτρικά υλικά είναι μονωτικοί κρύσταλλοι, όχι μέταλλα."
+ },
+ "piezo_oneway": {
+  "en": "The piezoelectric effect works both ways: stress → voltage and voltage → movement.",
+  "el": "Το πιεζοηλεκτρικό φαινόμενο λειτουργεί και προς τις δύο κατευθύνσεις."
+ },
+ "cell_sign": {
+  "en": "The electrode that releases electrons collects them: it is the negative terminal.",
+  "el": "Το ηλεκτρόδιο που απελευθερώνει ηλεκτρόνια τα συγκεντρώνει: είναι ο αρνητικός πόλος."
+ },
+ "magnet_mixup": {
+  "en": "Motion through flux induces an emf; it does not magnetize the conductor or change its resistance.",
+  "el": "Η κίνηση μέσα σε ροή επάγει ΗΕΔ· δεν μαγνητίζει τον αγωγό ούτε αλλάζει την αντίστασή του."
+ },
+ "parallel_flux": {
+  "en": "Moving along the flux lines cuts no flux: no emf.",
+  "el": "Κίνηση κατά μήκος των γραμμών δεν «κόβει» ροή: καμία ΗΕΔ."
+ },
+ "stationary": {
+  "en": "A conductor at rest in a steady field cuts no flux: no emf.",
+  "el": "Ακίνητος αγωγός σε σταθερό πεδίο δεν «κόβει» ροή: καμία ΗΕΔ."
+ },
+ "primary_secondary": {
+  "en": "Rechargeable cells are secondary cells.",
+  "el": "Τα επαναφορτιζόμενα στοιχεία είναι δευτερογενή."
+ },
+ "dry_paste": {
+  "en": "A dry cell has an electrolyte, as a moist paste.",
+  "el": "Το ξηρό στοιχείο έχει ηλεκτρολύτη, σε μορφή υγρής πάστας."
+ },
+ "dry_poles": {
+  "en": "Carbon rod = positive, zinc case = negative.",
+  "el": "Ράβδος άνθρακα = θετικός, περίβλημα ψευδαργύρου = αρνητικός."
+ },
+ "alk_voltage": {
+  "en": "Alkaline and carbon-zinc cells both give about 1.5 V; alkaline stores more energy.",
+  "el": "Αλκαλικά και άνθρακα-ψευδαργύρου δίνουν και τα δύο ~1,5 V· το αλκαλικό αποθηκεύει περισσότερη ενέργεια."
+ },
+ "plate_swap": {
+  "en": "PbO₂ is positive, spongy lead is negative; discharge turns both into PbSO₄.",
+  "el": "Το PbO₂ είναι θετικό, ο σπογγώδης μόλυβδος αρνητικός· η εκφόρτιση τα κάνει PbSO₄."
+ },
+ "discharged_state": {
+  "en": "Lead sulphate is what the plates become when discharged.",
+  "el": "Θειικός μόλυβδος γίνονται οι πλάκες όταν εκφορτιστούν."
+ },
+ "nicad_electrolyte": {
+  "en": "KOH is the nickel-cadmium electrolyte. Lead-acid uses sulphuric acid.",
+  "el": "Το KOH είναι ο ηλεκτρολύτης νικελίου-καδμίου. Η μπαταρία μολύβδου έχει θειικό οξύ."
+ },
+ "sump_mixup": {
+  "en": "Sodium bicarbonate is the neutralizer in the sump jar, not the electrolyte.",
+  "el": "Το διττανθρακικό νάτριο είναι το εξουδετερωτικό στο sump, όχι ο ηλεκτρολύτης."
+ },
+ "plate_count": {
+  "en": "Each positive plate sits between two negatives: one extra negative plate.",
+  "el": "Κάθε θετική πλάκα είναι ανάμεσα σε δύο αρνητικές: μία αρνητική παραπάνω."
+ },
+ "separator_job": {
+  "en": "Separators keep the plates apart; the acid is in the electrolyte.",
+  "el": "Οι διαχωριστές κρατούν τις πλάκες χωριστά· το οξύ είναι στον ηλεκτρολύτη."
+ },
+ "strap_job": {
+  "en": "Cells are joined in series by cell straps, not separators.",
+  "el": "Τα στοιχεία συνδέονται σε σειρά με γέφυρες (straps), όχι με διαχωριστές."
+ },
+ "vent_job": {
+  "en": "The vent plug only lets gas out and stops spills in inverted flight.",
+  "el": "Η τάπα αφήνει μόνο τα αέρια να βγουν και αποτρέπει διαρροή σε ανάποδη πτήση."
+ },
+ "sump_water": {
+  "en": "Plain water would not neutralize the acid fumes.",
+  "el": "Σκέτο νερό δεν θα εξουδετέρωνε τους όξινους ατμούς."
+ },
+ "sg_direction": {
+  "en": "Discharge uses acid and makes water: SG falls. Charging raises it.",
+  "el": "Η εκφόρτιση καταναλώνει οξύ και παράγει νερό: το ειδικό βάρος πέφτει."
+ },
+ "cell_count": {
+  "en": "About 2 V per cell: 12 V = 6 cells, 24 V = 12 cells.",
+  "el": "Περίπου 2 V ανά στοιχείο: 12 V = 6 στοιχεία, 24 V = 12 στοιχεία."
+ },
+ "series_parallel": {
+  "en": "Series adds voltages (same Ah); parallel adds Ah (same voltage).",
+  "el": "Σε σειρά προστίθενται οι τάσεις (ίδιες Ah)· παράλληλα οι Ah (ίδια τάση)."
+ },
+ "rating_time": {
+  "en": "Aircraft batteries are rated at the 5-hour discharge rate.",
+  "el": "Οι μπαταρίες αεροσκαφών βαθμονομούνται στον ρυθμό εκφόρτισης 5 ωρών."
+ },
+ "capacity_rate": {
+  "en": "Heavy currents heat the battery and reduce the Ah it can deliver.",
+  "el": "Τα μεγάλα ρεύματα θερμαίνουν την μπαταρία και μειώνουν τις Ah που δίνει."
+ },
+ "cycle_limit": {
+  "en": "The end of cycle life is defined at 80% of rated capacity.",
+  "el": "Το τέλος της ζωής σε κύκλους ορίζεται στο 80% της ονομαστικής χωρητικότητας."
+ },
+ "test_tool": {
+  "en": "A megger tests insulation resistance, not the state of charge.",
+  "el": "Το megger μετρά αντίσταση μόνωσης, όχι κατάσταση φόρτισης."
+ },
+ "float_scale": {
+  "en": "A denser liquid lifts the float higher, so the biggest numbers are at the bottom of the stem.",
+  "el": "Πυκνότερο υγρό ανεβάζει τον πλωτήρα, οπότε οι μεγάλοι αριθμοί είναι στο κάτω μέρος."
+ },
+ "sg_band": {
+  "en": "Bands: 1.300–1.275 high, 1.275–1.240 medium, 1.240–1.200 low.",
+  "el": "Ζώνες: 1,300–1,275 υψηλή, 1,275–1,240 μέση, 1,240–1,200 χαμηλή."
+ },
+ "temp_range": {
+  "en": "No correction between 21 °C and 32 °C.",
+  "el": "Καμία διόρθωση μεταξύ 21 °C και 32 °C."
+ },
+ "water_timing": {
+  "en": "Read before adding water: fresh water has not mixed and would give a false low reading.",
+  "el": "Μέτρα πριν προσθέσεις νερό: το φρέσκο νερό δεν έχει αναμειχθεί και δίνει ψευδώς χαμηλή ένδειξη."
+ },
+ "neutralizer": {
+  "en": "Neutralize an acid with an alkali (bicarbonate); an alkali with a weak acid (vinegar, boric acid).",
+  "el": "Οξύ εξουδετερώνεται με αλκαλικό (σόδα)· αλκαλικό με ασθενές οξύ (ξύδι, βορικό)."
+ },
+ "rint_whole": {
+  "en": "Use only the voltage drop (no-load minus load voltage), divided by the current.",
+  "el": "Χρησιμοποίησε μόνο την πτώση τάσης (χωρίς φορτίο μείον με φορτίο), διά το ρεύμα."
+ },
+ "rint_drop": {
+  "en": "1.2 V is the drop itself, not the resistance. Divide it by the current.",
+  "el": "Το 1,2 V είναι η πτώση, όχι η αντίσταση. Διαίρεσέ το με το ρεύμα."
+ },
+ "charge_ir": {
+  "en": "The charger must overcome the battery's emf plus its internal I × r drop.",
+  "el": "Ο φορτιστής πρέπει να ξεπεράσει την ΗΕΔ της μπαταρίας και την εσωτερική πτώση I × r."
+ },
+ "cv_cc": {
+  "en": "Constant voltage: current tapers off (used on the aircraft). Constant current: current stays the same.",
+  "el": "Σταθερή τάση: το ρεύμα μειώνεται (στο αεροσκάφος). Σταθερό ρεύμα: το ρεύμα μένει ίδιο."
+ },
+ "vent_charge": {
+  "en": "Loosen the caps so gas escapes, but leave them in place.",
+  "el": "Χαλάρωσε τις τάπες για να βγαίνουν τα αέρια, αλλά άφησέ τες στη θέση τους."
  }
 }

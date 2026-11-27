@@ -1,0 +1,686 @@
+[
+ {
+  "id": "L04-seven",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Which of these is NOT one of the methods of producing electricity in the syllabus?",
+   "el": "Ποιο από τα παρακάτω ΔΕΝ είναι μέθοδος παραγωγής ηλεκτρισμού της ύλης;"
+  },
+  "o": [
+   {
+    "en": "pressure",
+    "el": "πίεση"
+   },
+   {
+    "en": "magnetism and motion",
+    "el": "μαγνητισμός και κίνηση"
+   },
+   {
+    "en": "sound absorption",
+    "el": "απορρόφηση ήχου"
+   }
+  ],
+  "a": 2,
+  "tags": [
+   "seven_list",
+   "seven_list",
+   null
+  ],
+  "x": {
+   "en": "The seven: light, heat, friction, pressure, chemical action, magnetism and motion.",
+   "el": "Οι επτά: φως, θερμότητα, τριβή, πίεση, χημική δράση, μαγνητισμός και κίνηση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-solar",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A photovoltaic (solar) cell converts:",
+   "el": "Ένα φωτοβολταϊκό στοιχείο μετατρέπει:"
+  },
+  "o": [
+   {
+    "en": "light into electricity",
+    "el": "φως σε ηλεκτρισμό"
+   },
+   {
+    "en": "heat into electricity",
+    "el": "θερμότητα σε ηλεκτρισμό"
+   },
+   {
+    "en": "electricity into light",
+    "el": "ηλεκτρισμό σε φως"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "reverse_device"
+  ],
+  "x": {
+   "en": "Photons free electrons in a semiconductor such as silicon.",
+   "el": "Τα φωτόνια ελευθερώνουν ηλεκτρόνια σε ημιαγωγό, π.χ. πυρίτιο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-holes",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "In a solar cell, the 'holes' are:",
+   "el": "Σε ένα φωτοβολταϊκό, οι «οπές» είναι:"
+  },
+  "o": [
+   {
+    "en": "missing electrons that act as positive charges",
+    "el": "ελλείψεις ηλεκτρονίων που συμπεριφέρονται ως θετικά φορτία"
+   },
+   {
+    "en": "small gaps in the silicon surface",
+    "el": "μικρά κενά στην επιφάνεια του πυριτίου"
+   },
+   {
+    "en": "free protons",
+    "el": "ελεύθερα πρωτόνια"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "hole_literal",
+   "nucleus_carrier"
+  ],
+  "x": {
+   "en": "A hole is the absence of an electron; it moves opposite to the electrons, like a positive charge.",
+   "el": "Οπή είναι η απουσία ηλεκτρονίου· κινείται αντίθετα στα ηλεκτρόνια, σαν θετικό φορτίο."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tc",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A thermocouple is made of:",
+   "el": "Ένα θερμοζεύγος αποτελείται από:"
+  },
+  "o": [
+   {
+    "en": "two dissimilar metals joined at a junction",
+    "el": "δύο ανόμοια μέταλλα ενωμένα σε μια επαφή"
+   },
+   {
+    "en": "two identical metal wires",
+    "el": "δύο ίδια μεταλλικά σύρματα"
+   },
+   {
+    "en": "a semiconductor and a crystal",
+    "el": "έναν ημιαγωγό και έναν κρύσταλλο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "same_metals",
+   "source_mixup"
+  ],
+  "x": {
+   "en": "Only a pair of different metals gives a Seebeck voltage.",
+   "el": "Μόνο ζεύγος διαφορετικών μετάλλων δίνει τάση Seebeck."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-seebeck",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The generation of a voltage by a thermocouple is called the:",
+   "el": "Η παραγωγή τάσης από θερμοζεύγος λέγεται φαινόμενο:"
+  },
+  "o": [
+   {
+    "en": "Seebeck effect",
+    "el": "Seebeck"
+   },
+   {
+    "en": "piezoelectric effect",
+    "el": "πιεζοηλεκτρικό"
+   },
+   {
+    "en": "triboelectric effect",
+    "el": "τριβοηλεκτρικό"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "source_mixup"
+  ],
+  "x": {
+   "en": "Seebeck, 1821: heat → voltage in a circuit of two dissimilar metals.",
+   "el": "Seebeck, 1821: θερμότητα → τάση σε κύκλωμα δύο ανόμοιων μετάλλων."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tcdiff",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "The emf of a thermocouple depends on:",
+   "el": "Η ΗΕΔ ενός θερμοζεύγους εξαρτάται από:"
+  },
+  "o": [
+   {
+    "en": "the temperature difference between the hot and cold junctions",
+    "el": "τη διαφορά θερμοκρασίας μεταξύ θερμής και ψυχρής επαφής"
+   },
+   {
+    "en": "the temperature of the hot junction only",
+    "el": "μόνο τη θερμοκρασία της θερμής επαφής"
+   },
+   {
+    "en": "the length of the wires",
+    "el": "το μήκος των συρμάτων"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "tc_absolute",
+   "tc_length"
+  ],
+  "x": {
+   "en": "Both junctions at the same temperature give no emf, whatever the temperature.",
+   "el": "Αν οι δύο επαφές έχουν ίδια θερμοκρασία, ΗΕΔ δεν υπάρχει, όποια κι αν είναι η θερμοκρασία."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tcuniform",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Both junctions of a thermocouple are heated to 500 °C. The output emf is:",
+   "el": "Και οι δύο επαφές ενός θερμοζεύγους θερμαίνονται στους 500 °C. Η ΗΕΔ εξόδου είναι:"
+  },
+  "o": [
+   {
+    "en": "maximum",
+    "el": "μέγιστη"
+   },
+   {
+    "en": "zero",
+    "el": "μηδέν"
+   },
+   {
+    "en": "negative",
+    "el": "αρνητική"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "tc_absolute",
+   null,
+   "tc_absolute"
+  ],
+  "x": {
+   "en": "No temperature difference, no emf.",
+   "el": "Χωρίς διαφορά θερμοκρασίας δεν υπάρχει ΗΕΔ."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-egt",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Turbine engine EGT thermocouples are usually made of:",
+   "el": "Τα θερμοζεύγη EGT στροβιλοκινητήρων είναι συνήθως από:"
+  },
+  "o": [
+   {
+    "en": "chromel and alumel",
+    "el": "chromel και alumel"
+   },
+   {
+    "en": "iron and constantan",
+    "el": "σίδηρο και constantan"
+   },
+   {
+    "en": "copper and silver",
+    "el": "χαλκό και άργυρο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "cht_egt",
+   "same_metals"
+  ],
+  "x": {
+   "en": "Chromel–alumel (type K) for EGT; iron or copper with constantan for piston CHT.",
+   "el": "Chromel–alumel (τύπος K) για EGT· σίδηρος ή χαλκός με constantan για CHT εμβολοφόρων."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-tcuse",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "On aircraft, thermocouples are mainly used for:",
+   "el": "Στα αεροσκάφη τα θερμοζεύγη χρησιμοποιούνται κυρίως για:"
+  },
+  "o": [
+   {
+    "en": "measuring engine temperatures and detecting fire",
+    "el": "μέτρηση θερμοκρασιών κινητήρα και ανίχνευση φωτιάς"
+   },
+   {
+    "en": "supplying the main DC bus",
+    "el": "τροφοδοσία του κύριου DC bus"
+   },
+   {
+    "en": "starting the engines",
+    "el": "εκκίνηση των κινητήρων"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "tc_power",
+   "tc_power"
+  ],
+  "x": {
+   "en": "Their output is only millivolts: good for sensing (EGT, CHT, ITT, fire detection), not for power.",
+   "el": "Η έξοδός τους είναι μόνο millivolt: κατάλληλη για μέτρηση (EGT, CHT, ITT, ανίχνευση φωτιάς), όχι για ισχύ."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-friction",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "Electricity produced by friction is:",
+   "el": "Ο ηλεκτρισμός που παράγεται με τριβή είναι:"
+  },
+  "o": [
+   {
+    "en": "static electricity",
+    "el": "στατικός ηλεκτρισμός"
+   },
+   {
+    "en": "alternating current",
+    "el": "εναλλασσόμενο ρεύμα"
+   },
+   {
+    "en": "a steady direct current",
+    "el": "σταθερό συνεχές ρεύμα"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "static_dynamic",
+   "static_dynamic"
+  ],
+  "x": {
+   "en": "Rubbing insulators transfers electrons: a static charge, not a steady current.",
+   "el": "Η τριβή μονωτών μεταφέρει ηλεκτρόνια: στατικό φορτίο, όχι σταθερό ρεύμα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezo",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "The piezoelectric effect produces a voltage when a crystal is:",
+   "el": "Το πιεζοηλεκτρικό φαινόμενο δίνει τάση όταν ένας κρύσταλλος:"
+  },
+  "o": [
+   {
+    "en": "heated",
+    "el": "θερμαίνεται"
+   },
+   {
+    "en": "mechanically stressed (squeezed)",
+    "el": "καταπονείται μηχανικά (συμπιέζεται)"
+   },
+   {
+    "en": "lit",
+    "el": "φωτίζεται"
+   }
+  ],
+  "a": 1,
+  "tags": [
+   "source_mixup",
+   null,
+   "source_mixup"
+  ],
+  "x": {
+   "en": "Piezo = press. Stress polarizes the crystal and a voltage appears across it.",
+   "el": "Πιέζω: η μηχανική τάση πολώνει τον κρύσταλλο και εμφανίζεται τάση στα άκρα του."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezomat",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "A common piezoelectric material is:",
+   "el": "Ένα κοινό πιεζοηλεκτρικό υλικό είναι:"
+  },
+  "o": [
+   {
+    "en": "quartz",
+    "el": "ο χαλαζίας (quartz)"
+   },
+   {
+    "en": "copper",
+    "el": "ο χαλκός"
+   },
+   {
+    "en": "constantan",
+    "el": "το constantan"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "conductor_piezo",
+   "cht_egt"
+  ],
+  "x": {
+   "en": "Quartz, Rochelle salt and barium titanate. Piezoelectric materials are insulating crystals, not metals.",
+   "el": "Χαλαζίας, άλας Rochelle και τιτανικό βάριο. Τα πιεζοηλεκτρικά είναι μονωτικοί κρύσταλλοι, όχι μέταλλα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezorev",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Applying a voltage across a piezoelectric crystal:",
+   "el": "Αν εφαρμοστεί τάση σε πιεζοηλεκτρικό κρύσταλλο:"
+  },
+  "o": [
+   {
+    "en": "makes it change shape slightly",
+    "el": "αλλάζει ελαφρά σχήμα"
+   },
+   {
+    "en": "heats it until it glows",
+    "el": "θερμαίνεται μέχρι να φωτοβολήσει"
+   },
+   {
+    "en": "has no effect",
+    "el": "δεν συμβαίνει τίποτα"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "piezo_oneway"
+  ],
+  "x": {
+   "en": "The effect works both ways: voltage → distortion (headphones, buzzers, quartz oscillators).",
+   "el": "Το φαινόμενο λειτουργεί και αντίστροφα: τάση → παραμόρφωση (ακουστικά, buzzer, ταλαντωτές χαλαζία)."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-piezouse",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Which device uses the piezoelectric effect to turn vibration into an electrical signal?",
+   "el": "Ποια διάταξη χρησιμοποιεί το πιεζοηλεκτρικό φαινόμενο για να μετατρέψει δόνηση σε ηλεκτρικό σήμα;"
+  },
+  "o": [
+   {
+    "en": "an engine vibration sensor",
+    "el": "αισθητήρας δονήσεων κινητήρα"
+   },
+   {
+    "en": "an EGT probe",
+    "el": "αισθητήρας EGT"
+   },
+   {
+    "en": "a lead-acid battery",
+    "el": "μπαταρία μολύβδου"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "source_mixup"
+  ],
+  "x": {
+   "en": "Vibration sensors, microphones and pickups: stress → voltage.",
+   "el": "Αισθητήρες δονήσεων, μικρόφωνα, pickups: μηχανική τάση → ηλεκτρική τάση."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-chem",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "A battery produces electricity by:",
+   "el": "Μια μπαταρία παράγει ηλεκτρισμό με:"
+  },
+  "o": [
+   {
+    "en": "chemical action",
+    "el": "χημική δράση"
+   },
+   {
+    "en": "magnetism and motion",
+    "el": "μαγνητισμό και κίνηση"
+   },
+   {
+    "en": "friction",
+    "el": "τριβή"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "source_mixup",
+   "source_mixup"
+  ],
+  "x": {
+   "en": "Two different electrodes in an electrolyte: a chemical reaction drives electrons through the external circuit.",
+   "el": "Δύο διαφορετικά ηλεκτρόδια σε ηλεκτρολύτη: μια χημική αντίδραση κινεί ηλεκτρόνια στο εξωτερικό κύκλωμα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-chemneg",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 3,
+  "units": "—",
+  "q": {
+   "en": "In a cell, the electrode that gives up electrons more readily in the reaction becomes:",
+   "el": "Σε ένα στοιχείο, το ηλεκτρόδιο που δίνει πιο εύκολα ηλεκτρόνια στην αντίδραση γίνεται:"
+  },
+  "o": [
+   {
+    "en": "the negative terminal",
+    "el": "ο αρνητικός πόλος"
+   },
+   {
+    "en": "the positive terminal",
+    "el": "ο θετικός πόλος"
+   },
+   {
+    "en": "neutral",
+    "el": "ουδέτερο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "cell_sign",
+   "conservation"
+  ],
+  "x": {
+   "en": "The electrons it releases collect on it, so it is negative (zinc in a dry or alkaline cell). The course deck has this the wrong way round.",
+   "el": "Τα ηλεκτρόνια που απελευθερώνει μαζεύονται πάνω του, οπότε είναι αρνητικό (ο ψευδάργυρος στο ξηρό και το αλκαλικό στοιχείο). Το deck το γράφει ανάποδα."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-induction",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 1,
+  "units": "—",
+  "q": {
+   "en": "When a conductor moves through magnetic lines of flux:",
+   "el": "Όταν ένας αγωγός κινείται μέσα σε μαγνητικές δυναμικές γραμμές:"
+  },
+  "o": [
+   {
+    "en": "an emf is induced in it",
+    "el": "επάγεται σε αυτόν ΗΕΔ"
+   },
+   {
+    "en": "it becomes permanently magnetized",
+    "el": "μαγνητίζεται μόνιμα"
+   },
+   {
+    "en": "its resistance falls to zero",
+    "el": "η αντίστασή του μηδενίζεται"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "magnet_mixup",
+   "magnet_mixup"
+  ],
+  "x": {
+   "en": "Moving a conductor through flux induces an emf: the principle of every generator.",
+   "el": "Η κίνηση αγωγού μέσα σε μαγνητική ροή επάγει ΗΕΔ: η αρχή κάθε γεννήτριας."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-faster",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Which change increases the emf induced in a conductor moving through a magnetic field?",
+   "el": "Ποια αλλαγή αυξάνει την ΗΕΔ που επάγεται σε αγωγό που κινείται σε μαγνητικό πεδίο;"
+  },
+  "o": [
+   {
+    "en": "moving it faster",
+    "el": "γρηγορότερη κίνηση"
+   },
+   {
+    "en": "moving it parallel to the flux lines",
+    "el": "κίνηση παράλληλα στις γραμμές"
+   },
+   {
+    "en": "stopping it in the field",
+    "el": "ακινητοποίηση μέσα στο πεδίο"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "parallel_flux",
+   "stationary"
+  ],
+  "x": {
+   "en": "More speed, stronger field or more turns → more emf. No cutting of flux → no emf.",
+   "el": "Μεγαλύτερη ταχύτητα, ισχυρότερο πεδίο ή περισσότερες σπείρες → μεγαλύτερη ΗΕΔ. Χωρίς «κόψιμο» γραμμών, καμία ΗΕΔ."
+  },
+  "status": "new"
+ },
+ {
+  "id": "L04-power",
+  "lesson": "L04",
+  "topic": "3.04",
+  "d": 2,
+  "units": "—",
+  "q": {
+   "en": "Which two methods provide the main electrical power on an aircraft?",
+   "el": "Ποιες δύο μέθοδοι δίνουν την κύρια ηλεκτρική ισχύ σε ένα αεροσκάφος;"
+  },
+  "o": [
+   {
+    "en": "chemical action and magnetism/motion",
+    "el": "χημική δράση και μαγνητισμός/κίνηση"
+   },
+   {
+    "en": "heat and light",
+    "el": "θερμότητα και φως"
+   },
+   {
+    "en": "pressure and friction",
+    "el": "πίεση και τριβή"
+   }
+  ],
+  "a": 0,
+  "tags": [
+   null,
+   "tc_power",
+   "tc_power"
+  ],
+  "x": {
+   "en": "Batteries and engine-driven generators. The others are used for sensing or are hazards.",
+   "el": "Μπαταρίες και γεννήτριες των κινητήρων. Οι άλλες χρησιμοποιούνται σε αισθητήρες ή είναι κίνδυνος."
+  },
+  "status": "new"
+ }
+]
