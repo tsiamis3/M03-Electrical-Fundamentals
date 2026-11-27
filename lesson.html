@@ -56,7 +56,7 @@ class LessonPage {
   }
   init() {
     const l = this.lesson;
-    Site.header(l ? `Lesson ${l.n}, ${esc(Site.fmtDate(l.date))}` : 'Lesson');
+    Site.header(l ? `${esc(Site.unitName(l.unit))}${l.unit && l.unit !== 'R' ? ' · ' : ''}Lesson ${l.n}, ${esc(Site.fmtDate(l.date))}` : 'Lesson');
     if (l) document.title = `L${l.n} ${l.title.en} · M03`;
     this.loadNotes(); this.startQuiz('practice'); if (l) this.pager();
     document.querySelectorAll('[data-mode]').forEach(b => b.addEventListener('click', () => {

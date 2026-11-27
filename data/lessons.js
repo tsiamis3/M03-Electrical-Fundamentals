@@ -82,6 +82,81 @@ window.M3_LESSONS = {
    "el": "Κινητήρες AC"
   }
  },
+ "units": {
+  "A": {
+   "topics": [
+    "3.01",
+    "3.02",
+    "3.03",
+    "3.04"
+   ],
+   "title": {
+    "en": "Electrons, charge and sources",
+    "el": "Ηλεκτρόνια, φορτίο και πηγές"
+   }
+  },
+  "B": {
+   "topics": [
+    "3.05",
+    "3.06",
+    "3.07",
+    "3.08"
+   ],
+   "title": {
+    "en": "DC sources and circuits",
+    "el": "Πηγές και κυκλώματα DC"
+   }
+  },
+  "C": {
+   "topics": [
+    "3.09",
+    "3.10",
+    "3.11"
+   ],
+   "title": {
+    "en": "Capacitance, magnetism, inductance",
+    "el": "Χωρητικότητα, μαγνητισμός, αυτεπαγωγή"
+   }
+  },
+  "D": {
+   "topics": [
+    "3.12"
+   ],
+   "title": {
+    "en": "DC machines",
+    "el": "Μηχανές DC"
+   }
+  },
+  "E": {
+   "topics": [
+    "3.13",
+    "3.14",
+    "3.16"
+   ],
+   "title": {
+    "en": "AC theory and circuits",
+    "el": "Θεωρία και κυκλώματα AC"
+   }
+  },
+  "F": {
+   "topics": [
+    "3.15",
+    "3.17",
+    "3.18"
+   ],
+   "title": {
+    "en": "Transformers and AC machines",
+    "el": "Μετασχηματιστές και μηχανές AC"
+   }
+  },
+  "R": {
+   "topics": [],
+   "title": {
+    "en": "Final revision",
+    "el": "Τελική επανάληψη"
+   }
+  }
+ },
  "lessons": [
   {
    "id": "L01",
@@ -91,6 +166,7 @@ window.M3_LESSONS = {
     "3.01"
    ],
    "slides": "1–14",
+   "unit": "A",
    "title": {
     "en": "Introduction and electron theory",
     "el": "Εισαγωγή και θεωρία ηλεκτρονίων"
@@ -107,6 +183,7 @@ window.M3_LESSONS = {
     "3.02"
    ],
    "slides": "1–17",
+   "unit": "A",
    "title": {
     "en": "Static electricity and conduction",
     "el": "Στατικός ηλεκτρισμός και αγωγή"
@@ -123,6 +200,7 @@ window.M3_LESSONS = {
     "3.03"
    ],
    "slides": "1–21",
+   "unit": "A",
    "title": {
     "en": "Electrical terminology and SI prefixes",
     "el": "Ηλεκτρική ορολογία και προθέματα SI"
@@ -139,6 +217,7 @@ window.M3_LESSONS = {
     "3.04"
    ],
    "slides": "1–9",
+   "unit": "A",
    "title": {
     "en": "Generation of electricity + quiz A",
     "el": "Παραγωγή ηλεκτρισμού + quiz Α"
@@ -155,6 +234,7 @@ window.M3_LESSONS = {
     "3.05"
    ],
    "slides": "1–23",
+   "unit": "B",
    "title": {
     "en": "Primary cells and lead-acid batteries",
     "el": "Πρωτογενή στοιχεία και μπαταρίες μολύβδου"
@@ -171,6 +251,7 @@ window.M3_LESSONS = {
     "3.05"
    ],
    "slides": "24–41",
+   "unit": "B",
    "title": {
     "en": "NiCad, SLA, Li-ion, thermocouples, photocells",
     "el": "NiCad, SLA, Li-ion, θερμοζεύγη, φωτοκύτταρα"
@@ -187,6 +268,7 @@ window.M3_LESSONS = {
     "3.06"
    ],
    "slides": "1–26",
+   "unit": "B",
    "title": {
     "en": "Series circuits, KVL, voltage dividers",
     "el": "Κυκλώματα σε σειρά, KVL, διαιρέτες τάσης"
@@ -203,6 +285,7 @@ window.M3_LESSONS = {
     "3.06"
    ],
    "slides": "27–45",
+   "unit": "B",
    "title": {
     "en": "Parallel circuits, KCL, internal resistance",
     "el": "Παράλληλα κυκλώματα, KCL, εσωτερική αντίσταση"
@@ -219,6 +302,7 @@ window.M3_LESSONS = {
     "3.07"
    ],
    "slides": "1–24",
+   "unit": "B",
    "title": {
     "en": "Resistance, resistivity, wire sizes",
     "el": "Αντίσταση, ειδική αντίσταση, διατομές καλωδίων"
@@ -235,6 +319,7 @@ window.M3_LESSONS = {
     "3.07"
    ],
    "slides": "25–60",
+   "unit": "B",
    "title": {
     "en": "Variable resistors, Wheatstone bridge, colour code",
     "el": "Μεταβλητές αντιστάσεις, γέφυρα Wheatstone, χρωματικός κώδικας"
@@ -251,6 +336,7 @@ window.M3_LESSONS = {
     "3.08"
    ],
    "slides": "1–13",
+   "unit": "B",
    "title": {
     "en": "Work, energy and power",
     "el": "Έργο, ενέργεια και ισχύς"
@@ -270,6 +356,7 @@ window.M3_LESSONS = {
     "3.08"
    ],
    "slides": "",
+   "unit": "B",
    "title": {
     "en": "DC exercises",
     "el": "Ασκήσεις DC"
@@ -293,6 +380,7 @@ window.M3_LESSONS = {
     "3.08"
    ],
    "slides": "",
+   "unit": "B",
    "title": {
     "en": "Test 1: units A and B",
     "el": "Τεστ 1: ενότητες Α και Β"
@@ -309,6 +397,7 @@ window.M3_LESSONS = {
     "3.09"
    ],
    "slides": "1–23",
+   "unit": "C",
    "title": {
     "en": "Capacitors: function, factors, types",
     "el": "Πυκνωτές: λειτουργία, παράγοντες, τύποι"
@@ -325,6 +414,7 @@ window.M3_LESSONS = {
     "3.09"
    ],
    "slides": "24–39",
+   "unit": "C",
    "title": {
     "en": "Capacitors in circuits, RC, reactance",
     "el": "Πυκνωτές σε κυκλώματα, RC, χωρητική αντίσταση"
@@ -341,6 +431,7 @@ window.M3_LESSONS = {
     "3.10"
    ],
    "slides": "1–23",
+   "unit": "C",
    "title": {
     "en": "Magnetism and magnetic materials",
     "el": "Μαγνητισμός και μαγνητικά υλικά"
@@ -357,6 +448,7 @@ window.M3_LESSONS = {
     "3.10"
    ],
    "slides": "24–47",
+   "unit": "C",
    "title": {
     "en": "Electromagnets, hand rules, hysteresis",
     "el": "Ηλεκτρομαγνήτες, κανόνες χεριού, υστέρηση"
@@ -373,6 +465,7 @@ window.M3_LESSONS = {
     "3.11"
    ],
    "slides": "1–27",
+   "unit": "C",
    "title": {
     "en": "Induction, Lenz, inductors",
     "el": "Επαγωγή, Lenz, πηνία"
@@ -391,6 +484,7 @@ window.M3_LESSONS = {
     "3.11"
    ],
    "slides": "",
+   "unit": "C",
    "title": {
     "en": "Review C + test 2",
     "el": "Επανάληψη Γ + τεστ 2"
@@ -407,6 +501,7 @@ window.M3_LESSONS = {
     "3.13"
    ],
    "slides": "1–25",
+   "unit": "E",
    "title": {
     "en": "AC theory and AC values",
     "el": "Θεωρία AC και τιμές AC"
@@ -423,6 +518,7 @@ window.M3_LESSONS = {
     "3.14"
    ],
    "slides": "1–15",
+   "unit": "E",
    "title": {
     "en": "Impedance, series RLC",
     "el": "Σύνθετη αντίσταση, RLC σε σειρά"
@@ -439,6 +535,7 @@ window.M3_LESSONS = {
     "3.14"
    ],
    "slides": "16–35",
+   "unit": "E",
    "title": {
     "en": "Parallel AC, resonance, power factor",
     "el": "Παράλληλα AC, συντονισμός, συντελεστής ισχύος"
@@ -455,6 +552,7 @@ window.M3_LESSONS = {
     "3.16"
    ],
    "slides": "1–18",
+   "unit": "E",
    "title": {
     "en": "Filters",
     "el": "Φίλτρα"
@@ -473,6 +571,7 @@ window.M3_LESSONS = {
     "3.16"
    ],
    "slides": "",
+   "unit": "E",
    "title": {
     "en": "AC exercises + test 3",
     "el": "Ασκήσεις AC + τεστ 3"
@@ -489,6 +588,7 @@ window.M3_LESSONS = {
     "3.12"
    ],
    "slides": "1–28",
+   "unit": "D",
    "title": {
     "en": "DC generator: principle and construction",
     "el": "Γεννήτρια DC: αρχή και κατασκευή"
@@ -505,6 +605,7 @@ window.M3_LESSONS = {
     "3.12"
    ],
    "slides": "29–46",
+   "unit": "D",
    "title": {
     "en": "DC generator types, armature reaction",
     "el": "Τύποι γεννητριών DC, αντίδραση τυμπάνου"
@@ -521,6 +622,7 @@ window.M3_LESSONS = {
     "3.12"
    ],
    "slides": "47–83",
+   "unit": "D",
    "title": {
     "en": "DC motors",
     "el": "Κινητήρες DC"
@@ -537,6 +639,7 @@ window.M3_LESSONS = {
     "3.12"
    ],
    "slides": "84–98",
+   "unit": "D",
    "title": {
     "en": "Losses, maintenance, starter-generator",
     "el": "Απώλειες, συντήρηση, starter-generator"
@@ -553,6 +656,7 @@ window.M3_LESSONS = {
     "3.15"
    ],
    "slides": "1–12",
+   "unit": "F",
    "title": {
     "en": "Transformers: construction and turns ratio",
     "el": "Μετασχηματιστές: κατασκευή και λόγος σπειρών"
@@ -569,6 +673,7 @@ window.M3_LESSONS = {
     "3.15"
    ],
    "slides": "13–30",
+   "unit": "F",
    "title": {
     "en": "Transformer losses, three-phase, autotransformer",
     "el": "Απώλειες, τριφασικά, αυτομετασχηματιστής"
@@ -585,6 +690,7 @@ window.M3_LESSONS = {
     "3.17"
    ],
    "slides": "1–30",
+   "unit": "F",
    "title": {
     "en": "AC generators",
     "el": "Γεννήτριες AC"
@@ -601,6 +707,7 @@ window.M3_LESSONS = {
     "3.18"
    ],
    "slides": "1–32",
+   "unit": "F",
    "title": {
     "en": "AC motors",
     "el": "Κινητήρες AC"
@@ -620,6 +727,7 @@ window.M3_LESSONS = {
     "3.18"
    ],
    "slides": "",
+   "unit": "F",
    "title": {
     "en": "Machines exercises",
     "el": "Ασκήσεις μηχανών"
@@ -639,6 +747,7 @@ window.M3_LESSONS = {
     "3.18"
    ],
    "slides": "",
+   "unit": "F",
    "title": {
     "en": "Test 4: machines",
     "el": "Τεστ 4: μηχανές"
@@ -672,6 +781,7 @@ window.M3_LESSONS = {
     "3.18"
    ],
    "slides": "",
+   "unit": "R",
    "title": {
     "en": "Mock exam 1",
     "el": "Mock exam 1"
