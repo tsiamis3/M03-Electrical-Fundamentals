@@ -173,7 +173,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "published",
-   "notes": "lessons/L01.md"
+   "notes": "lessons/L01.md",
+   "deep": ""
   },
   {
    "id": "L02",
@@ -190,7 +191,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "published",
-   "notes": "lessons/L02.md"
+   "notes": "lessons/L02.md",
+   "deep": "deep/L02.md"
   },
   {
    "id": "L03",
@@ -207,7 +209,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "published",
-   "notes": "lessons/L03.md"
+   "notes": "lessons/L03.md",
+   "deep": "deep/L03.md"
   },
   {
    "id": "L04",
@@ -224,7 +227,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "published",
-   "notes": "lessons/L04.md"
+   "notes": "lessons/L04.md",
+   "deep": "deep/L04.md"
   },
   {
    "id": "L05",
@@ -241,7 +245,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "published",
-   "notes": "lessons/L05.md"
+   "notes": "lessons/L05.md",
+   "deep": "deep/L05.md"
   },
   {
    "id": "L06",
@@ -258,7 +263,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L06.md"
+   "notes": "lessons/L06.md",
+   "deep": ""
   },
   {
    "id": "L07",
@@ -275,7 +281,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L07.md"
+   "notes": "lessons/L07.md",
+   "deep": ""
   },
   {
    "id": "L08",
@@ -292,7 +299,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L08.md"
+   "notes": "lessons/L08.md",
+   "deep": ""
   },
   {
    "id": "L09",
@@ -309,7 +317,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L09.md"
+   "notes": "lessons/L09.md",
+   "deep": ""
   },
   {
    "id": "L10",
@@ -326,7 +335,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L10.md"
+   "notes": "lessons/L10.md",
+   "deep": ""
   },
   {
    "id": "L11",
@@ -343,7 +353,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L11.md"
+   "notes": "lessons/L11.md",
+   "deep": ""
   },
   {
    "id": "L12",
@@ -363,7 +374,8 @@ window.M3_LESSONS = {
    },
    "kind": "exercises",
    "status": "planned",
-   "notes": "lessons/L12.md"
+   "notes": "lessons/L12.md",
+   "deep": ""
   },
   {
    "id": "L13",
@@ -387,7 +399,8 @@ window.M3_LESSONS = {
    },
    "kind": "test",
    "status": "planned",
-   "notes": "lessons/L13.md"
+   "notes": "lessons/L13.md",
+   "deep": ""
   },
   {
    "id": "L14",
@@ -404,7 +417,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L14.md"
+   "notes": "lessons/L14.md",
+   "deep": ""
   },
   {
    "id": "L15",
@@ -421,7 +435,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L15.md"
+   "notes": "lessons/L15.md",
+   "deep": ""
   },
   {
    "id": "L16",
@@ -438,7 +453,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L16.md"
+   "notes": "lessons/L16.md",
+   "deep": ""
   },
   {
    "id": "L17",
@@ -455,7 +471,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L17.md"
+   "notes": "lessons/L17.md",
+   "deep": ""
   },
   {
    "id": "L18",
@@ -472,7 +489,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L18.md"
+   "notes": "lessons/L18.md",
+   "deep": ""
   },
   {
    "id": "L19",
@@ -491,7 +509,8 @@ window.M3_LESSONS = {
    },
    "kind": "test",
    "status": "planned",
-   "notes": "lessons/L19.md"
+   "notes": "lessons/L19.md",
+   "deep": ""
   },
   {
    "id": "L20",
@@ -508,7 +527,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L20.md"
+   "notes": "lessons/L20.md",
+   "deep": ""
   },
   {
    "id": "L21",
@@ -525,7 +545,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L21.md"
+   "notes": "lessons/L21.md",
+   "deep": ""
   },
   {
    "id": "L22",
@@ -542,7 +563,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L22.md"
+   "notes": "lessons/L22.md",
+   "deep": ""
   },
   {
    "id": "L23",
@@ -559,7 +581,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L23.md"
+   "notes": "lessons/L23.md",
+   "deep": ""
   },
   {
    "id": "L24",
@@ -578,7 +601,8 @@ window.M3_LESSONS = {
    },
    "kind": "test",
    "status": "planned",
-   "notes": "lessons/L24.md"
+   "notes": "lessons/L24.md",
+   "deep": ""
   },
   {
    "id": "L25",
@@ -595,7 +619,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L25.md"
+   "notes": "lessons/L25.md",
+   "deep": ""
   },
   {
    "id": "L26",
@@ -612,7 +637,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L26.md"
+   "notes": "lessons/L26.md",
+   "deep": ""
   },
   {
    "id": "L27",
@@ -629,7 +655,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L27.md"
+   "notes": "lessons/L27.md",
+   "deep": ""
   },
   {
    "id": "L28",
@@ -646,7 +673,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L28.md"
+   "notes": "lessons/L28.md",
+   "deep": ""
   },
   {
    "id": "L29",
@@ -663,7 +691,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L29.md"
+   "notes": "lessons/L29.md",
+   "deep": ""
   },
   {
    "id": "L30",
@@ -680,7 +709,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L30.md"
+   "notes": "lessons/L30.md",
+   "deep": ""
   },
   {
    "id": "L31",
@@ -697,7 +727,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L31.md"
+   "notes": "lessons/L31.md",
+   "deep": ""
   },
   {
    "id": "L32",
@@ -714,7 +745,8 @@ window.M3_LESSONS = {
    },
    "kind": "lesson",
    "status": "planned",
-   "notes": "lessons/L32.md"
+   "notes": "lessons/L32.md",
+   "deep": ""
   },
   {
    "id": "L33",
@@ -734,7 +766,8 @@ window.M3_LESSONS = {
    },
    "kind": "exercises",
    "status": "planned",
-   "notes": "lessons/L33.md"
+   "notes": "lessons/L33.md",
+   "deep": ""
   },
   {
    "id": "L34",
@@ -754,7 +787,8 @@ window.M3_LESSONS = {
    },
    "kind": "test",
    "status": "planned",
-   "notes": "lessons/L34.md"
+   "notes": "lessons/L34.md",
+   "deep": ""
   },
   {
    "id": "L35",
@@ -788,7 +822,8 @@ window.M3_LESSONS = {
    },
    "kind": "test",
    "status": "planned",
-   "notes": "lessons/L35.md"
+   "notes": "lessons/L35.md",
+   "deep": ""
   }
  ]
 };

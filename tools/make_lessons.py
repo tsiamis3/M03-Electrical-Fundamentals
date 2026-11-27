@@ -88,7 +88,8 @@ for i, (date, topics, slides, en, el, kind) in enumerate(PLAN, 1):
     lessons.append({"id": lid, "n": i, "date": date, "topics": topics, "slides": slides,
                     "unit": unit_of(topics), "title": {"en": en, "el": el}, "kind": kind,
                     "status": "published" if lid in PUBLISHED else "planned",
-                    "notes": f"lessons/{lid}.md"})
+                    "notes": f"lessons/{lid}.md",
+                    "deep": f"deep/{lid}.md" if (pathlib.Path(__file__).resolve().parent.parent / "deep" / f"{lid}.md").exists() else ""})
 data = {"course": "M03", "breaks": [{"from": "2026-12-24", "to": "2027-01-06", "label": "Christmas break"}],
         "topics": {k: {"en": v[0], "el": v[1]} for k, v in TOPICS.items()},
         "units": {k: {"topics": v[0], "title": {"en": v[1], "el": v[2]}} for k, v in UNITS.items()},

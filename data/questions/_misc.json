@@ -422,5 +422,33 @@
  "vent_charge": {
   "en": "Loosen the caps so gas escapes, but leave them in place.",
   "el": "Χαλάρωσε τις τάπες για να βγαίνουν τα αέρια, αλλά άφησέ τες στη θέση τους."
+ },
+ "inverse_g": {
+  "en": "To get mass from weight, divide by g: m = W / g.",
+  "el": "Για μάζα από βάρος, διαίρεσε με g: m = W / g."
+ },
+ "mass_ratio": {
+  "en": "The ratio is about 1836, not a small number.",
+  "el": "Ο λόγος είναι περίπου 1836, όχι μικρός αριθμός."
+ },
+ "ion_not_element": {
+  "en": "Changing the electrons makes an ion of the same element; only the protons decide the element.",
+  "el": "Αλλαγή στα ηλεκτρόνια δίνει ιόν του ίδιου στοιχείου· μόνο τα πρωτόνια καθορίζουν το στοιχείο."
+ },
+ "valence_count": {
+  "en": "6 is only the outer (valence) shell. A neutral atom has as many electrons as protons.",
+  "el": "Το 6 είναι μόνο η εξωτερική στιβάδα. Ουδέτερο άτομο έχει τόσα ηλεκτρόνια όσα πρωτόνια."
+ },
+ "square_mixup": {
+  "en": "2n² means 2 × n × n, not (2n)² or n²: 2 × 16 = 32.",
+  "el": "2n² σημαίνει 2 × n × n, όχι (2n)² ή n²: 2 × 16 = 32."
+ },
+ "not_full": {
+  "en": "A shell does not have to be full before the next one starts filling.",
+  "el": "Μια στιβάδα δεν χρειάζεται να γεμίσει πριν αρχίσει να γεμίζει η επόμενη."
+ },
+ "semi_mixup": {
+  "en": "Silicon and germanium are semiconductors: between conductors and insulators.",
+  "el": "Πυρίτιο και γερμάνιο είναι ημιαγωγοί: ανάμεσα σε αγωγούς και μονωτές."
  }
 }
